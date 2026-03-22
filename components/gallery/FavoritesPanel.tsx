@@ -51,9 +51,33 @@ export default function FavoritesPanel({
     }
   };
 
-  const handleDownloadFavorites = () => {
-    for (const img of favoriteImages) {
-      window.open(img.originalUrl, '_blank');
+  const [downloadingFavs, setDownloadingFavs] = useState(false);
+
+  const handleDownloadFavorites = async () => {
+    setDownloadingFavs(true);
+    try {
+      const imageIds = favoriteImages.map((img) => img.id);
+      const res = await fetch('/api/gallery/download', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ galleryId: gallery.id, imageIds, mode: 'favorites' }),
+      });
+      if (!res.ok) throw new Error('Download failed');
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      const disposition = res.headers.get('Content-Disposition');
+      const filename = disposition?.match(/filename="(.+)"/)?.[1] || 'favorites.zip';
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    } catch {
+      alert('Download failed. Please try again.');
+    } finally {
+      setDownloadingFavs(false);
     }
   };
 
@@ -340,7 +364,7 @@ export default function FavoritesPanel({
                   cursor: 'pointer',
                 }}
               >
-                Download Favorites
+                {downloadingFavs ? 'Preparing zip...' : 'Download Favorites'}
               </button>
             )}
           </div>

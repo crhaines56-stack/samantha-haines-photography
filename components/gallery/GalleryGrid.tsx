@@ -31,34 +31,8 @@ export default function GalleryGrid({
 }: Props) {
   const headerRef = useRef<HTMLDivElement>(null);
 
-  const handleDownloadAll = useCallback(async () => {
-    // Download each image as a blob to force save to Downloads folder
-    for (const img of images) {
-      try {
-        const response = await fetch(img.originalUrl);
-        const blob = await response.blob();
-        const url = URL.createObjectURL(blob);
-        const link = document.createElement('a');
-        link.href = url;
-        link.download = img.filename ?? `photo-${img.id}.jpg`;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        URL.revokeObjectURL(url);
-        // Small delay between downloads to avoid browser blocking
-        await new Promise(r => setTimeout(r, 300));
-      } catch {
-        // Fallback
-        const link = document.createElement('a');
-        link.href = img.originalUrl;
-        link.download = img.filename ?? `photo-${img.id}.jpg`;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        await new Promise(r => setTimeout(r, 300));
-      }
-    }
-  }, [images]);
+  // Download All is handled by DownloadButton via /api/gallery/download (server-side zip)
+  const handleDownloadAll = useCallback(() => {}, []);
 
   return (
     <div>
@@ -122,7 +96,6 @@ export default function GalleryGrid({
               gallery={gallery}
               mode="bulk"
               images={images}
-              onBulkDownload={handleDownloadAll}
             />
           )}
         </div>
