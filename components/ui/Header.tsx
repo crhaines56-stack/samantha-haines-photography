@@ -29,16 +29,16 @@ export default function Header() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? "bg-[#faf9f7]/95 backdrop-blur-sm shadow-sm"
-          : "bg-transparent"
+          : "bg-gradient-to-b from-black/40 to-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex flex-col items-start">
-          <span className="font-serif text-2xl tracking-widest text-[#1a1a1a] leading-none">
+          <span className={`font-serif text-2xl tracking-widest leading-none transition-colors duration-300 ${isScrolled ? "text-[#1a1a1a]" : "text-[#faf9f7]"}`}>
             SAMANTHA HAINES
           </span>
-          <span className="font-sans text-[10px] tracking-[0.3em] text-[#8b6f5e] uppercase mt-0.5">
+          <span className="font-sans text-[10px] tracking-[0.3em] text-[#c9b99a] uppercase mt-0.5">
             Photography
           </span>
         </Link>
@@ -49,7 +49,11 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="font-sans text-[11px] tracking-[0.2em] uppercase text-[#6b6b6b] hover:text-[#1a1a1a] transition-colors duration-200"
+              className={`font-sans text-[11px] tracking-[0.2em] uppercase transition-colors duration-200 ${
+                isScrolled
+                  ? "text-[#6b6b6b] hover:text-[#1a1a1a]"
+                  : "text-[#faf9f7]/80 hover:text-[#faf9f7]"
+              }`}
             >
               {link.label}
             </Link>
