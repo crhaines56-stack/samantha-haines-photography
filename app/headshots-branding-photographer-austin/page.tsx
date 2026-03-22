@@ -14,6 +14,20 @@ export const metadata: Metadata = {
     canonical:
       "https://www.samanthahainesphotography.com/headshots-branding-photographer-austin",
   },
+  openGraph: {
+    title: "Headshots & Branding Photographer Austin TX",
+    description:
+      "Austin headshots and personal branding photographer Samantha Haines. The image that precedes you in every room — compelling, polished, and completely yours.",
+    url: "https://www.samanthahainesphotography.com/headshots-branding-photographer-austin",
+    images: [{ url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80", width: 1200, height: 630, alt: "Headshots and branding photographer Austin TX" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Headshots & Branding Photographer Austin TX",
+    description:
+      "Austin headshots and personal branding photographer Samantha Haines. The image that precedes you in every room.",
+    images: ["https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80"],
+  },
 };
 
 const faqSchema = {

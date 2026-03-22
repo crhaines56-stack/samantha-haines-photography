@@ -24,12 +24,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: `${frontmatter.title} | Samantha Haines Photography`,
       description: frontmatter.description,
       alternates: {
-        canonical: `https://samanthahainesphoto.com/blog/${params.slug}`,
+        canonical: `https://www.samanthahainesphotography.com/blog/${params.slug}`,
       },
       openGraph: {
         title: frontmatter.title,
         description: frontmatter.description,
-        url: `https://samanthahainesphoto.com/blog/${params.slug}`,
+        url: `https://www.samanthahainesphotography.com/blog/${params.slug}`,
         siteName: "Samantha Haines Photography",
         images: frontmatter.image ? [{ url: frontmatter.image }] : [],
         type: "article",
@@ -77,9 +77,33 @@ export default function BlogPostPage({ params }: PageProps) {
         }
       : null;
 
+  // BlogPosting schema
+  const blogPostingSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": frontmatter.title,
+    "author": { "@type": "Person", "name": "Samantha Haines" },
+    "datePublished": frontmatter.date,
+    "image": frontmatter.image,
+    "description": frontmatter.description,
+    "publisher": {
+      "@type": "Organization",
+      "name": "Samantha Haines Photography",
+      "url": "https://www.samanthahainesphotography.com"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://www.samanthahainesphotography.com/blog/${params.slug}`
+    }
+  };
+
   return (
     <>
       <Header />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }}
+      />
       {faqSchema && (
         <script
           type="application/ld+json"

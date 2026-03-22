@@ -11,11 +11,57 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.samanthahainesphotography.com/about",
   },
+  openGraph: {
+    title: "About Samantha Haines | Austin TX Portrait Photographer",
+    description:
+      "Meet Samantha Haines — Austin portrait photographer, mother of four, and storyteller. Based in Steiner Ranch, serving families, couples & businesses across Austin, TX.",
+    url: "https://www.samanthahainesphotography.com/about",
+    images: [{ url: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80", width: 1200, height: 630, alt: "Samantha Haines Photography Austin" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Samantha Haines | Austin TX Portrait Photographer",
+    description:
+      "Meet Samantha Haines — Austin portrait photographer, mother of four, and storyteller.",
+    images: ["https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80"],
+  },
+};
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Samantha Haines",
+  "jobTitle": "Portrait Photographer",
+  "url": "https://www.samanthahainesphotography.com/about",
+  "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80",
+  "worksFor": { "@type": "LocalBusiness", "name": "Samantha Haines Photography" },
+  "knowsAbout": [
+    "Boudoir Photography",
+    "Family Photography",
+    "Senior Portrait Photography",
+    "Newborn Photography",
+    "Maternity Photography",
+    "Headshot Photography",
+    "Austin Photography"
+  ],
+  "sameAs": [
+    "https://www.instagram.com/samanthahainesphotography",
+    "https://www.facebook.com/samanthahainesphotography"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Austin",
+    "addressRegion": "TX"
+  }
 };
 
 export default function AboutPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
       <Header />
       <main className="pt-20">
         {/* Hero */}

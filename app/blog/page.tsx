@@ -9,13 +9,24 @@ export const metadata: Metadata = {
   title: "Blog | Samantha Haines Photography",
   description:
     "Photography tips, behind-the-scenes stories, and everything you need to know about booking a portrait session in Austin, TX. Written by Samantha Haines.",
+  alternates: {
+    canonical: "https://www.samanthahainesphotography.com/blog",
+  },
   openGraph: {
     title: "Blog | Samantha Haines Photography",
     description:
       "Photography tips, behind-the-scenes stories, and everything you need to know about booking a portrait session in Austin, TX.",
-    url: "https://samanthahainesphoto.com/blog",
+    url: "https://www.samanthahainesphotography.com/blog",
     siteName: "Samantha Haines Photography",
     type: "website",
+    images: [{ url: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80", width: 1200, height: 630, alt: "Samantha Haines Photography Blog" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog | Samantha Haines Photography",
+    description:
+      "Photography tips, behind-the-scenes stories, and everything you need to know about booking a portrait session in Austin, TX.",
+    images: ["https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80"],
   },
 };
 

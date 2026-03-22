@@ -7,12 +7,26 @@ import CTAButton from "@/components/ui/CTAButton";
 import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
 
 export const metadata: Metadata = {
-  title: "Family Photographer Austin TX | Samantha Haines Photography",
+  title: "Family Photographer Austin TX",
   description:
     "Austin family photographer Samantha Haines captures this version of your family right now — genuine connection, real moments, and images you'll treasure forever. Serving Steiner Ranch & Austin TX.",
   alternates: {
     canonical:
       "https://www.samanthahainesphotography.com/family-photographer-austin",
+  },
+  openGraph: {
+    title: "Family Photographer Austin TX",
+    description:
+      "Austin family photographer Samantha Haines captures this version of your family right now — genuine connection, real moments, and images you'll treasure forever.",
+    url: "https://www.samanthahainesphotography.com/family-photographer-austin",
+    images: [{ url: "https://images.unsplash.com/photo-1511895426328-dc8714191011?w=1200&q=80", width: 1200, height: 630, alt: "Family photographer Austin TX" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Family Photographer Austin TX",
+    description:
+      "Austin family photographer Samantha Haines captures genuine connection and real moments. Serving Steiner Ranch & Austin TX.",
+    images: ["https://images.unsplash.com/photo-1511895426328-dc8714191011?w=1200&q=80"],
   },
 };
 

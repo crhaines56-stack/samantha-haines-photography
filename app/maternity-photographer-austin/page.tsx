@@ -7,12 +7,26 @@ import CTAButton from "@/components/ui/CTAButton";
 import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
 
 export const metadata: Metadata = {
-  title: "Maternity Photographer Austin TX | Samantha Haines Photography",
+  title: "Maternity Photographer Austin TX",
   description:
     "Austin maternity photographer Samantha Haines captures your power, softness, and everything you are during pregnancy. Beautiful maternity portraits in Austin TX & Steiner Ranch.",
   alternates: {
     canonical:
       "https://www.samanthahainesphotography.com/maternity-photographer-austin",
+  },
+  openGraph: {
+    title: "Maternity Photographer Austin TX",
+    description:
+      "Austin maternity photographer Samantha Haines captures your power, softness, and everything you are during pregnancy. Beautiful maternity portraits in Austin TX.",
+    url: "https://www.samanthahainesphotography.com/maternity-photographer-austin",
+    images: [{ url: "https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?w=1200&q=80", width: 1200, height: 630, alt: "Maternity photographer Austin TX" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Maternity Photographer Austin TX",
+    description:
+      "Austin maternity photographer Samantha Haines captures your power, softness, and everything you are during pregnancy.",
+    images: ["https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?w=1200&q=80"],
   },
 };
 

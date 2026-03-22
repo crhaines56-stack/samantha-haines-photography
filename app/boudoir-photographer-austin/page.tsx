@@ -14,6 +14,20 @@ export const metadata: Metadata = {
     canonical:
       "https://www.samanthahainesphotography.com/boudoir-photographer-austin",
   },
+  openGraph: {
+    title: "Boudoir Photographer Austin TX",
+    description:
+      "Austin boudoir photography by Samantha Haines. A slow reveal of every facet of you — hair & makeup included, fully private, designed for every woman at every stage.",
+    url: "https://www.samanthahainesphotography.com/boudoir-photographer-austin",
+    images: [{ url: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80", width: 1200, height: 630, alt: "Boudoir photographer Austin TX" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Boudoir Photographer Austin TX",
+    description:
+      "Austin boudoir photography by Samantha Haines. Hair & makeup included, fully private.",
+    images: ["https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80"],
+  },
 };
 
 const faqSchema = {

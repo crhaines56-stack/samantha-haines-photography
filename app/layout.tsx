@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Jost, Dancing_Script } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
+import LocalBusinessSchema from "@/components/schema/LocalBusinessSchema";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -77,7 +79,22 @@ export default function RootLayout({
       lang="en"
       className={`${cormorant.variable} ${jost.variable} ${dancing.variable}`}
     >
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <LocalBusinessSchema />
+        {children}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}');
+          `}
+        </Script>
+      </body>
     </html>
   );
 }

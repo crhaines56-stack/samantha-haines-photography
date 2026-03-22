@@ -70,9 +70,9 @@ export default function ContactPage() {
             <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#8b6f5e] mb-6">
               Let&rsquo;s Connect
             </p>
-            <h1 className="font-serif text-6xl md:text-7xl text-[#1a1a1a] mb-8 leading-tight italic">
+            <h2 className="font-serif text-6xl md:text-7xl text-[#1a1a1a] mb-8 leading-tight italic">
               Start the Conversation
-            </h1>
+            </h2>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
               Every session begins here — with a conversation. No pressure, no obligation.
               Just Samantha, and you, talking about what this could look like.
