@@ -34,13 +34,29 @@ export default function DownloadButton({ gallery, mode, image, onBulkDownload, i
     return sessionStorage.getItem(`gallery_pin_${gallery.id}`) === 'verified';
   };
 
-  const executeDownload = () => {
+  const executeDownload = async () => {
     if (mode === 'single' && image) {
-      const link = document.createElement('a');
-      link.href = image.originalUrl;
-      link.download = image.filename ?? `photo-${image.id}.jpg`;
-      link.target = '_blank';
-      link.click();
+      try {
+        // Fetch as blob to force download to Downloads folder (not open in tab)
+        const response = await fetch(image.originalUrl);
+        const blob = await response.blob();
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = image.filename ?? `photo-${image.id}.jpg`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
+      } catch {
+        // Fallback: direct download attribute
+        const link = document.createElement('a');
+        link.href = image.originalUrl;
+        link.download = image.filename ?? `photo-${image.id}.jpg`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
     } else if (mode === 'bulk' && onBulkDownload) {
       onBulkDownload();
     }
