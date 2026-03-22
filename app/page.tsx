@@ -116,8 +116,7 @@ export default function HomePage() {
             <p className="font-serif text-3xl md:text-5xl text-[#1a1a1a] leading-tight italic">
               This is about more than looking and smiling at the camera.
               This is about telling a story. With one photo I want you to be
-              compelled to pause. To feel. To connect to the photo and stop
-              your scroll.
+              compelled to pause. To feel. To connect with your art.
             </p>
           </div>
         </section>
