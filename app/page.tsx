@@ -94,12 +94,14 @@ export default function HomePage() {
               Austin, Texas · Est. 2018
             </p>
             <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 animate-slide-up">
-              Your story is waiting
+              This is about
               <br />
-              <em>to be told.</em>
+              <em>more than</em>
+              <br />
+              a photo.
             </h1>
             <p className="font-sans text-[14px] text-[#e8e4df] max-w-lg leading-relaxed mb-10">
-              Your story is waiting to be told.
+              With one image, I want you to be compelled to pause. To feel. To connect — and stop your scroll.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
           </div>
