@@ -94,11 +94,9 @@ export default function HomePage() {
               Austin, Texas · Est. 2018
             </p>
             <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 animate-slide-up">
-              This is about
+              Your story is waiting
               <br />
-              <em>more than</em>
-              <br />
-              a photo.
+              <em>to be told.</em>
             </h1>
             <p className="font-sans text-[14px] text-[#e8e4df] max-w-lg leading-relaxed mb-10">
               With one image, I want you to be compelled to pause. To feel.
