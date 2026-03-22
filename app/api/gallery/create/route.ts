@@ -19,6 +19,8 @@ export async function POST(req: NextRequest) {
       allowDownloads = true,
       downloadPin,
       expiresInDays,
+      clientPassword: providedClientPassword,
+      collectionPassword: providedCollectionPassword,
     } = await req.json();
 
     if (!clientName || !sessionType) {
@@ -26,8 +28,8 @@ export async function POST(req: NextRequest) {
     }
 
     const slug = generateSlug(clientName, sessionType);
-    const collectionPassword = generatePassword(8);
-    const clientPassword = generatePassword(10);
+    const collectionPassword = providedCollectionPassword || generatePassword(8);
+    const clientPassword = providedClientPassword || generatePassword(10);
     const pin = downloadPin ?? null;
 
     const expiresAt = expiresInDays
