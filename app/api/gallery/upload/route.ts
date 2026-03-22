@@ -3,9 +3,9 @@ import { sql } from '@/lib/db';
 import { v2 as cloudinary } from 'cloudinary';
 
 export const runtime = 'nodejs';
+export const maxDuration = 60;
 
 export async function POST(req: NextRequest) {
-  // Configure Cloudinary inside the handler so env vars are guaranteed available
   cloudinary.config({
     cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
     api_key: process.env.CLOUDINARY_API_KEY,
@@ -13,7 +13,6 @@ export async function POST(req: NextRequest) {
   });
 
   try {
-    // Verify admin secret
     const adminSecret = req.headers.get('x-gallery-admin-secret');
     if (adminSecret !== process.env.GALLERY_ADMIN_SECRET) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
@@ -28,44 +27,25 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'galleryId and file are required' }, { status: 400 });
     }
 
-    // Read file into buffer
+    // Convert file to base64 data URI — more reliable in serverless than upload_stream
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
+    const mimeType = file.type || 'image/jpeg';
+    const dataUri = `data:${mimeType};base64,${buffer.toString('base64')}`;
 
-    // Upload to Cloudinary
-    const uploadResult = await new Promise<{
-      public_id: string;
-      secure_url: string;
-      width: number;
-      height: number;
-      original_filename: string;
-    }>((resolve, reject) => {
-      cloudinary.uploader
-        .upload_stream(
-          {
-            folder: `samantha-haines-photography/galleries/${galleryId}`,
-            resource_type: 'image',
-            use_filename: true,
-            unique_filename: true,
-          },
-          (error, result) => {
-            if (error || !result) {
-              reject(error ?? new Error('Upload failed'));
-            } else {
-              resolve(result as {
-                public_id: string;
-                secure_url: string;
-                width: number;
-                height: number;
-                original_filename: string;
-              });
-            }
-          }
-        )
-        .end(buffer);
+    // Upload to Cloudinary using base64 method
+    const uploadResult = await cloudinary.uploader.upload(dataUri, {
+      folder: `samantha-haines-photography/galleries/${galleryId}`,
+      resource_type: 'image',
+      use_filename: true,
+      unique_filename: true,
+      filename_override: file.name.replace(/\.[^.]+$/, ''),
     });
 
-    // Build URLs
+    if (!uploadResult || !uploadResult.public_id) {
+      throw new Error(`Cloudinary upload returned no public_id. Result: ${JSON.stringify(uploadResult)}`);
+    }
+
     const cloudName = process.env.CLOUDINARY_CLOUD_NAME;
     const publicId = uploadResult.public_id;
 
@@ -76,39 +56,26 @@ export async function POST(req: NextRequest) {
     const width = uploadResult.width;
     const height = uploadResult.height;
 
-    // Get next display_order
     const orderRows = await sql`
       SELECT COALESCE(MAX(display_order), -1) + 1 AS next_order
-      FROM gallery_images
-      WHERE gallery_id = ${galleryId}
+      FROM gallery_images WHERE gallery_id = ${galleryId}
     `;
     const displayOrder = (orderRows[0] as { next_order: number }).next_order ?? 0;
 
-    // Insert into gallery_images
     const inserted = await sql`
       INSERT INTO gallery_images (
         gallery_id, set_id, cloudinary_public_id,
         original_url, preview_url, thumbnail_url,
         filename, width, height, display_order
       ) VALUES (
-        ${galleryId},
-        ${setId ?? null},
-        ${publicId},
-        ${originalUrl},
-        ${previewUrl},
-        ${thumbnailUrl},
-        ${filename},
-        ${width},
-        ${height},
-        ${displayOrder}
-      )
-      RETURNING id
+        ${galleryId}, ${setId ?? null}, ${publicId},
+        ${originalUrl}, ${previewUrl}, ${thumbnailUrl},
+        ${filename}, ${width}, ${height}, ${displayOrder}
+      ) RETURNING id
     `;
 
-    const imageId = (inserted[0] as { id: string }).id;
-
     return NextResponse.json({
-      id: imageId,
+      id: (inserted[0] as { id: string }).id,
       thumbnailUrl,
       previewUrl,
       originalUrl,
