@@ -234,6 +234,25 @@ export default function AdminGalleriesPage() {
                       text={`Client: ${gallery.client_password}${gallery.collection_password ? `\nCollection: ${gallery.collection_password}` : ''}`}
                       label="Copy Passwords"
                     />
+                    <Link
+                      href={`/admin/galleries/${gallery.slug}`}
+                      style={{
+                        background: 'transparent',
+                        border: '1px solid #c9b99a44',
+                        borderRadius: '4px',
+                        color: '#c9b99a',
+                        fontSize: '11px',
+                        padding: '4px 10px',
+                        letterSpacing: '1px',
+                        fontFamily: '"Jost", sans-serif',
+                        textDecoration: 'none',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        whiteSpace: 'nowrap',
+                      }}
+                    >
+                      Manage Photos
+                    </Link>
                     <a
                       href={galleryUrl}
                       target="_blank"

@@ -36,7 +36,7 @@ export async function POST(req: NextRequest) {
       ? new Date(Date.now() + expiresInDays * 24 * 60 * 60 * 1000).toISOString()
       : null;
 
-    await sql`
+    const inserted = await sql`
       INSERT INTO galleries (
         slug, client_name, client_email, session_type,
         collection_password, client_password, download_pin,
@@ -46,11 +46,14 @@ export async function POST(req: NextRequest) {
         ${collectionPassword}, ${clientPassword}, ${pin},
         ${isShareable}, ${watermarkPreviews}, ${allowDownloads}, ${expiresAt}
       )
+      RETURNING id
     `;
 
+    const galleryId = (inserted[0] as { id: string }).id;
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.samanthahainesphotography.com';
 
     return NextResponse.json({
+      id: galleryId,
       slug,
       galleryUrl: `${baseUrl}/gallery/${slug}`,
       collectionPassword,

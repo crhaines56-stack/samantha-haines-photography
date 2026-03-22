@@ -2,6 +2,7 @@
 
 import { useState, KeyboardEvent, useRef } from 'react';
 import Link from 'next/link';
+import PhotoUploader, { UploadedImage } from '@/components/admin/PhotoUploader';
 
 const SESSION_TYPES = [
   'Boudoir',
@@ -130,7 +131,8 @@ function Toggle({
   );
 }
 
-interface SuccessData {
+interface GalleryCreatedData {
+  id: string;
   slug: string;
   galleryUrl: string;
   clientPassword: string;
@@ -140,11 +142,75 @@ interface SuccessData {
   isShareable: boolean;
 }
 
-function SuccessPanel({
+// ─── Step indicator ──────────────────────────────────────────────────────────
+function StepIndicator({ step }: { step: 1 | 2 | 3 }) {
+  const steps = [
+    { n: 1, label: 'Gallery Details' },
+    { n: 2, label: 'Upload Photos' },
+    { n: 3, label: 'Done' },
+  ];
+  return (
+    <div style={{
+      display: 'flex',
+      alignItems: 'center',
+      gap: '0',
+      padding: '16px 24px',
+      borderBottom: '1px solid #2a2a2a',
+      background: '#111',
+    }}>
+      {steps.map(({ n, label }, i) => (
+        <div key={n} style={{ display: 'flex', alignItems: 'center', flex: i < steps.length - 1 ? 1 : 0 }}>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px', flexShrink: 0 }}>
+            <div style={{
+              width: '28px',
+              height: '28px',
+              borderRadius: '50%',
+              background: step > n ? '#1d3a2a' : step === n ? '#c9b99a' : '#222',
+              border: `2px solid ${step > n ? '#2a5a3a' : step === n ? '#c9b99a' : '#444'}`,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              color: step > n ? '#5cc98a' : step === n ? '#1a1a1a' : '#555',
+              fontSize: '12px',
+              fontWeight: 600,
+              transition: 'all 0.3s',
+            }}>
+              {step > n ? '✓' : n}
+            </div>
+            <span style={{
+              fontSize: '10px',
+              color: step === n ? '#c9b99a' : '#555',
+              letterSpacing: '1px',
+              textTransform: 'uppercase',
+              whiteSpace: 'nowrap',
+            }}>
+              {label}
+            </span>
+          </div>
+          {i < steps.length - 1 && (
+            <div style={{
+              flex: 1,
+              height: '2px',
+              background: step > n ? '#2a5a3a' : '#2a2a2a',
+              margin: '0 8px',
+              marginBottom: '18px',
+              transition: 'background 0.3s',
+            }} />
+          )}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// ─── Step 3: Done ────────────────────────────────────────────────────────────
+function DonePanel({
   data,
+  uploadedCount,
   onCreateAnother,
 }: {
-  data: SuccessData;
+  data: GalleryCreatedData;
+  uploadedCount: number;
   onCreateAnother: () => void;
 }) {
   const [emailStatus, setEmailStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
@@ -237,9 +303,16 @@ Samantha`;
             fontSize: '26px',
             fontWeight: 300,
           }}>
-            Gallery Created
+            Gallery Ready
           </h2>
-          <p style={{ margin: 0, color: '#888', fontSize: '14px' }}>{data.galleryName}</p>
+          <p style={{ margin: 0, color: '#888', fontSize: '14px' }}>
+            {data.galleryName}
+            {uploadedCount > 0 && (
+              <span style={{ color: '#5cc98a', marginLeft: '8px' }}>
+                · {uploadedCount} photo{uploadedCount !== 1 ? 's' : ''} uploaded
+              </span>
+            )}
+          </p>
         </div>
 
         {/* Share panel */}
@@ -369,6 +442,25 @@ Samantha`;
         {/* Actions */}
         <div style={{ display: 'flex', gap: '12px' }}>
           <Link
+            href={`/admin/galleries/${data.slug}`}
+            style={{
+              flex: 1,
+              textAlign: 'center',
+              background: 'transparent',
+              border: '1px solid #c9b99a',
+              borderRadius: '4px',
+              color: '#c9b99a',
+              textDecoration: 'none',
+              padding: '12px',
+              fontSize: '12px',
+              letterSpacing: '1px',
+              textTransform: 'uppercase',
+              fontFamily: '"Jost", sans-serif',
+            }}
+          >
+            Manage Photos
+          </Link>
+          <Link
             href="/admin/galleries"
             style={{
               flex: 1,
@@ -393,9 +485,9 @@ Samantha`;
             style={{
               flex: 1,
               background: 'transparent',
-              border: '1px solid #c9b99a',
+              border: '1px solid #444',
               borderRadius: '4px',
-              color: '#c9b99a',
+              color: '#666',
               cursor: 'pointer',
               padding: '12px',
               fontSize: '12px',
@@ -412,7 +504,11 @@ Samantha`;
   );
 }
 
+// ─── Main page ───────────────────────────────────────────────────────────────
 export default function NewGalleryPage() {
+  // Step state
+  const [step, setStep] = useState<1 | 2 | 3>(1);
+
   // Form state
   const [galleryName, setGalleryName] = useState('');
   const [sessionType, setSessionType] = useState('');
@@ -428,7 +524,10 @@ export default function NewGalleryPage() {
   const [watermark, setWatermark] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [formError, setFormError] = useState('');
-  const [success, setSuccess] = useState<SuccessData | null>(null);
+
+  // Gallery created data (passed to step 2 + 3)
+  const [createdGallery, setCreatedGallery] = useState<GalleryCreatedData | null>(null);
+  const [uploadedCount, setUploadedCount] = useState(0);
 
   const emailInputRef = useRef<HTMLInputElement>(null);
 
@@ -490,7 +589,8 @@ export default function NewGalleryPage() {
         return;
       }
 
-      setSuccess({
+      setCreatedGallery({
+        id: data.id,
         slug: data.slug,
         galleryUrl: data.galleryUrl,
         clientPassword: data.clientPassword,
@@ -499,11 +599,16 @@ export default function NewGalleryPage() {
         emails,
         isShareable,
       });
+      setStep(2);
     } catch {
       setFormError('Network error. Please try again.');
     } finally {
       setSubmitting(false);
     }
+  }
+
+  function handleUploadComplete(images: UploadedImage[]) {
+    setUploadedCount(images.length);
   }
 
   function resetForm() {
@@ -520,13 +625,115 @@ export default function NewGalleryPage() {
     setDownloadPin('');
     setWatermark(false);
     setFormError('');
-    setSuccess(null);
+    setCreatedGallery(null);
+    setUploadedCount(0);
+    setStep(1);
   }
 
-  if (success) {
-    return <SuccessPanel data={success} onCreateAnother={resetForm} />;
+  // Step 3: Done
+  if (step === 3 && createdGallery) {
+    return (
+      <div style={{ minHeight: '100vh', background: '#1a1a1a', fontFamily: '"Jost", sans-serif' }}>
+        <div style={{ background: '#111', borderBottom: '1px solid #2a2a2a', padding: '16px 24px', display: 'flex', alignItems: 'center', gap: '16px' }}>
+          <Link href="/admin/galleries" style={{ color: '#666', textDecoration: 'none', fontSize: '20px' }}>←</Link>
+          <h1 style={{ margin: 0, color: '#faf9f7', fontSize: '18px', fontWeight: 300, fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+            Create Client Gallery
+          </h1>
+        </div>
+        <StepIndicator step={3} />
+        <DonePanel data={createdGallery} uploadedCount={uploadedCount} onCreateAnother={resetForm} />
+      </div>
+    );
   }
 
+  // Step 2: Upload Photos
+  if (step === 2 && createdGallery) {
+    return (
+      <div style={{ minHeight: '100vh', background: '#1a1a1a', color: '#faf9f7', fontFamily: '"Jost", sans-serif' }}>
+        {/* Top bar */}
+        <div style={{
+          background: '#111',
+          borderBottom: '1px solid #2a2a2a',
+          padding: '16px 24px',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '16px',
+        }}>
+          <Link href="/admin/galleries" style={{ color: '#666', textDecoration: 'none', fontSize: '20px' }}>←</Link>
+          <div>
+            <p style={{ margin: '0 0 2px', color: '#c9b99a', fontSize: '10px', letterSpacing: '3px', textTransform: 'uppercase' }}>
+              New Gallery
+            </p>
+            <h1 style={{ margin: 0, color: '#faf9f7', fontSize: '18px', fontWeight: 300, fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+              {createdGallery.galleryName}
+            </h1>
+          </div>
+        </div>
+
+        <StepIndicator step={2} />
+
+        <div style={{ padding: '32px 24px', maxWidth: '760px', margin: '0 auto' }}>
+          <div style={{ marginBottom: '24px' }}>
+            <h2 style={{ margin: '0 0 8px', color: '#faf9f7', fontSize: '20px', fontWeight: 300, fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+              Upload Photos
+            </h2>
+            <p style={{ margin: 0, color: '#666', fontSize: '13px' }}>
+              Upload photos for this gallery. You can always add more later from the gallery management page.
+            </p>
+          </div>
+
+          <div style={sectionStyle}>
+            <PhotoUploader
+              galleryId={createdGallery.id}
+              onUploadComplete={handleUploadComplete}
+            />
+          </div>
+
+          <div style={{ display: 'flex', gap: '12px', justifyContent: 'flex-end', marginTop: '24px' }}>
+            <button
+              type="button"
+              onClick={() => setStep(3)}
+              style={{
+                background: 'transparent',
+                color: '#888',
+                border: '1px solid #444',
+                borderRadius: '4px',
+                padding: '12px 24px',
+                fontSize: '12px',
+                letterSpacing: '1.5px',
+                textTransform: 'uppercase',
+                fontFamily: '"Jost", sans-serif',
+                cursor: 'pointer',
+              }}
+            >
+              Skip for Now
+            </button>
+            <button
+              type="button"
+              onClick={() => setStep(3)}
+              style={{
+                background: '#c9b99a',
+                color: '#1a1a1a',
+                border: 'none',
+                borderRadius: '4px',
+                padding: '12px 28px',
+                fontSize: '12px',
+                letterSpacing: '1.5px',
+                textTransform: 'uppercase',
+                fontFamily: '"Jost", sans-serif',
+                fontWeight: 600,
+                cursor: 'pointer',
+              }}
+            >
+              Continue to Share Settings →
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Step 1: Gallery Details
   return (
     <div style={{
       minHeight: '100vh',
@@ -561,6 +768,8 @@ export default function NewGalleryPage() {
           </h1>
         </div>
       </div>
+
+      <StepIndicator step={1} />
 
       {/* Form */}
       <div style={{ padding: '32px 24px', maxWidth: '640px', margin: '0 auto' }}>
@@ -601,7 +810,6 @@ export default function NewGalleryPage() {
         <div style={sectionStyle}>
           <p style={labelStyle}>Share Settings</p>
 
-          {/* Toggle: Restricted vs Anyone */}
           <div style={{
             display: 'flex',
             background: '#111',
@@ -636,7 +844,6 @@ export default function NewGalleryPage() {
             ))}
           </div>
 
-          {/* Shareable: show collection password */}
           {isShareable && (
             <div>
               <label style={{ ...labelStyle, marginBottom: '6px' }}>Collection Password</label>
@@ -669,7 +876,6 @@ export default function NewGalleryPage() {
             </div>
           )}
 
-          {/* Restricted: email chips */}
           {!isShareable && (
             <div>
               <label style={{ ...labelStyle, marginBottom: '6px' }}>Invite by Email</label>
@@ -879,7 +1085,7 @@ export default function NewGalleryPage() {
             marginBottom: '40px',
           }}
         >
-          {submitting ? 'Creating…' : 'Create Gallery'}
+          {submitting ? 'Creating…' : 'Create Gallery & Continue →'}
         </button>
       </div>
     </div>
