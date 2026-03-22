@@ -101,7 +101,7 @@ export default function HomePage() {
               a photo.
             </h1>
             <p className="font-sans text-[14px] text-[#e8e4df] max-w-lg leading-relaxed mb-10">
-              With one image, I want you to be compelled to pause. To feel. To connect — and stop your scroll.
+              Your story is waiting to be told.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
           </div>
