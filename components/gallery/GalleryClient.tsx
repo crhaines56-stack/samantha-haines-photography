@@ -37,6 +37,7 @@ export interface GalleryData {
   allowDownloads: boolean;
   downloadPin: string | null;
   watermarkPreviews: boolean;
+  collectionPassword: string | null;
 }
 
 interface Props {

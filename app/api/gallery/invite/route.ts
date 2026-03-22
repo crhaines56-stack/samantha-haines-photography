@@ -5,7 +5,8 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
   try {
-    const { emails, galleryName, galleryUrl, password, passwordLabel } = await req.json();
+    const { emails, galleryName, clientName, galleryUrl, password, passwordLabel } = await req.json();
+    const resolvedName: string = clientName ?? galleryName ?? 'Your';
 
     if (!emails || !Array.isArray(emails) || emails.length === 0) {
       return NextResponse.json({ error: 'No emails provided' }, { status: 400 });
@@ -17,7 +18,7 @@ export async function POST(req: NextRequest) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>${galleryName}'s Gallery is Ready</title>
+  <title>${resolvedName}'s Gallery is Ready</title>
 </head>
 <body style="margin:0;padding:0;background:#faf9f7;font-family:'Helvetica Neue',Arial,sans-serif;">
   <table width="100%" cellpadding="0" cellspacing="0" style="background:#faf9f7;">
@@ -35,7 +36,7 @@ export async function POST(req: NextRequest) {
           <tr>
             <td style="padding:40px 48px;background:#1a1a1a;">
               <p style="margin:0 0 24px;color:#c9b99a;font-size:16px;line-height:1.7;text-align:center;">
-                ${galleryName}'s gallery is ready to view. Click the button below to open it.
+                ${resolvedName}'s gallery is ready to view. Click the button below to open it.
               </p>
               <!-- CTA Button -->
               <table width="100%" cellpadding="0" cellspacing="0">
@@ -82,7 +83,7 @@ export async function POST(req: NextRequest) {
         resend.emails.send({
           from: 'Samantha Haines Photography <noreply@samanthahainesphotography.com>',
           to: email,
-          subject: `${galleryName}'s Gallery is ready — Samantha Haines Photography`,
+          subject: `${resolvedName}'s Gallery is ready — Samantha Haines Photography`,
           html,
         })
       )

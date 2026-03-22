@@ -3,6 +3,7 @@
 import { useEffect, useCallback, useRef, useState } from 'react';
 import { GalleryData, GalleryImage } from './GalleryClient';
 import DownloadButton from './DownloadButton';
+import ShareButton from './ShareButton';
 
 interface Props {
   images: GalleryImage[];
@@ -211,6 +212,11 @@ export default function GalleryLightbox({
           >
             <NoteIcon size={18} />
           </button>
+
+          {/* Share */}
+          {gallery.isShareable && (
+            <ShareButton gallery={gallery} iconOnly />
+          )}
 
           {/* Download */}
           {gallery.allowDownloads && (

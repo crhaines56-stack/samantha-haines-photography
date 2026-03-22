@@ -76,6 +76,8 @@ export default async function GalleryPage({ params }: Props) {
     allowDownloads: gallery.allow_downloads,
     downloadPin: gallery.download_pin ?? null,
     watermarkPreviews: gallery.watermark_previews,
+    // Only expose password to client when gallery is shareable (not sensitive in that case)
+    collectionPassword: gallery.is_shareable ? (gallery.collection_password ?? null) : null,
   };
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

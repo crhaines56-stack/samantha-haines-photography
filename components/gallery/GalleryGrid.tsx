@@ -3,6 +3,7 @@
 import { useRef, useCallback } from 'react';
 import { GalleryData, GalleryImage, GallerySet } from './GalleryClient';
 import DownloadButton from './DownloadButton';
+import ShareButton from './ShareButton';
 
 interface Props {
   gallery: GalleryData;
@@ -32,6 +33,7 @@ export default function GalleryGrid({
   const headerRef = useRef<HTMLDivElement>(null);
 
   // Download All is handled by DownloadButton via /api/gallery/download (server-side zip)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleDownloadAll = useCallback(() => {}, []);
 
   return (
@@ -97,6 +99,11 @@ export default function GalleryGrid({
               mode="bulk"
               images={images}
             />
+          )}
+
+          {/* Share */}
+          {gallery.isShareable && (
+            <ShareButton gallery={gallery} />
           )}
         </div>
       </div>
