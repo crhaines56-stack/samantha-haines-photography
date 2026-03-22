@@ -193,6 +193,7 @@ function GalleryThumbnail({
 }) {
   return (
     <div
+      onClick={onOpen}
       style={{
         position: 'relative',
         breakInside: 'avoid',
@@ -209,12 +210,12 @@ function GalleryThumbnail({
         src={image.thumbnailUrl}
         alt={image.filename ?? `Photo ${index + 1}`}
         loading="lazy"
-        onClick={onOpen}
         style={{
           width: '100%',
           height: 'auto',
           display: 'block',
           transition: 'transform 0.3s ease',
+          pointerEvents: 'none',
         }}
         className="gallery-thumb-img"
       />
@@ -222,6 +223,7 @@ function GalleryThumbnail({
       {/* Overlay icons */}
       <div
         className="gallery-thumb-overlay"
+        onClick={(e) => e.stopPropagation()}
         style={{
           position: 'absolute',
           inset: 0,
