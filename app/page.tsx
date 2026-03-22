@@ -112,13 +112,12 @@ export default function HomePage() {
             <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-8">
               The Philosophy
             </p>
-            <blockquote className="font-serif text-3xl md:text-5xl text-[#1a1a1a] leading-tight italic">
-              &ldquo;This is about more than looking and smiling at the camera.
+            <p className="font-serif text-3xl md:text-5xl text-[#1a1a1a] leading-tight italic">
+              This is about more than looking and smiling at the camera.
               This is about telling a story. With one photo I want you to be
               compelled to pause. To feel. To connect to the photo and stop
-              your scroll.&rdquo;
-            </blockquote>
-            <p className="font-script text-2xl text-[#8b6f5e] mt-8">Samantha</p>
+              your scroll.
+            </p>
           </div>
         </section>
 
