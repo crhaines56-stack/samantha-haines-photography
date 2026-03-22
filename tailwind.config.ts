@@ -9,11 +9,43 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        // SHP Brand Colors
+        brand: {
+          black:    "#1a1a1a",   // deep warm black
+          white:    "#faf9f7",   // warm off-white
+          cream:    "#f5f0ea",   // soft cream background
+          tan:      "#c9b99a",   // warm tan / gold
+          brown:    "#8b6f5e",   // warm brown
+          gray:     "#6b6b6b",   // mid gray
+          lightgray:"#e8e4df",   // light warm gray
+        },
+      },
+      fontFamily: {
+        serif:  ["var(--font-cormorant)", "Georgia", "serif"],
+        sans:   ["var(--font-jost)", "system-ui", "sans-serif"],
+        script: ["var(--font-dancing)", "cursive"],
+      },
+      letterSpacing: {
+        widest: "0.25em",
+        ultra:  "0.4em",
+      },
+      animation: {
+        "fade-in":    "fadeIn 0.8s ease-in-out",
+        "slide-up":   "slideUp 0.6s ease-out",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%":   { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        slideUp: {
+          "0%":   { opacity: "0", transform: "translateY(20px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
       },
     },
   },
   plugins: [],
 };
+
 export default config;
