@@ -104,6 +104,9 @@ export default function HomePage() {
               Your story is waiting to be told.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
+            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase">
+              Now booking April &amp; May sessions
+            </p>
           </div>
         </section>
 
@@ -217,6 +220,29 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* Google Reviews CTA */}
+        <section className="py-16 px-6 bg-[#f5f0ea]">
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <span className="text-[#D97706] text-xl">★★★★★</span>
+            </div>
+            <p className="font-serif text-2xl md:text-3xl text-[#1a1a1a] italic mb-4 leading-tight">
+              5-star rated on Google.
+            </p>
+            <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-6 max-w-xl mx-auto">
+              Don&apos;t take our word for it — read what Austin women are saying about their experience.
+            </p>
+            <a
+              href="https://g.page/r/samanthahainesphotography/review"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-sans text-[12px] tracking-[0.2em] uppercase text-[#8b6f5e] hover:text-[#1a1a1a] transition-colors border-b border-[#c9b99a] pb-1"
+            >
+              Read Reviews on Google →
+            </a>
           </div>
         </section>
 

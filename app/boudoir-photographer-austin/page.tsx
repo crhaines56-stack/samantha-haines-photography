@@ -167,8 +167,14 @@ export default function BoudoirPage() {
               layered and complex as you are.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
+            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase">
+              Now booking April &amp; May sessions
+            </p>
           </div>
         </section>
+
+        {/* Happiness Guarantee */}
+        <HappinessGuarantee />
 
         {/* Hook */}
         <section className="py-24 px-6 bg-[#faf9f7]">
@@ -304,9 +310,6 @@ export default function BoudoirPage() {
             </p>
           </div>
         </section>
-
-        {/* Happiness Guarantee */}
-        <HappinessGuarantee />
 
         {/* Inclusivity */}
         <section className="py-20 px-6 bg-[#faf9f7]">

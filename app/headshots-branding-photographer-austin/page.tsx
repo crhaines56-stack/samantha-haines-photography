@@ -166,8 +166,19 @@ export default function HeadshotsPage() {
               compelling, confident, and completely authentic to who you are.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
+            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase">
+              Now booking April &amp; May sessions
+            </p>
           </div>
         </section>
+
+        {/* Happiness Guarantee */}
+        <HappinessGuarantee />
+
+        {/* Happiness Guarantee */}
+        <HappinessGuarantee />
+
+        {/* </section>
 
         {/* The Experience */}
         <section className="py-24 px-6 bg-[#faf9f7]">
@@ -278,9 +289,6 @@ export default function HeadshotsPage() {
             </div>
           </div>
         </section>
-
-        {/* Happiness Guarantee */}
-        <HappinessGuarantee />
 
         {/* Testimonials */}
         <section className="py-24 px-6 bg-[#faf9f7]">
