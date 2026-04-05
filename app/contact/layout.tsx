@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: "https://www.samanthahainesphotography.com/contact",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80",
+        url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg",
         width: 1200,
         height: 630,
         alt: "Samantha Haines Photography Austin",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Book a Session | Samantha Haines Photography",
     description: "Book your Austin portrait session today. Hair & makeup always included.",
-    images: ["https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80"],
+    images: ["https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg"],
   },
 };
 

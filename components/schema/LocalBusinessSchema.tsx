@@ -32,7 +32,7 @@ export default function LocalBusinessSchema() {
       { "@type": "City", "name": "Dripping Springs" }
     ],
     "openingHours": "Mo-Sa 09:00-18:00",
-    "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80",
+    "image": "https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg",
     "sameAs": [
       "https://www.instagram.com/samanthahainesphotography",
       "https://www.facebook.com/samanthahainesphotography"
