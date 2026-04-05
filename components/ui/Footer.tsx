@@ -111,6 +111,13 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
+            {/* Phone — update with Samantha's real number before launch */}
+            <a
+              href="tel:+15125550000"
+              className="block font-sans text-[13px] text-[#6b6b6b] hover:text-[#faf9f7] transition-colors mb-4"
+            >
+              (512) 555-0000
+            </a>
             <Link
               href="/contact"
               className="inline-block font-sans text-[11px] tracking-[0.2em] uppercase border border-[#c9b99a] text-[#c9b99a] px-6 py-3 hover:bg-[#c9b99a] hover:text-[#1a1a1a] transition-all duration-300"
