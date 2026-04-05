@@ -36,13 +36,13 @@ const services = [
     href: "/newborn-photographer-austin",
     title: "Newborn",
     description: "The days that feel like forever and a flash.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364377/shp/homepage/shp/homepage/service-maternity.jpg",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg",
   },
   {
     href: "/maternity-photographer-austin",
     title: "Maternity",
     description: "Power. Softness. Everything you are.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364377/shp/homepage/shp/homepage/service-maternity.jpg",
   },
   {
     href: "/headshots-branding-photographer-austin",
