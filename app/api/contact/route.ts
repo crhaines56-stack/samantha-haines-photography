@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
       ? "noreply@samanthahainesphotography.com"
       : "onboarding@resend.dev";
 
-    await resend.emails.send({
+    const { data, error: resendError } = await resend.emails.send({
       from: `Samantha Haines Photography <${fromDomain}>`,
       to: process.env.CONTACT_EMAIL || "crhaines56@gmail.com",
       replyTo: email,
@@ -58,7 +58,15 @@ export async function POST(req: NextRequest) {
       `,
     });
 
-    return NextResponse.json({ success: true });
+    if (resendError) {
+      console.error("Resend error:", resendError);
+      return NextResponse.json(
+        { error: "Failed to send email. Please try again or contact us directly." },
+        { status: 500 }
+      );
+    }
+
+    return NextResponse.json({ success: true, id: data?.id });
   } catch (error) {
     console.error("Contact form error:", error);
     return NextResponse.json(
