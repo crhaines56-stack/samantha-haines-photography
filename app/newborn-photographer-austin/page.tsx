@@ -45,7 +45,7 @@ const faqSchema = {
       name: "Is the studio safe and warm enough for a newborn?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely. The studio is kept warm throughout every newborn session. All props, wraps, and surfaces are sanitized before each session. Your baby's safety and comfort are the highest priority — every setup and pose is done gently and carefully.",
+        text: "Absolutely. The studio is kept warm throughout every newborn session. All props, wraps, and surfaces are sanitized before each session. Your baby&apos;s safety and comfort are the highest priority — every setup and pose is done gently and carefully.",
       },
     },
     {
@@ -53,7 +53,7 @@ const faqSchema = {
       name: "How long does a newborn session take?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Newborn sessions are typically 2 to 4 hours. Time is built in for feeding, settling, soothing, and diaper changes — there's no rush. The session moves at your baby's pace entirely.",
+        text: "Newborn sessions are typically 2 to 4 hours. Time is built in for feeding, settling, soothing, and diaper changes — there's no rush. The session moves at your baby&apos;s pace entirely.",
       },
     },
     {
@@ -175,13 +175,13 @@ export default function NewbornPhotographerAustinPage() {
                 Gentle. Safe. Unhurried.
               </h2>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                Every newborn session is built around your baby's pace — not a clock. Time is planned for feeding, settling, and everything in between. There's no rush, ever.
+                Every newborn session is built around your baby&apos;s pace — not a clock. Time is planned for feeding, settling, and everything in between. There&apos;s no rush, ever.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                The studio is kept warm throughout. All props and surfaces are sanitized before every session. Samantha has spent years learning how to soothe, position, and capture newborns safely — your baby's comfort is always the first priority.
+                The studio is kept warm throughout. All props and surfaces are sanitized before every session. Samantha has spent years learning how to soothe, position, and capture newborns safely — your baby&apos;s comfort is always the first priority.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-                Hair and makeup are included for mom. Partner and sibling frames are always part of the plan. And at the end of the session, you'll have images that capture exactly who your family was on one of the most significant days of your lives.
+                Hair and makeup are included for mom. Partner and sibling frames are always part of the plan. And at the end of the session, you&apos;ll have images that capture exactly who your family was on one of the most significant days of your lives.
               </p>
             </div>
           </div>
@@ -198,7 +198,7 @@ export default function NewbornPhotographerAustinPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
               {[
-                { title: "Hair & Makeup for Mom", desc: "Professional styling included — you'll arrive ready and relaxed, not rushed." },
+                { title: "Hair & Makeup for Mom", desc: "Professional styling included — you&apos;ll arrive ready and relaxed, not rushed." },
                 { title: "All Props & Wraps", desc: "Samantha provides everything. Heirlooms and meaningful items are always welcome." },
                 { title: "Sibling & Family Frames", desc: "Time is built in for parents, siblings, and grandparents — no extra coordination needed." },
                 { title: "Expert Posing & Safety", desc: "Every position is done gently and carefully. Baby's comfort guides every moment." },
@@ -261,7 +261,7 @@ export default function NewbornPhotographerAustinPage() {
               ))}
             </div>
             <div className="mt-16">
-              <CTAButton href="/contact" variant="outline" size="lg">Reserve Your Date</CTAButton>
+              <CTAButton href="/contact" variant="ghost" size="lg">Reserve Your Date</CTAButton>
             </div>
           </div>
         </section>
@@ -289,7 +289,7 @@ export default function NewbornPhotographerAustinPage() {
           <div className="max-w-2xl mx-auto">
             <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-6">Austin, TX</p>
             <h2 className="font-serif text-5xl md:text-6xl text-[#1a1a1a] italic mb-8 leading-tight">
-              These days don't come back.
+              These days don&apos;t come back.
             </h2>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-10">
               Samantha personally responds to every inquiry. Sessions book quickly — especially around due dates. The conversation starts here.
