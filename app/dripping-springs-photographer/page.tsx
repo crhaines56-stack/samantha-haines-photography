@@ -71,12 +71,12 @@ const faqSchema = {
 };
 
 const services = [
-  { href: "/boudoir-photographer-austin", title: "Boudoir", desc: "Intimate, empowering portraits celebrating who you are right now.", img: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80" },
-  { href: "/family-photographer-austin", title: "Family", desc: "Genuine connection and real moments your family will treasure forever.", img: "https://images.unsplash.com/photo-1511895426328-dc8714191011?w=600&q=80" },
-  { href: "/senior-portrait-photographer-austin", title: "Senior Portraits", desc: "Confident, editorial senior portraits that reflect your personality.", img: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=600&q=80" },
-  { href: "/newborn-photographer-austin", title: "Newborn", desc: "Tiny details and pure wonder — captured in the first days of life.", img: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=600&q=80" },
-  { href: "/maternity-photographer-austin", title: "Maternity", desc: "Powerful, beautiful portraits honoring this remarkable chapter.", img: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600&q=80" },
-  { href: "/headshots-branding-photographer-austin", title: "Headshots & Branding", desc: "Professional images that tell your brand story with confidence.", img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80" },
+  { href: "/boudoir-photographer-austin", title: "Boudoir", desc: "Intimate, empowering portraits celebrating who you are right now.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364364/shp/homepage/shp/homepage/service-boudoir.jpg" },
+  { href: "/family-photographer-austin", title: "Family", desc: "Genuine connection and real moments your family will treasure forever.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364370/shp/homepage/shp/homepage/service-family.jpg" },
+  { href: "/senior-portrait-photographer-austin", title: "Senior Portraits", desc: "Confident, editorial senior portraits that reflect your personality.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364368/shp/homepage/shp/homepage/service-senior.jpg" },
+  { href: "/newborn-photographer-austin", title: "Newborn", desc: "Tiny details and pure wonder — captured in the first days of life.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg" },
+  { href: "/maternity-photographer-austin", title: "Maternity", desc: "Powerful, beautiful portraits honoring this remarkable chapter.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364377/shp/homepage/shp/homepage/service-maternity.jpg" },
+  { href: "/headshots-branding-photographer-austin", title: "Headshots & Branding", desc: "Professional images that tell your brand story with confidence.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364372/shp/homepage/shp/homepage/service-headshots.jpg" },
 ];
 
 const relatedLocations = [
@@ -98,7 +98,7 @@ export default function DrippingSpringsPhotographerPage() {
         <section className="relative min-h-[80vh] flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1800&q=80"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364379/shp/newborn/shp/newborn/hero.jpg"
               alt="Dripping Springs Photographer — Samantha Haines Photography"
               fill
               priority
