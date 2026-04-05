@@ -119,7 +119,7 @@ export default function BlogPostPage({ params }: PageProps) {
               alt={frontmatter.title}
               fill
               priority
-              className="object-cover opacity-80"
+              className="object-cover"
               sizes="100vw"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#1a1a1a]/60" />

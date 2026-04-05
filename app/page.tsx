@@ -86,7 +86,7 @@ export default function HomePage() {
               alt="Samantha Haines Photography — Austin portrait photographer"
               fill
               priority
-              className="object-cover opacity-60"
+              className="object-cover"
             />
           </div>
           <div className="relative max-w-7xl mx-auto w-full">

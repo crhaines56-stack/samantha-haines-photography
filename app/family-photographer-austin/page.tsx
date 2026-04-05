@@ -151,7 +151,7 @@ export default function FamilyPage() {
               alt="Family photographer Austin TX — Samantha Haines Photography"
               fill
               priority
-              className="object-cover opacity-55"
+              className="object-cover"
             />
           </div>
           <div className="relative max-w-5xl mx-auto w-full">

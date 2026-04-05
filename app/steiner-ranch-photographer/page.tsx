@@ -132,7 +132,7 @@ export default function SteinerRanchPhotographerPage() {
               alt="Steiner Ranch Photographer — Samantha Haines Photography"
               fill
               priority
-              className="object-cover opacity-50"
+              className="object-cover"
             />
           </div>
           <div className="relative max-w-5xl mx-auto w-full">

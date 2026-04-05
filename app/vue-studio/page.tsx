@@ -128,7 +128,7 @@ export default function VueStudioPage() {
               alt="Vue Studio Austin — premium portrait photography studio"
               fill
               priority
-              className="object-cover opacity-50"
+              className="object-cover"
             />
           </div>
           <div className="relative max-w-7xl mx-auto w-full">

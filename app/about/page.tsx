@@ -72,7 +72,7 @@ export default function AboutPage() {
               alt="Samantha Haines — Austin portrait photographer"
               fill
               priority
-              className="object-cover opacity-50"
+              className="object-cover"
             />
           </div>
           <div className="relative max-w-4xl mx-auto w-full">
