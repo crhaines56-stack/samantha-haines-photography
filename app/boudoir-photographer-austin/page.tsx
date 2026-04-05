@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     description:
       "Austin boudoir photography by Samantha Haines. A slow reveal of every facet of you — hair & makeup included, fully private, designed for every woman at every stage.",
     url: "https://www.samanthahainesphotography.com/boudoir-photographer-austin",
-    images: [{ url: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80", width: 1200, height: 630, alt: "Boudoir photographer Austin TX" }],
+    images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg", width: 1200, height: 630, alt: "Boudoir photographer Austin TX" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Boudoir Photographer Austin TX",
     description:
       "Austin boudoir photography by Samantha Haines. Hair & makeup included, fully private.",
-    images: ["https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80"],
+    images: ["https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg"],
   },
 };
 
@@ -103,27 +103,27 @@ const faqSchema = {
 
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364251/shp/boudoir/shp/boudoir/gallery-1.jpg",
     alt: "Boudoir photography Austin TX",
   },
   {
-    src: "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364241/shp/boudoir/shp/boudoir/experience.jpg",
     alt: "Elegant boudoir portrait Austin",
   },
   {
-    src: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364267/shp/boudoir/shp/boudoir/gallery-3.jpg",
     alt: "Artistic boudoir session Austin Texas",
   },
   {
-    src: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364286/shp/boudoir/shp/boudoir/gallery-4.jpg",
     alt: "Intimate portrait photography Austin",
   },
   {
-    src: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364293/shp/boudoir/shp/boudoir/gallery-5.jpg",
     alt: "Boudoir photography Steiner Ranch Austin",
   },
   {
-    src: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364299/shp/boudoir/shp/boudoir/gallery-6.jpg",
     alt: "Empowerment portrait session Austin TX",
   },
 ];
@@ -147,7 +147,7 @@ export default function BoudoirPage() {
         <section className="relative min-h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1800&q=80"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg"
               alt="Boudoir photographer Austin TX — Samantha Haines Photography"
               fill
               priority
@@ -210,7 +210,7 @@ export default function BoudoirPage() {
             </div>
             <div className="relative h-[600px]">
               <Image
-                src="https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=800&q=80"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364241/shp/boudoir/shp/boudoir/experience.jpg"
                 alt="Boudoir session experience Austin TX"
                 fill
                 className="object-cover"

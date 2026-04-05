@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     description:
       "Austin headshots and personal branding photographer Samantha Haines. The image that precedes you in every room — compelling, polished, and completely yours.",
     url: "https://www.samanthahainesphotography.com/headshots-branding-photographer-austin",
-    images: [{ url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80", width: 1200, height: 630, alt: "Headshots and branding photographer Austin TX" }],
+    images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364413/shp/headshots/shp/headshots/hero.jpg", width: 1200, height: 630, alt: "Headshots and branding photographer Austin TX" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Headshots & Branding Photographer Austin TX",
     description:
       "Austin headshots and personal branding photographer Samantha Haines. The image that precedes you in every room.",
-    images: ["https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80"],
+    images: ["https://res.cloudinary.com/du67vy39a/image/upload/v1775364413/shp/headshots/shp/headshots/hero.jpg"],
   },
 };
 
@@ -103,27 +103,27 @@ const faqSchema = {
 
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364416/shp/headshots/shp/headshots/gallery-1.jpg",
     alt: "Headshots photographer Austin TX",
   },
   {
-    src: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364417/shp/headshots/shp/headshots/gallery-2.jpg",
     alt: "Professional headshots Austin Texas",
   },
   {
-    src: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364415/shp/headshots/shp/headshots/experience.jpg",
     alt: "Personal branding photography Austin TX",
   },
   {
-    src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364421/shp/headshots/shp/headshots/gallery-4.jpg",
     alt: "Business headshots Austin Texas",
   },
   {
-    src: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364424/shp/headshots/shp/headshots/gallery-5.jpg",
     alt: "Branding photographer Austin TX",
   },
   {
-    src: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364425/shp/headshots/shp/headshots/gallery-6.jpg",
     alt: "Executive headshots Austin Texas",
   },
 ];
@@ -147,7 +147,7 @@ export default function HeadshotsPage() {
         <section className="relative min-h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1800&q=80"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364413/shp/headshots/shp/headshots/hero.jpg"
               alt="Headshots and branding photographer Austin TX — Samantha Haines Photography"
               fill
               priority
@@ -198,7 +198,7 @@ export default function HeadshotsPage() {
             </div>
             <div className="relative h-[550px]">
               <Image
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364415/shp/headshots/shp/headshots/experience.jpg"
                 alt="Headshots session experience Austin TX"
                 fill
                 className="object-cover"

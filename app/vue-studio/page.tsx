@@ -77,32 +77,32 @@ const sets = [
   {
     name: "The Living Room",
     description: "Fully furnished with warm, editorial styling. Sofas, rugs, natural light.",
-    image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364439/shp/vue-studio/shp/vue-studio/set-1.jpg",
   },
   {
     name: "The Bedroom",
     description: "Lush bedding, soft tones, and privacy — designed for intimate sessions.",
-    image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364441/shp/vue-studio/shp/vue-studio/set-2.jpg",
   },
   {
     name: "The Backdrop Wall",
     description: "Fully motorized seamless backdrops in a curated palette of neutral tones.",
-    image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&q=80",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364442/shp/vue-studio/shp/vue-studio/set-3.jpg",
   },
   {
     name: "The Vanity Suite",
     description: "Dedicated hair and makeup room — fully equipped, beautifully lit.",
-    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364444/shp/vue-studio/shp/vue-studio/for-photographers.jpg",
   },
   {
     name: "The Garden Set",
     description: "Indoor botanicals and natural textures for an organic, editorial look.",
-    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364446/shp/vue-studio/shp/vue-studio/for-clients.jpg",
   },
   {
     name: "The Archway",
     description: "Clean architectural lines and dramatic negative space for striking portraits.",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364437/shp/vue-studio/shp/vue-studio/hero.jpg",
   },
 ];
 
@@ -124,7 +124,7 @@ export default function VueStudioPage() {
         <section className="relative h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1800&q=85"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364437/shp/vue-studio/shp/vue-studio/hero.jpg"
               alt="Vue Studio Austin — premium portrait photography studio"
               fill
               priority
@@ -218,7 +218,7 @@ export default function VueStudioPage() {
           <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative h-[500px]">
               <Image
-                src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=900&q=85"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364444/shp/vue-studio/shp/vue-studio/for-photographers.jpg"
                 alt="Hair and makeup suite at Vue Studio Austin"
                 fill
                 className="object-cover"
@@ -310,7 +310,7 @@ export default function VueStudioPage() {
             </div>
             <div className="relative h-[600px]">
               <Image
-                src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=900&q=85"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364442/shp/vue-studio/shp/vue-studio/set-3.jpg"
                 alt="Vue Studio Austin photography studio rental PeerSpace"
                 fill
                 className="object-cover"

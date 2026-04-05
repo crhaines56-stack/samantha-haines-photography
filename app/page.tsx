@@ -18,37 +18,37 @@ const services = [
     href: "/boudoir-photographer-austin",
     title: "Boudoir",
     description: "A slow reveal of every facet of you.",
-    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364364/shp/homepage/shp/homepage/service-boudoir.jpg",
   },
   {
     href: "/senior-portrait-photographer-austin",
     title: "Senior Portraits",
     description: "The chapter worth remembering.",
-    image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=800&q=80",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364368/shp/homepage/shp/homepage/service-senior.jpg",
   },
   {
     href: "/family-photographer-austin",
     title: "Family",
     description: "This version of your family, right now.",
-    image: "https://images.unsplash.com/photo-1511895426328-dc8714191011?w=800&q=80",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364370/shp/homepage/shp/homepage/service-family.jpg",
   },
   {
     href: "/newborn-photographer-austin",
     title: "Newborn",
     description: "The days that feel like forever and a flash.",
-    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=800&q=80",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg",
   },
   {
     href: "/maternity-photographer-austin",
     title: "Maternity",
     description: "Power. Softness. Everything you are.",
-    image: "https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?w=800&q=80",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364377/shp/homepage/shp/homepage/service-maternity.jpg",
   },
   {
     href: "/headshots-branding-photographer-austin",
     title: "Headshots & Branding",
     description: "The image that precedes you in every room.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364372/shp/homepage/shp/homepage/service-headshots.jpg",
   },
 ];
 
@@ -82,7 +82,7 @@ export default function HomePage() {
         <section className="relative h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1800&q=85"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364356/shp/homepage/shp/homepage/hero.jpg"
               alt="Samantha Haines Photography — Austin portrait photographer"
               fill
               priority

@@ -16,14 +16,14 @@ export const metadata: Metadata = {
     description:
       "Meet Samantha Haines — Austin portrait photographer, mother of four, and storyteller. Based in Steiner Ranch, serving families, couples & businesses across Austin, TX.",
     url: "https://www.samanthahainesphotography.com/about",
-    images: [{ url: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80", width: 1200, height: 630, alt: "Samantha Haines Photography Austin" }],
+    images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg", width: 1200, height: 630, alt: "Samantha Haines Photography Austin" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "About Samantha Haines | Austin TX Portrait Photographer",
     description:
       "Meet Samantha Haines — Austin portrait photographer, mother of four, and storyteller.",
-    images: ["https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80"],
+    images: ["https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg"],
   },
 };
 
@@ -33,7 +33,7 @@ const personSchema = {
   "name": "Samantha Haines",
   "jobTitle": "Portrait Photographer",
   "url": "https://www.samanthahainesphotography.com/about",
-  "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80",
+  "image": "https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg",
   "worksFor": { "@type": "LocalBusiness", "name": "Samantha Haines Photography" },
   "knowsAbout": [
     "Boudoir Photography",
@@ -68,7 +68,7 @@ export default function AboutPage() {
         <section className="relative h-[70vh] flex items-end pb-20 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1400&q=80"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg"
               alt="Samantha Haines — Austin portrait photographer"
               fill
               priority
@@ -107,7 +107,7 @@ export default function AboutPage() {
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="relative h-[500px]">
               <Image
-                src="https://images.unsplash.com/photo-1511895426328-dc8714191011?w=800&q=80"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364397/shp/family/shp/family/hero.jpg"
                 alt="Samantha with her family in Austin Texas"
                 fill
                 className="object-cover"

@@ -7,26 +7,26 @@ import CTAButton from "@/components/ui/CTAButton";
 import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
 
 export const metadata: Metadata = {
-  title: "Maternity Photographer Austin TX",
+  title: "Maternity & Newborn Photographer Austin TX",
   description:
-    "Austin maternity photographer Samantha Haines captures your power, softness, and everything you are during pregnancy. Beautiful maternity portraits in Austin TX & Steiner Ranch.",
+    "Austin maternity and newborn photographer Samantha Haines captures the full journey — from pregnancy to those first fleeting days. Beautiful portraits in Austin TX & Steiner Ranch.",
   alternates: {
     canonical:
       "https://www.samanthahainesphotography.com/maternity-photographer-austin",
   },
   openGraph: {
-    title: "Maternity Photographer Austin TX",
+    title: "Maternity & Newborn Photographer Austin TX",
     description:
-      "Austin maternity photographer Samantha Haines captures your power, softness, and everything you are during pregnancy. Beautiful maternity portraits in Austin TX.",
+      "Austin maternity and newborn photographer Samantha Haines captures the full journey — from bump to baby. Beautiful portraits in Austin TX & Steiner Ranch.",
     url: "https://www.samanthahainesphotography.com/maternity-photographer-austin",
-    images: [{ url: "https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?w=1200&q=80", width: 1200, height: 630, alt: "Maternity photographer Austin TX" }],
+    images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364379/shp/newborn/shp/newborn/hero.jpg", width: 1200, height: 630, alt: "Maternity and newborn photographer Austin TX" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Maternity Photographer Austin TX",
+    title: "Maternity & Newborn Photographer Austin TX",
     description:
-      "Austin maternity photographer Samantha Haines captures your power, softness, and everything you are during pregnancy.",
-    images: ["https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?w=1200&q=80"],
+      "Austin maternity and newborn photographer Samantha Haines. From pregnancy to those first fleeting days.",
+    images: ["https://res.cloudinary.com/du67vy39a/image/upload/v1775364379/shp/newborn/shp/newborn/hero.jpg"],
   },
 };
 
@@ -44,10 +44,18 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What should I wear for my maternity session?",
+      name: "When should I book my newborn session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha provides a full wardrobe and styling guide before your session. She has a curated collection of gowns, wraps, and pieces designed to photograph beautifully and celebrate the pregnant form.",
+        text: "Samantha recommends booking during your second trimester. The ideal window for newborn sessions is within the first 5–14 days after birth, when babies are most sleepy and flexible. Booking early ensures your spot is reserved for your due date.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I book maternity and newborn together?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes — and most clients do. Booking both together creates a continuous story of this entire chapter of your life, from pregnancy through those first fleeting days. Samantha plans both sessions together so the images feel cohesive.",
       },
     },
     {
@@ -55,15 +63,31 @@ const faqSchema = {
       name: "Is hair and makeup included?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Professional hair and makeup are included with every maternity session — so you can focus entirely on enjoying the experience.",
+        text: "Yes. Professional hair and makeup are included with every maternity session — so you can focus entirely on enjoying the experience. For newborn sessions, styling guidance is provided for parents.",
       },
     },
     {
       "@type": "Question",
-      name: "Can my partner and other children be included?",
+      name: "Can my partner, other children, and family be included?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely. Partner and sibling frames are a beautiful addition to maternity sessions. Samantha plans time for these within every session.",
+        text: "Absolutely. Partner and sibling frames are a beautiful addition to both maternity and newborn sessions. Samantha plans time for these within every session.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is the studio safe and warm for my newborn?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Absolutely. Samantha keeps the studio warm, clean, and calm. Every prop and wrap is sanitized. Your baby's comfort and safety are the highest priority throughout the entire session.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How long do sessions take?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Both maternity and newborn sessions are designed to be relaxed and unhurried. Newborn sessions typically run 2–4 hours with time built in for feeding and settling. Maternity sessions take however long it takes to do justice to this season of your life.",
       },
     },
     {
@@ -74,67 +98,46 @@ const faqSchema = {
         text: "Sessions are held at outdoor locations throughout Austin or in Samantha's private studio — depending on your vision. Location is discussed and chosen during your consultation.",
       },
     },
-    {
-      "@type": "Question",
-      name: "Do I need to be in shape or look a certain way for maternity photos?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Not at all. These sessions are about celebrating exactly who you are right now — the power, the softness, the strength of pregnancy at every size and stage. Samantha photographs every woman beautifully.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Can I pair maternity and newborn sessions?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes — Samantha offers maternity and newborn sessions that tell a continuous story. Booking both together creates a beautiful documentation of this entire chapter.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How long does a maternity session take?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Maternity sessions are designed to be relaxed and unhurried. Samantha builds in time for multiple looks, locations, and moments — however long it takes to do justice to this season of your life.",
-      },
-    },
   ],
 };
 
-const galleryImages = [
+const maternityImages = [
   {
-    src: "https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364384/shp/newborn/shp/newborn/gallery-1.jpg",
     alt: "Maternity photographer Austin TX",
   },
   {
-    src: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=800&q=80",
-    alt: "Maternity portrait session Austin",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364383/shp/newborn/shp/newborn/experience.jpg",
     alt: "Pregnancy photography Austin Texas",
   },
   {
-    src: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364389/shp/newborn/shp/newborn/gallery-3.jpg",
     alt: "Outdoor maternity photos Austin TX",
   },
+];
+
+const newbornImages = [
   {
-    src: "https://images.unsplash.com/photo-1536015640197-b53f9f6fd8e3?w=800&q=80",
-    alt: "Maternity photography golden hour Austin",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364391/shp/newborn/shp/newborn/gallery-4.jpg",
+    alt: "Newborn photographer Austin TX",
   },
   {
-    src: "https://images.unsplash.com/photo-1510474071012-67b0a0a4da70?w=800&q=80",
-    alt: "Maternity portraits Steiner Ranch Austin",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364393/shp/newborn/shp/newborn/gallery-5.jpg",
+    alt: "Newborn portrait session Austin",
+  },
+  {
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364395/shp/newborn/shp/newborn/gallery-6.jpg",
+    alt: "Newborn photos Austin TX",
   },
 ];
 
 const relatedServices = [
-  { href: "/newborn-photographer-austin", label: "Newborn" },
   { href: "/family-photographer-austin", label: "Family" },
   { href: "/boudoir-photographer-austin", label: "Boudoir" },
+  { href: "/headshots-austin", label: "Headshots" },
 ];
 
-export default function MaternityPage() {
+export default function MaternityNewbornPage() {
   return (
     <>
       <script
@@ -147,8 +150,8 @@ export default function MaternityPage() {
         <section className="relative min-h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?w=1800&q=80"
-              alt="Maternity photographer Austin TX — Samantha Haines Photography"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364379/shp/newborn/shp/newborn/hero.jpg"
+              alt="Maternity and newborn photographer Austin TX — Samantha Haines Photography"
               fill
               priority
               className="object-cover opacity-50"
@@ -156,25 +159,24 @@ export default function MaternityPage() {
           </div>
           <div className="relative max-w-5xl mx-auto w-full">
             <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6">
-              Maternity · Austin, Texas
+              Maternity & Newborn · Austin, Texas
             </p>
             <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 italic">
-              Power. Softness. Everything you are.
+              From bump to baby.
             </h1>
             <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10">
-              Pregnancy is one of the most extraordinary seasons of your life.
-              It deserves to be documented with the same artistry and intention as everything else you are.
+              Pregnancy is extraordinary. And those first days with your newborn — the weight of them, the smell, the way they curl into you — are here for only the briefest window. Both deserve to be documented beautifully.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
           </div>
         </section>
 
-        {/* The Experience */}
+        {/* Maternity Section */}
         <section className="py-24 px-6 bg-[#faf9f7]">
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="relative h-[550px]">
               <Image
-                src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=800&q=80"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364383/shp/newborn/shp/newborn/experience.jpg"
                 alt="Maternity session experience Austin TX"
                 fill
                 className="object-cover"
@@ -182,43 +184,35 @@ export default function MaternityPage() {
             </div>
             <div>
               <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-6">
-                The Experience
+                Maternity
               </p>
               <h2 className="font-serif text-5xl text-[#1a1a1a] leading-tight mb-8 italic">
                 Celebrated. Seen. Extraordinary.
               </h2>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                Samantha approaches maternity sessions with the same reverence she brings to
-                every session — as a celebration of who you are, not just how you look.
-                The strength, the tenderness, the anticipation — all of it is worth capturing.
-              </p>
-              <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                She guides you through every moment, every pose, every frame — so your
-                only job is to arrive and breathe it in. Wardrobe is thoughtfully planned.
-                Hair and makeup are included. Partners and older children are welcomed.
+                Samantha approaches maternity sessions as a celebration of who you are right now — the strength, the tenderness, the anticipation. She guides you through every moment so your only job is to arrive and breathe it in.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-                The result is a collection of images that will remind you, years from now,
-                of exactly how powerful and beautiful you were in this season.
+                Wardrobe is thoughtfully planned. Hair and makeup are included. Partners and older children are welcomed. The result is a collection of images that will remind you, years from now, of exactly how powerful and beautiful you were in this season.
               </p>
             </div>
           </div>
         </section>
 
-        {/* Gallery */}
-        <section className="py-24 px-6 bg-[#f5f0ea]">
+        {/* Maternity Gallery */}
+        <section className="py-16 px-6 bg-[#f5f0ea]">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-16">
+            <div className="text-center mb-12">
               <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-4">
-                The Work
+                Maternity
               </p>
-              <h2 className="font-serif text-5xl text-[#1a1a1a]">
+              <h2 className="font-serif text-4xl text-[#1a1a1a]">
                 A season worth remembering.
               </h2>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              {galleryImages.map((img, i) => (
-                <div key={i} className="relative h-64 md:h-80 overflow-hidden">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {maternityImages.map((img, i) => (
+                <div key={i} className="relative h-80 overflow-hidden">
                   <Image
                     src={img.src}
                     alt={img.alt}
@@ -231,14 +225,86 @@ export default function MaternityPage() {
           </div>
         </section>
 
+        {/* Newborn Section */}
+        <section className="py-24 px-6 bg-[#faf9f7]">
+          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div>
+              <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-6">
+                Newborn
+              </p>
+              <h2 className="font-serif text-5xl text-[#1a1a1a] leading-tight mb-8 italic">
+                Gentle. Unhurried. Yours.
+              </h2>
+              <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
+                Samantha creates a calm, warm environment where your baby is always safe, always comfortable, and always the priority. There&rsquo;s no rush — sessions are built around your baby&rsquo;s needs, with time for feeding, settling, and those in-between moments that become the most treasured images.
+              </p>
+              <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
+                Siblings and parents are welcomed. These are family portraits as much as they are newborn portraits — the beginning of a story that will span a lifetime.
+              </p>
+            </div>
+            <div className="relative h-[550px]">
+              <Image
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364393/shp/newborn/shp/newborn/gallery-5.jpg"
+                alt="Newborn session experience Austin TX"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* Newborn Gallery */}
+        <section className="py-16 px-6 bg-[#f5f0ea]">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+              <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-4">
+                Newborn
+              </p>
+              <h2 className="font-serif text-4xl text-[#1a1a1a]">
+                The smallest moments. The biggest love.
+              </h2>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {newbornImages.map((img, i) => (
+                <div key={i} className="relative h-80 overflow-hidden">
+                  <Image
+                    src={img.src}
+                    alt={img.alt}
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Book Together CTA */}
+        <section className="py-20 px-6 bg-[#1a1a1a]">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#c9b99a] mb-6">
+              Document the Full Chapter
+            </p>
+            <h2 className="font-serif text-5xl text-[#faf9f7] mb-6 italic leading-tight">
+              Most clients book both together.
+            </h2>
+            <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-10">
+              When you book maternity and newborn sessions together, Samantha plans them as one continuous story — cohesive, intentional, and complete. From the final weeks of pregnancy to those first fleeting days.
+            </p>
+            <CTAButton size="lg" variant="secondary">
+              Start the Conversation
+            </CTAButton>
+          </div>
+        </section>
+
         {/* What's Always Included */}
-        <section className="py-24 px-6 bg-[#1a1a1a]">
+        <section className="py-24 px-6 bg-[#faf9f7]">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
-              <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#c9b99a] mb-4">
+              <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-4">
                 Every Session
               </p>
-              <h2 className="font-serif text-5xl text-[#faf9f7]">
+              <h2 className="font-serif text-5xl text-[#1a1a1a]">
                 What&rsquo;s always included.
               </h2>
             </div>
@@ -266,8 +332,8 @@ export default function MaternityPage() {
                 },
               ].map((item) => (
                 <div key={item.title}>
-                  <p className="text-[#c9b99a] text-xl mb-4">{item.icon}</p>
-                  <h3 className="font-serif text-xl text-[#faf9f7] mb-3">{item.title}</h3>
+                  <p className="text-[#8b6f5e] text-xl mb-4">{item.icon}</p>
+                  <h3 className="font-serif text-xl text-[#1a1a1a] mb-3">{item.title}</h3>
                   <p className="font-sans text-[13px] text-[#6b6b6b] leading-relaxed">
                     {item.desc}
                   </p>
@@ -281,7 +347,7 @@ export default function MaternityPage() {
         <HappinessGuarantee />
 
         {/* Testimonials */}
-        <section className="py-24 px-6 bg-[#faf9f7]">
+        <section className="py-24 px-6 bg-[#f5f0ea]">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
               <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-4">
@@ -298,11 +364,11 @@ export default function MaternityPage() {
                 },
                 {
                   quote:
-                    "These photos are some of the most treasured things I own. Samantha captured this season of life in a way I'll look back on forever with complete gratitude.",
-                  label: "Maternity Client",
+                    "We couldn't believe how calm and patient Samantha was. Our baby was fussy the whole time and somehow she still got the most beautiful, peaceful images we've ever seen.",
+                  label: "Newborn Client",
                 },
               ].map((t, i) => (
-                <div key={i} className="p-8 bg-[#f5f0ea]">
+                <div key={i} className="p-8 bg-[#faf9f7]">
                   <p className="font-serif text-xl text-[#1a1a1a] leading-relaxed italic mb-6">
                     &ldquo;{t.quote}&rdquo;
                   </p>
@@ -316,7 +382,7 @@ export default function MaternityPage() {
         </section>
 
         {/* FAQ */}
-        <section className="py-24 px-6 bg-[#f5f0ea]">
+        <section className="py-24 px-6 bg-[#faf9f7]">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-16">
               <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-4">
@@ -339,7 +405,7 @@ export default function MaternityPage() {
           </div>
         </section>
 
-        {/* CTA */}
+        {/* Final CTA */}
         <section className="py-24 px-6 bg-[#1a1a1a] text-center">
           <div className="max-w-2xl mx-auto">
             <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#c9b99a] mb-6">
@@ -349,8 +415,7 @@ export default function MaternityPage() {
               You deserve to be beautifully seen.
             </h2>
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-10">
-              Every session starts with a conversation. Reach out today and let&rsquo;s
-              plan something extraordinary for this extraordinary season.
+              Every session starts with a conversation. Samantha recommends booking during your second trimester to secure your spot for both sessions.
             </p>
             <CTAButton size="lg" variant="secondary">
               Start the Conversation

@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     description:
       "Austin senior portrait photographer Samantha Haines captures the chapter worth remembering. Stunning, editorial senior portraits that go far beyond the ordinary.",
     url: "https://www.samanthahainesphotography.com/senior-portrait-photographer-austin",
-    images: [{ url: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=1200&q=80", width: 1200, height: 630, alt: "Senior portrait photographer Austin TX" }],
+    images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364303/shp/senior/shp/senior/hero.jpg", width: 1200, height: 630, alt: "Senior portrait photographer Austin TX" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Senior Portrait Photographer Austin TX",
     description:
       "Austin senior portrait photographer Samantha Haines captures the chapter worth remembering.",
-    images: ["https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=1200&q=80"],
+    images: ["https://res.cloudinary.com/du67vy39a/image/upload/v1775364303/shp/senior/shp/senior/hero.jpg"],
   },
 };
 
@@ -103,27 +103,27 @@ const faqSchema = {
 
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364310/shp/senior/shp/senior/gallery-1.jpg",
     alt: "Senior portrait photographer Austin TX",
   },
   {
-    src: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364306/shp/senior/shp/senior/experience.jpg",
     alt: "High school senior portraits Austin",
   },
   {
-    src: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364325/shp/senior/shp/senior/gallery-3.jpg",
     alt: "Senior portrait session Austin Texas",
   },
   {
-    src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364330/shp/senior/shp/senior/gallery-4.jpg",
     alt: "Outdoor senior portraits Austin TX",
   },
   {
-    src: "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364334/shp/senior/shp/senior/gallery-5.jpg",
     alt: "Editorial senior portraits Austin",
   },
   {
-    src: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364338/shp/senior/shp/senior/gallery-6.jpg",
     alt: "Senior portrait photography Steiner Ranch Austin",
   },
 ];
@@ -147,7 +147,7 @@ export default function SeniorPortraitPage() {
         <section className="relative min-h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=1800&q=80"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364303/shp/senior/shp/senior/hero.jpg"
               alt="Senior portrait photographer Austin TX — Samantha Haines Photography"
               fill
               priority
@@ -174,7 +174,7 @@ export default function SeniorPortraitPage() {
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="relative h-[550px]">
               <Image
-                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&q=80"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364306/shp/senior/shp/senior/experience.jpg"
                 alt="Senior portrait experience Austin TX"
                 fill
                 className="object-cover"

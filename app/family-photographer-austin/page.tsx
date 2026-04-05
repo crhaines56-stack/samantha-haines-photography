@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     description:
       "Austin family photographer Samantha Haines captures this version of your family right now — genuine connection, real moments, and images you'll treasure forever.",
     url: "https://www.samanthahainesphotography.com/family-photographer-austin",
-    images: [{ url: "https://images.unsplash.com/photo-1511895426328-dc8714191011?w=1200&q=80", width: 1200, height: 630, alt: "Family photographer Austin TX" }],
+    images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364397/shp/family/shp/family/hero.jpg", width: 1200, height: 630, alt: "Family photographer Austin TX" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Family Photographer Austin TX",
     description:
       "Austin family photographer Samantha Haines captures genuine connection and real moments. Serving Steiner Ranch & Austin TX.",
-    images: ["https://images.unsplash.com/photo-1511895426328-dc8714191011?w=1200&q=80"],
+    images: ["https://res.cloudinary.com/du67vy39a/image/upload/v1775364397/shp/family/shp/family/hero.jpg"],
   },
 };
 
@@ -103,27 +103,27 @@ const faqSchema = {
 
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1511895426328-dc8714191011?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364401/shp/family/shp/family/gallery-1.jpg",
     alt: "Family photography Austin TX",
   },
   {
-    src: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364403/shp/family/shp/family/gallery-2.jpg",
     alt: "Austin family portrait session",
   },
   {
-    src: "https://images.unsplash.com/photo-1542315192-1f61a1792f33?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364399/shp/family/shp/family/experience.jpg",
     alt: "Outdoor family photos Austin Texas",
   },
   {
-    src: "https://images.unsplash.com/photo-1604931374888-9d8c3b8e5b4a?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364407/shp/family/shp/family/gallery-4.jpg",
     alt: "Family session Steiner Ranch Austin",
   },
   {
-    src: "https://images.unsplash.com/photo-1609220136736-443140cfeaa0?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364409/shp/family/shp/family/gallery-5.jpg",
     alt: "Candid family portraits Austin TX",
   },
   {
-    src: "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=800&q=80",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364411/shp/family/shp/family/gallery-6.jpg",
     alt: "Family photography golden hour Austin",
   },
 ];
@@ -147,7 +147,7 @@ export default function FamilyPage() {
         <section className="relative min-h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://images.unsplash.com/photo-1511895426328-dc8714191011?w=1800&q=80"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364397/shp/family/shp/family/hero.jpg"
               alt="Family photographer Austin TX — Samantha Haines Photography"
               fill
               priority
@@ -196,7 +196,7 @@ export default function FamilyPage() {
             </div>
             <div className="relative h-[550px]">
               <Image
-                src="https://images.unsplash.com/photo-1542315192-1f61a1792f33?w=800&q=80"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364399/shp/family/shp/family/experience.jpg"
                 alt="Family session experience Austin TX"
                 fill
                 className="object-cover"
