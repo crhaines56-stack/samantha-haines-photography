@@ -14,9 +14,14 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    // Use verified domain if available, fall back to resend.dev until DNS is live
+    const fromDomain = process.env.EMAIL_DOMAIN_VERIFIED === "true"
+      ? "noreply@samanthahainesphotography.com"
+      : "onboarding@resend.dev";
+
     await resend.emails.send({
-      from: "Samantha Haines Photography <noreply@samanthahainesphotography.com>",
-      to: "samantha@samanthahainesphotography.com",
+      from: `Samantha Haines Photography <${fromDomain}>`,
+      to: process.env.CONTACT_EMAIL || "crhaines56@gmail.com",
       replyTo: email,
       subject: `New inquiry from ${name} — ${service || "General"}`,
       html: `
