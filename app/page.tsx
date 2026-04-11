@@ -9,7 +9,7 @@ import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
 export const metadata: Metadata = {
   title: "Samantha Haines Photography | Austin, TX Portrait Photographer",
   description:
-    "Austin's premier portrait photographer. Boudoir, senior portraits, family, newborn, maternity & headshots in Austin, TX. Serving Steiner Ranch, Westlake, Cedar Park & surrounding areas.",
+    "Austin's premier portrait photographer. Boudoir, senior portraits, family, maternity, newborn & headshots in Austin, TX. Serving Steiner Ranch, Westlake, Cedar Park & surrounding areas.",
   alternates: { canonical: "https://www.samanthahainesphotography.com" },
 };
 
@@ -33,16 +33,16 @@ const services = [
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364370/shp/homepage/shp/homepage/service-family.jpg",
   },
   {
-    href: "/newborn-photographer-austin",
-    title: "Newborn",
-    description: "The days that feel like forever and a flash.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg",
+    href: "/maternity-newborn-photographer-austin",
+    title: "Maternity + Newborn",
+    description: "Every chapter of new life, beautifully documented.",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364377/shp/homepage/shp/homepage/service-maternity.jpg",
   },
   {
-    href: "/maternity-photographer-austin",
-    title: "Maternity",
-    description: "Power. Softness. Everything you are.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364377/shp/homepage/shp/homepage/service-maternity.jpg",
+    href: "/corporate-events-photographer-austin",
+    title: "Corporate Events",
+    description: "Conferences, team days, and brand moments — captured with intention.",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364372/shp/homepage/shp/homepage/service-headshots.jpg",
   },
   {
     href: "/headshots-branding-photographer-austin",
