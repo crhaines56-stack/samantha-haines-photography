@@ -15,6 +15,12 @@ export const metadata: Metadata = {
 
 const services = [
   {
+    href: "/vue-studio",
+    title: "Vue Studio",
+    description: "Austin's only private luxury boudoir studio. 8 sets. Yours alone.",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364364/shp/homepage/shp/homepage/service-boudoir.jpg",
+  },
+  {
     href: "/boudoir-photographer-austin",
     title: "Boudoir",
     description: "A slow reveal of every facet of you.",
@@ -166,6 +172,61 @@ export default function HomePage() {
         </section>
 
         {/* What's Always Included */}
+        
+        {/* Vue Studio — Private Luxury Boudoir Studio Feature */}
+        <section className="py-24 px-6 bg-[#1a1a1a]">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <div>
+                <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#c9b99a] mb-6">
+                  Vue Studio Austin
+                </p>
+                <h2 className="font-serif text-5xl md:text-6xl text-[#faf9f7] italic leading-tight mb-8">
+                  A private studio.<br />Built for you.
+                </h2>
+                <p className="font-sans text-[15px] text-[#a0a0a0] leading-relaxed mb-6">
+                  Most photographers rent space. Samantha built hers. Vue Studio is a 2,500 sq ft private luxury portrait studio in Austin. 8 fully furnished sets, motorized backdrops, and a dedicated hair and makeup suite. When you book a session, the entire space is yours.
+                </p>
+                <p className="font-sans text-[15px] text-[#a0a0a0] leading-relaxed mb-10">
+                  No shared hallways. No strangers. No compromises. Just privacy, intention, and the kind of space that makes every woman feel exactly as she should: like the only person in the room.
+                </p>
+                <a
+                  href="/vue-studio"
+                  className="font-sans text-[12px] tracking-[0.2em] uppercase text-[#c9b99a] hover:text-[#faf9f7] transition-colors border-b border-[#c9b99a] pb-1"
+                >
+                  Tour the Studio &rarr;
+                </a>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="space-y-4">
+                  <div className="bg-[#222] p-6 rounded-sm">
+                    <p className="font-serif text-3xl text-[#c9b99a] mb-2">8</p>
+                    <p className="font-sans text-[12px] tracking-[0.1em] uppercase text-[#faf9f7] mb-1">Sets</p>
+                    <p className="font-sans text-[12px] text-[#6b6b6b]">Each fully furnished, distinctly styled</p>
+                  </div>
+                  <div className="bg-[#222] p-6 rounded-sm">
+                    <p className="font-serif text-3xl text-[#c9b99a] mb-2">100%</p>
+                    <p className="font-sans text-[12px] tracking-[0.1em] uppercase text-[#faf9f7] mb-1">Private</p>
+                    <p className="font-sans text-[12px] text-[#6b6b6b]">The entire studio is yours, every session</p>
+                  </div>
+                </div>
+                <div className="space-y-4 pt-8">
+                  <div className="bg-[#222] p-6 rounded-sm">
+                    <p className="font-serif text-3xl text-[#c9b99a] mb-2">2,500</p>
+                    <p className="font-sans text-[12px] tracking-[0.1em] uppercase text-[#faf9f7] mb-1">Sq Ft</p>
+                    <p className="font-sans text-[12px] text-[#6b6b6b]">Room to breathe, move, and feel like yourself</p>
+                  </div>
+                  <div className="bg-[#222] p-6 rounded-sm">
+                    <p className="font-serif text-3xl text-[#c9b99a] mb-2">1</p>
+                    <p className="font-sans text-[12px] tracking-[0.1em] uppercase text-[#faf9f7] mb-1">Client at a time</p>
+                    <p className="font-sans text-[12px] text-[#6b6b6b]">No overlapping sessions. Ever.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="py-24 px-6 bg-[#1a1a1a] text-[#faf9f7]">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
