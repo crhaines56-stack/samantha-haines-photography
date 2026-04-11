@@ -294,7 +294,7 @@ export default function HomePage() {
               5-star rated on Google.
             </p>
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-6 max-w-xl mx-auto">
-              Don't take our word for it. Read what Austin women are saying about their experience.
+              Don&apos;t take our word for it. Read what Austin women are saying about their experience.
             </p>
             <a
               href="https://share.google/RattRFsVNZ7AkcM3F"
