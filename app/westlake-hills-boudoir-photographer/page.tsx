@@ -7,27 +7,69 @@ import CTAButton from "@/components/ui/CTAButton";
 import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
 
 export const metadata: Metadata = {
-  title: "Boudoir Photographer Austin TX | Samantha Haines Photography",
+  title: "Westlake Hills Boudoir Photographer | Samantha Haines Photography",
   description:
-    "Austin boudoir photography by Samantha Haines. A slow reveal of every facet of you — hair & makeup included, fully private, designed for every woman at every stage.",
+    "Boudoir photographer serving Westlake Hills, TX. Luxury, empowering portraits at Vue Studio Austin — hair & makeup included, fully private, designed for every woman.",
   alternates: {
     canonical:
-      "https://www.samanthahainesphotography.com/boudoir-photographer-austin",
+      "https://www.samanthahainesphotography.com/westlake-hills-boudoir-photographer",
   },
   openGraph: {
-    title: "Boudoir Photographer Austin TX",
+    title: "Westlake Hills Boudoir Photographer | Samantha Haines Photography",
     description:
-      "Austin boudoir photography by Samantha Haines. A slow reveal of every facet of you — hair & makeup included, fully private, designed for every woman at every stage.",
-    url: "https://www.samanthahainesphotography.com/boudoir-photographer-austin",
-    images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg", width: 1200, height: 630, alt: "Boudoir photographer Austin TX" }],
+      "Boudoir photographer serving Westlake Hills, TX. Luxury, empowering portraits at Vue Studio Austin — hair & makeup included, fully private, designed for every woman.",
+    url: "https://www.samanthahainesphotography.com/westlake-hills-boudoir-photographer",
+    images: [
+      {
+        url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Westlake Hills boudoir photographer — Samantha Haines Photography",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Boudoir Photographer Austin TX",
+    title: "Westlake Hills Boudoir Photographer | Samantha Haines Photography",
     description:
-      "Austin boudoir photography by Samantha Haines. Hair & makeup included, fully private.",
-    images: ["https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg"],
+      "Luxury boudoir photography for Westlake Hills women. Hair & makeup included, fully private. Vue Studio Austin.",
+    images: [
+      "https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg",
+    ],
   },
+};
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Samantha Haines Photography",
+  image:
+    "https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg",
+  url: "https://www.samanthahainesphotography.com/westlake-hills-boudoir-photographer",
+  description:
+    "Luxury boudoir photographer serving Westlake Hills TX and surrounding Austin communities including Rollingwood, Bee Cave, and Barton Creek.",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "2302 Jacks Pass",
+    addressLocality: "Austin",
+    addressRegion: "TX",
+    postalCode: "78745",
+    addressCountry: "US",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 30.2672,
+    longitude: -97.7431,
+  },
+  areaServed: [
+    "Westlake Hills",
+    "West Lake Hills",
+    "Rollingwood",
+    "Bee Cave",
+    "Barton Creek",
+    "Austin",
+  ],
+  priceRange: "$$$",
 };
 
 const faqSchema = {
@@ -36,18 +78,26 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Do I have to be a certain size or age to do a boudoir session?",
+      name: "Where is your boudoir studio located for Westlake Hills clients?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely not. Samantha has photographed women from their 20s to their 60s — at every size, every stage, every season of life. Every woman deserves to feel beautifully seen.",
+        text: "Samantha photographs at Vue Studio Austin, located at 2302 Jacks Pass, Austin, TX — just minutes from Westlake Hills and the surrounding communities of Rollingwood, Bee Cave, and Barton Creek. It is one of the closest luxury portrait studios to Westlake Hills.",
       },
     },
     {
       "@type": "Question",
-      name: "Is hair and makeup included?",
+      name: "Do I have to be a certain size or age for a boudoir session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Professional hair and makeup are included with every boudoir session. You arrive and Samantha's team takes care of the rest.",
+        text: "Absolutely not. Samantha has photographed women from their 20s to their 60s — at every size, every stage, every season of life. Every woman deserves to feel beautifully seen, and that is exactly what happens in a session with Samantha.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is hair and makeup included with my boudoir session?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes — professional hair and makeup are included with every boudoir session. You arrive, and Samantha's team takes care of the rest. There is nothing for you to worry about.",
       },
     },
     {
@@ -60,42 +110,18 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What should I bring to my boudoir session?",
+      name: "How far is Vue Studio from Westlake Hills TX?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha provides wardrobe guidance during your consultation so you know exactly what to bring. She'll walk you through outfit options, styling tips, and everything you need to feel prepared and confident.",
+        text: "Vue Studio Austin is typically a 10–15 minute drive from Westlake Hills, TX, making it one of the most convenient luxury boudoir studios for women in the Westlake Hills, Rollingwood, and Barton Creek areas.",
       },
     },
     {
       "@type": "Question",
-      name: "How long does a boudoir session take?",
+      name: "What if I have never done anything like this before?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Sessions are unhurried. You'll have time for multiple outfits, multiple moods, and multiple moments. The goal is a complete, layered collection — not a rushed shoot.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Where is the session held?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Boudoir sessions are held at Samantha's private studio in Austin, TX. The environment is comfortable, welcoming, and completely private.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What if I'm nervous?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "That's completely normal — most women are. Samantha guides you through every single moment. Your only job is to show up. She handles the rest.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What do I receive after my session?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "After your session, you'll receive a curated gallery of beautifully edited images. These are pieces of art — made to live on your walls and remind you, on any given day, exactly how extraordinary you are.",
+        text: "Most women who book a boudoir session with Samantha have never done anything like it before. That is completely normal. Samantha guides you through every single moment — her direction, warmth, and expertise mean you will feel confident and at ease from the moment you arrive.",
       },
     },
   ],
@@ -104,39 +130,43 @@ const faqSchema = {
 const galleryImages = [
   {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364251/shp/boudoir/shp/boudoir/gallery-1.jpg",
-    alt: "Boudoir photography Austin TX",
+    alt: "Westlake Hills boudoir photography — Samantha Haines",
   },
   {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364241/shp/boudoir/shp/boudoir/experience.jpg",
-    alt: "Elegant boudoir portrait Austin",
+    alt: "Elegant boudoir portrait near Westlake Hills TX",
   },
   {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364267/shp/boudoir/shp/boudoir/gallery-3.jpg",
-    alt: "Artistic boudoir session Austin Texas",
+    alt: "Luxury boudoir session Austin Texas",
   },
   {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364286/shp/boudoir/shp/boudoir/gallery-4.jpg",
-    alt: "Intimate portrait photography Austin",
+    alt: "Intimate boudoir portrait Westlake Hills photographer",
   },
   {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364293/shp/boudoir/shp/boudoir/gallery-5.jpg",
-    alt: "Boudoir photography Steiner Ranch Austin",
+    alt: "Empowering boudoir photography near Bee Cave TX",
   },
   {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364299/shp/boudoir/shp/boudoir/gallery-6.jpg",
-    alt: "Empowerment portrait session Austin TX",
+    alt: "Confidence portrait session Austin TX boudoir",
   },
 ];
 
-const relatedServices = [
-  { href: "/family-photographer-austin", label: "Family" },
-  { href: "/senior-portrait-photographer-austin", label: "Senior Portraits" },
-  { href: "/headshots-branding-photographer-austin", label: "Headshots & Branding" },
+const relatedLocations = [
+  { href: "/westlake-photographer", label: "Westlake Photographer" },
+  { href: "/boudoir-photographer-austin", label: "Boudoir Austin" },
+  { href: "/dripping-springs-photographer", label: "Dripping Springs" },
 ];
 
-export default function BoudoirPage() {
+export default function WestlakeHillsBoudoirPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
@@ -148,7 +178,7 @@ export default function BoudoirPage() {
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg"
-              alt="Boudoir photographer Austin TX — Samantha Haines Photography"
+              alt="Westlake Hills boudoir photographer — Samantha Haines Photography"
               fill
               priority
               className="object-cover"
@@ -156,19 +186,19 @@ export default function BoudoirPage() {
           </div>
           <div className="relative max-w-5xl mx-auto w-full">
             <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6">
-              Boudoir · Austin, Texas
+              Boudoir · Westlake Hills, Texas
             </p>
             <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 italic">
-              How do you capture all the facets of you?
+              Westlake Hills Boudoir Photographer
             </h1>
             <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10">
-              A session with Samantha is a slow reveal — different outfits, different moods,
-              every side of who you are. The result is a collection of images that&rsquo;s as
-              layered and complex as you are.
+              Luxury boudoir photography for the women of Westlake Hills, Rollingwood, Bee
+              Cave, and Barton Creek — at Vue Studio Austin, minutes from your door.
+              A slow reveal of every facet of you. Hair &amp; makeup included.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
             <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase">
-              Now booking April &amp; May sessions
+              Now booking — limited sessions available
             </p>
           </div>
         </section>
@@ -176,14 +206,30 @@ export default function BoudoirPage() {
         {/* Happiness Guarantee */}
         <HappinessGuarantee />
 
-        {/* Hook */}
+        {/* Intro / Location Copy */}
         <section className="py-24 px-6 bg-[#faf9f7]">
           <div className="max-w-3xl mx-auto text-center">
-            <p className="font-serif text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed italic">
-              &ldquo;Most women who book a boudoir session will tell you the same thing afterward:
-              &lsquo;I almost didn&rsquo;t do it.&rsquo; They weren&rsquo;t sure they were ready.
-              They weren&rsquo;t sure they were the right size, age, or type. They weren&rsquo;t
-              sure what to expect walking through the door. And then they saw their photos.&rdquo;
+            <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-6">
+              Your Westlake Hills Boudoir Photographer
+            </p>
+            <h2 className="font-serif text-4xl text-[#1a1a1a] mb-8 italic leading-snug">
+              Westlake Hills women deserve more than a photoshoot. They deserve an experience.
+            </h2>
+            <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
+              Westlake Hills is one of Austin&rsquo;s most refined communities. The women here
+              know quality. They know the difference between something ordinary and something
+              extraordinary. Samantha Haines Photography was built for exactly that standard.
+            </p>
+            <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
+              At Vue Studio Austin &mdash; Samantha&rsquo;s private, fully equipped studio &mdash;
+              every boudoir session is an unhurried, deeply personal experience. Different
+              outfits. Different moods. Every side of who you are, captured in images so
+              carefully crafted they belong on your walls as pieces of art.
+            </p>
+            <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
+              Whether you&rsquo;re in Westlake Hills, Rollingwood, West Lake Hills, Bee Cave, or
+              Barton Creek &mdash; Vue Studio is just minutes away, and the experience is unlike
+              anything else in Austin.
             </p>
           </div>
         </section>
@@ -199,25 +245,26 @@ export default function BoudoirPage() {
                 A slow reveal.
               </h2>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                You&rsquo;ll arrive as one version of yourself — and through different outfits,
+                You&rsquo;ll arrive as one version of yourself &mdash; and through different outfits,
                 different moods, and different moments, the full range of who you are gets to
                 exist in front of the lens.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                Every session is different because every woman is different. Whether you want
-                stunning and artistic, sensual and confident, or something entirely your own —
-                Samantha works with you to create exactly that. There is no formula. There is
-                no judgment. There is only you, beautifully seen.
+                Samantha works with every woman differently because every woman is different.
+                Whether you want something stunning and editorial, deeply intimate, or entirely
+                your own &mdash; she creates exactly that. No formula. No judgment. Just you,
+                beautifully seen.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-                Hair and makeup are included. Wardrobe guidance is included. And Samantha
-                guides you through every single moment — so your only job is to show up.
+                Professional hair and makeup are always included. Wardrobe guidance is
+                always provided. And Samantha guides you through every single moment &mdash; so
+                your only job is to show up.
               </p>
             </div>
             <div className="relative h-[600px]">
               <Image
                 src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364241/shp/boudoir/shp/boudoir/experience.jpg"
-                alt="Boudoir session experience Austin TX"
+                alt="Boudoir session experience near Westlake Hills TX"
                 fill
                 className="object-cover"
               />
@@ -225,8 +272,20 @@ export default function BoudoirPage() {
           </div>
         </section>
 
-        {/* Gallery */}
+        {/* Hook Quote */}
         <section className="py-24 px-6 bg-[#faf9f7]">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="font-serif text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed italic">
+              &ldquo;Most women who book a boudoir session will tell you the same thing afterward:
+              &lsquo;I almost didn&rsquo;t do it.&rsquo; They weren&rsquo;t sure they were ready.
+              They weren&rsquo;t sure they were the right size, age, or type. And then they saw
+              their photos.&rdquo;
+            </p>
+          </div>
+        </section>
+
+        {/* Gallery */}
+        <section className="py-24 px-6 bg-[#f5f0ea]">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
               <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-4">
@@ -297,6 +356,28 @@ export default function BoudoirPage() {
           </div>
         </section>
 
+        {/* Vue Studio / Location */}
+        <section className="py-24 px-6 bg-[#faf9f7]">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-6">
+              Vue Studio Austin
+            </p>
+            <h2 className="font-serif text-4xl text-[#1a1a1a] mb-8 italic leading-snug">
+              Minutes from Westlake Hills. A world apart.
+            </h2>
+            <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
+              Vue Studio Austin is Samantha&rsquo;s private, fully equipped studio located at
+              2302 Jacks Pass, Austin, TX. It is intentionally designed to feel like a sanctuary
+              &mdash; comfortable, welcoming, completely private, and stocked with everything
+              you need for a flawless session.
+            </p>
+            <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
+              For women coming from Westlake Hills, Rollingwood, West Lake Hills, Bee Cave,
+              or Barton Creek, the drive is short. The experience is anything but.
+            </p>
+          </div>
+        </section>
+
         {/* Privacy */}
         <section className="py-20 px-6 bg-[#f5f0ea]">
           <div className="max-w-3xl mx-auto text-center">
@@ -330,51 +411,6 @@ export default function BoudoirPage() {
               your walls and remind you, on any given day, exactly how extraordinary you are.&rdquo;
             </p>
             <p className="font-sans text-[14px] text-[#8b6f5e] tracking-widest mt-8">— Samantha</p>
-          </div>
-        </section>
-
-        {/* Outdoor / Hill Country Boudoir */}
-        <section className="py-24 px-6 bg-[#faf9f7]">
-          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-            <div className="relative h-[500px] order-last md:order-first">
-              <Image
-                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364251/shp/boudoir/shp/boudoir/gallery-1.jpg"
-                alt="Outdoor Hill Country boudoir photography Austin TX"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div>
-              <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-6">
-                A First in Austin
-              </p>
-              <h2 className="font-serif text-5xl text-[#1a1a1a] leading-tight mb-8 italic">
-                Wild &amp; free — boudoir in the Hill Country.
-              </h2>
-              <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                Nobody else in Austin is doing this. Samantha is bringing boudoir photography
-                out of the studio and into the breathtaking landscape of the Austin Hill Country
-                &mdash; and the results are unlike anything you&rsquo;ve seen before.
-              </p>
-              <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                Imagine standing at the edge of Barton Creek Greenbelt at golden hour, the
-                Texas limestone warm beneath your feet. Or the still expanse of Lake Travis
-                at dusk, light spilling across the water in shades of copper and rose.
-                Or the ancient cedar formations of the Hill Country &mdash; wild, textured,
-                unapologetically yours.
-              </p>
-              <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                This is nature-empowered boudoir. It&rsquo;s feminine and fierce. It&rsquo;s
-                grounded in the raw beauty of this landscape and the even rawer beauty of the
-                woman standing in it. There&rsquo;s nothing staged about it &mdash; and that&rsquo;s
-                exactly the point.
-              </p>
-              <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-                Outdoor sessions are available by request and are planned with intention
-                &mdash; timing, light, and location all chosen to make every frame extraordinary.
-                If you&rsquo;ve ever wanted something truly one-of-a-kind, this is it.
-              </p>
-            </div>
           </div>
         </section>
 
@@ -448,7 +484,8 @@ export default function BoudoirPage() {
             </h2>
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-10">
               Every session starts with a conversation. There&rsquo;s no pressure, no
-              obligation — just Samantha, and you, talking about what this could look like.
+              obligation &mdash; just Samantha, and you, talking about what this could look like.
+              Westlake Hills women know quality. This is it.
             </p>
             <CTAButton size="lg" variant="secondary">
               Start the Conversation
@@ -456,14 +493,14 @@ export default function BoudoirPage() {
           </div>
         </section>
 
-        {/* Related Services */}
+        {/* Related Locations */}
         <section className="py-20 px-6 bg-[#faf9f7]">
           <div className="max-w-5xl mx-auto text-center">
             <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-10">
-              More From Samantha
+              Also Serving
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              {relatedServices.map((s) => (
+              {relatedLocations.map((s) => (
                 <Link
                   key={s.href}
                   href={s.href}
