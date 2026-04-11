@@ -113,10 +113,10 @@ export default function Footer() {
             </ul>
             {/* Phone. update with Samantha's real number before launch */}
             <a
-              href="tel:+15125550000"
+              href="tel:+18182570399"
               className="block font-sans text-[13px] text-[#6b6b6b] hover:text-[#faf9f7] transition-colors mb-4"
             >
-              (512) 555-0000
+              (818) 257-0399
             </a>
             <Link
               href="/contact"
