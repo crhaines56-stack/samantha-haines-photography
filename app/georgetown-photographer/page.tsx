@@ -24,7 +24,7 @@ const faqSchema = {
       name: "Do you photograph families in Georgetown?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes — Georgetown is a wonderful community full of families with rich stories to tell. Samantha loves serving Georgetown clients and capturing the warmth and character that makes this historic city so special.",
+        text: "Yes. Georgetown is a wonderful community full of families with rich stories to tell. Samantha loves serving Georgetown clients and capturing the warmth and character that makes this historic city so special.",
       },
     },
     {
@@ -32,7 +32,7 @@ const faqSchema = {
       name: "Where is your studio located?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX — approximately 35 minutes from Georgetown. The drive down I-35 is easy, and the experience waiting for you at the studio is absolutely worth it.",
+        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX. approximately 35 minutes from Georgetown. The drive down I-35 is easy, and the experience waiting for you at the studio is absolutely worth it.",
       },
     },
     {
@@ -40,7 +40,7 @@ const faqSchema = {
       name: "What's included in every session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Every session includes professional hair and makeup, a pre-shoot consultation, expert posing direction, and white-glove wall art installation assistance. The complete portrait experience — no surprises.",
+        text: "Every session includes professional hair and makeup, a pre-shoot consultation, expert posing direction, and white-glove wall art installation assistance. The complete portrait experience. no surprises.",
       },
     },
     {
@@ -48,7 +48,7 @@ const faqSchema = {
       name: "Do you travel to Georgetown for outdoor sessions?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes! Georgetown has beautiful outdoor settings — from the historic downtown square to the San Gabriel River park areas. Samantha is happy to travel to Georgetown for outdoor portrait sessions.",
+        text: "Yes! Georgetown has beautiful outdoor settings. from the historic downtown square to the San Gabriel River park areas. Samantha is happy to travel to Georgetown for outdoor portrait sessions.",
       },
     },
     {
@@ -74,7 +74,7 @@ const services = [
   { href: "/boudoir-photographer-austin", title: "Boudoir", desc: "Intimate, empowering portraits celebrating who you are right now.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364364/shp/homepage/shp/homepage/service-boudoir.jpg" },
   { href: "/family-photographer-austin", title: "Family", desc: "Genuine connection and real moments your family will treasure forever.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364370/shp/homepage/shp/homepage/service-family.jpg" },
   { href: "/senior-portrait-photographer-austin", title: "Senior Portraits", desc: "Confident, editorial senior portraits that reflect your personality.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364368/shp/homepage/shp/homepage/service-senior.jpg" },
-  { href: "/newborn-photographer-austin", title: "Newborn", desc: "Tiny details and pure wonder — captured in the first days of life.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg" },
+  { href: "/newborn-photographer-austin", title: "Newborn", desc: "Tiny details and pure wonder. captured in the first days of life.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg" },
   { href: "/maternity-photographer-austin", title: "Maternity", desc: "Powerful, beautiful portraits honoring this remarkable chapter.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364377/shp/homepage/shp/homepage/service-maternity.jpg" },
   { href: "/headshots-branding-photographer-austin", title: "Headshots & Branding", desc: "Professional images that tell your brand story with confidence.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364372/shp/homepage/shp/homepage/service-headshots.jpg" },
 ];
@@ -99,7 +99,7 @@ export default function GeorgetownPhotographerPage() {
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364384/shp/newborn/shp/newborn/gallery-1.jpg"
-              alt="Georgetown Photographer — Samantha Haines Photography"
+              alt="Georgetown Photographer. Samantha Haines Photography"
               fill
               priority
               className="object-cover"
@@ -110,10 +110,10 @@ export default function GeorgetownPhotographerPage() {
               Georgetown · Austin, Texas
             </p>
             <h1 className="font-serif text-6xl md:text-8xl text-[#faf9f7] leading-none mb-8 italic">
-              Georgetown Photographer — Samantha Haines
+              Georgetown Photographer. Samantha Haines
             </h1>
             <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10">
-              Portrait photography for Georgetown&rsquo;s families and women — honoring the historic
+              Portrait photography for Georgetown&rsquo;s families and women. honoring the historic
               charm and community spirit of one of Texas&rsquo;s most beloved cities.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
@@ -130,13 +130,13 @@ export default function GeorgetownPhotographerPage() {
               Georgetown&rsquo;s charm deserves portraits with the same character.
             </h2>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-4">
-              Georgetown is one of Texas&rsquo;s most charming cities — with its historic downtown, 
+              Georgetown is one of Texas&rsquo;s most charming cities. with its historic downtown, 
               growing family communities, and a spirit that&rsquo;s both proud and welcoming. Samantha Haines
               is proud to serve Georgetown families and women, creating portrait experiences that
               honor the depth and character of the people who call this city home.
             </p>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-              Vue Studio is 35 minutes from Georgetown — and Samantha is also happy to bring her
+              Vue Studio is 35 minutes from Georgetown. and Samantha is also happy to bring her
               artistry to Georgetown&rsquo;s beautiful outdoor settings for sessions closer to home.
             </p>
           </div>

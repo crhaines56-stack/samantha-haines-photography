@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description:
       "Austin newborn photographer capturing the first fleeting days of life. Safe, gentle, stunning studio sessions in Austin TX.",
     url: "https://www.samanthahainesphotography.com/newborn-photographer-austin",
-    images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364379/shp/newborn/shp/newborn/hero.jpg", width: 1200, height: 630, alt: "Newborn photographer Austin TX — Samantha Haines Photography" }],
+    images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364379/shp/newborn/shp/newborn/hero.jpg", width: 1200, height: 630, alt: "Newborn photographer Austin TX. Samantha Haines Photography" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -37,7 +37,7 @@ const faqSchema = {
       name: "When should I book my Austin newborn session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Book during your second trimester — ideally between weeks 20 and 28. Newborn sessions should happen within the first 5 to 14 days after birth, when babies are most sleepy and poseable. Booking early guarantees your spot is held for your due date window.",
+        text: "Book during your second trimester. ideally between weeks 20 and 28. Newborn sessions should happen within the first 5 to 14 days after birth, when babies are most sleepy and poseable. Booking early guarantees your spot is held for your due date window.",
       },
     },
     {
@@ -45,7 +45,7 @@ const faqSchema = {
       name: "Is the studio safe and warm enough for a newborn?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely. The studio is kept warm throughout every newborn session. All props, wraps, and surfaces are sanitized before each session. Your baby&apos;s safety and comfort are the highest priority — every setup and pose is done gently and carefully.",
+        text: "Absolutely. The studio is kept warm throughout every newborn session. All props, wraps, and surfaces are sanitized before each session. Your baby&apos;s safety and comfort are the highest priority. every setup and pose is done gently and carefully.",
       },
     },
     {
@@ -53,7 +53,7 @@ const faqSchema = {
       name: "How long does a newborn session take?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Newborn sessions are typically 2 to 4 hours. Time is built in for feeding, settling, soothing, and diaper changes — there's no rush. The session moves at your baby&apos;s pace entirely.",
+        text: "Newborn sessions are typically 2 to 4 hours. Time is built in for feeding, settling, soothing, and diaper changes. there's no rush. The session moves at your baby&apos;s pace entirely.",
       },
     },
     {
@@ -77,7 +77,7 @@ const faqSchema = {
       name: "What should we bring to the newborn session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Bring feeding supplies (bottle or breastfeeding), extra diapers, a pacifier if your baby uses one, and any meaningful items you'd like included — a family heirloom, a blanket with sentimental value, or a sibling's stuffed animal. Samantha provides all props, wraps, and backdrops.",
+        text: "Bring feeding supplies (bottle or breastfeeding), extra diapers, a pacifier if your baby uses one, and any meaningful items you'd like included. a family heirloom, a blanket with sentimental value, or a sibling's stuffed animal. Samantha provides all props, wraps, and backdrops.",
       },
     },
     {
@@ -85,7 +85,7 @@ const faqSchema = {
       name: "What if my baby is fussy or won't sleep during the session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "This is completely normal and expected. Samantha is experienced in soothing newborns and knows how to work with their natural rhythms. Sessions are never rushed — there's always time built in for feeding, settling, and breaks. The goal is for both baby and family to feel at ease throughout.",
+        text: "This is completely normal and expected. Samantha is experienced in soothing newborns and knows how to work with their natural rhythms. Sessions are never rushed. there's always time built in for feeding, settling, and breaks. The goal is for both baby and family to feel at ease throughout.",
       },
     },
   ],
@@ -133,7 +133,7 @@ export default function NewbornPhotographerAustinPage() {
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364379/shp/newborn/shp/newborn/hero.jpg"
-              alt="Newborn photographer Austin TX — Samantha Haines Photography"
+              alt="Newborn photographer Austin TX. Samantha Haines Photography"
               fill
               priority
               className="object-cover"
@@ -153,7 +153,7 @@ export default function NewbornPhotographerAustinPage() {
           </div>
         </section>
 
-        {/* Happiness Guarantee — above the fold on scroll */}
+        {/* Happiness Guarantee. above the fold on scroll */}
         <HappinessGuarantee />
 
         {/* About the Experience */}
@@ -175,10 +175,10 @@ export default function NewbornPhotographerAustinPage() {
                 Gentle. Safe. Unhurried.
               </h2>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                Every newborn session is built around your baby&apos;s pace — not a clock. Time is planned for feeding, settling, and everything in between. There&apos;s no rush, ever.
+                Every newborn session is built around your baby&apos;s pace. not a clock. Time is planned for feeding, settling, and everything in between. There&apos;s no rush, ever.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                The studio is kept warm throughout. All props and surfaces are sanitized before every session. Samantha has spent years learning how to soothe, position, and capture newborns safely — your baby&apos;s comfort is always the first priority.
+                The studio is kept warm throughout. All props and surfaces are sanitized before every session. Samantha has spent years learning how to soothe, position, and capture newborns safely. your baby&apos;s comfort is always the first priority.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
                 Hair and makeup are included for mom. Partner and sibling frames are always part of the plan. And at the end of the session, you&apos;ll have images that capture exactly who your family was on one of the most significant days of your lives.
@@ -198,11 +198,11 @@ export default function NewbornPhotographerAustinPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
               {[
-                { title: "Hair & Makeup for Mom", desc: "Professional styling included — you&apos;ll arrive ready and relaxed, not rushed." },
+                { title: "Hair & Makeup for Mom", desc: "Professional styling included. you&apos;ll arrive ready and relaxed, not rushed." },
                 { title: "All Props & Wraps", desc: "Samantha provides everything. Heirlooms and meaningful items are always welcome." },
-                { title: "Sibling & Family Frames", desc: "Time is built in for parents, siblings, and grandparents — no extra coordination needed." },
+                { title: "Sibling & Family Frames", desc: "Time is built in for parents, siblings, and grandparents. no extra coordination needed." },
                 { title: "Expert Posing & Safety", desc: "Every position is done gently and carefully. Baby's comfort guides every moment." },
-                { title: "Unhurried Pace", desc: "Sessions run as long as they need to. Feeding breaks, settling time — all accounted for." },
+                { title: "Unhurried Pace", desc: "Sessions run as long as they need to. Feeding breaks, settling time. all accounted for." },
                 { title: "Professional Editing", desc: "Every delivered image is carefully finished. Nothing leaves unpolished." },
               ].map((item) => (
                 <div key={item.title} className="flex gap-4">
@@ -250,7 +250,7 @@ export default function NewbornPhotographerAustinPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
               {[
-                { timing: "Book at 20–28 weeks", desc: "Reserve your due date window during the second trimester. Sessions fill quickly — especially spring and fall." },
+                { timing: "Book at 20–28 weeks", desc: "Reserve your due date window during the second trimester. Sessions fill quickly. especially spring and fall." },
                 { timing: "Session at days 5–14", desc: "The ideal newborn window. Babies are sleepiest, most flexible, and curl naturally into poses during this period." },
                 { timing: "Maternity at weeks 28–36", desc: "If you want maternity portraits, these are often booked alongside the newborn session as a paired package." },
               ].map((item) => (
@@ -292,7 +292,7 @@ export default function NewbornPhotographerAustinPage() {
               These days don&apos;t come back.
             </h2>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-10">
-              Samantha personally responds to every inquiry. Sessions book quickly — especially around due dates. The conversation starts here.
+              Samantha personally responds to every inquiry. Sessions book quickly. especially around due dates. The conversation starts here.
             </p>
             <CTAButton href="/contact" size="lg">Start the Conversation</CTAButton>
           </div>

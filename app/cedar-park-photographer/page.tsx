@@ -32,7 +32,7 @@ const faqSchema = {
       name: "Where is your studio located?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX — approximately 20 minutes from Cedar Park. It's a beautiful, private studio space that's well worth the short drive.",
+        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX. approximately 20 minutes from Cedar Park. It's a beautiful, private studio space that's well worth the short drive.",
       },
     },
     {
@@ -92,7 +92,7 @@ const services = [
   {
     href: "/newborn-photographer-austin",
     title: "Newborn",
-    desc: "Tiny details and pure wonder — captured in the first days of life.",
+    desc: "Tiny details and pure wonder. captured in the first days of life.",
     img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg",
   },
   {
@@ -129,7 +129,7 @@ export default function CedarParkPhotographerPage() {
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364397/shp/family/shp/family/hero.jpg"
-              alt="Cedar Park Photographer — Samantha Haines Photography"
+              alt="Cedar Park Photographer. Samantha Haines Photography"
               fill
               priority
               className="object-cover"
@@ -140,7 +140,7 @@ export default function CedarParkPhotographerPage() {
               Cedar Park · Austin, Texas
             </p>
             <h1 className="font-serif text-6xl md:text-8xl text-[#faf9f7] leading-none mb-8 italic">
-              Cedar Park Photographer — Samantha Haines
+              Cedar Park Photographer. Samantha Haines
             </h1>
             <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10">
               Serving Cedar Park&rsquo;s families and women with portrait experiences as warm and
@@ -161,12 +161,12 @@ export default function CedarParkPhotographerPage() {
             </h2>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-4">
               Samantha Haines has photographed families across the greater Austin area, and Cedar Park
-              holds a special place — it&rsquo;s a community full of life, love, and moments worth preserving.
+              holds a special place. it&rsquo;s a community full of life, love, and moments worth preserving.
               Whether you&rsquo;re looking for a family session, maternity portraits, or a boudoir experience,
               Samantha brings the same artistry and care to every client.
             </p>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-              Vue Studio is just 20 minutes from Cedar Park — close enough for a relaxed, no-rush experience
+              Vue Studio is just 20 minutes from Cedar Park. close enough for a relaxed, no-rush experience
               that starts the moment you walk through the door.
             </p>
           </div>
@@ -266,7 +266,7 @@ export default function CedarParkPhotographerPage() {
               Let&rsquo;s make something beautiful.
             </h2>
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-10">
-              Cedar Park families — your story deserves to be told beautifully. Let&rsquo;s start with a conversation.
+              Cedar Park families. your story deserves to be told beautifully. Let&rsquo;s start with a conversation.
             </p>
             <CTAButton size="lg" variant="secondary">Start the Conversation</CTAButton>
           </div>

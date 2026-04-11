@@ -24,7 +24,7 @@ const faqSchema = {
       name: "Do you photograph families in Westlake?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely. Westlake families appreciate quality and artistry — and that's exactly what Samantha Haines delivers. From intimate family sessions to senior portraits, Samantha creates imagery worthy of Westlake's elegant homes.",
+        text: "Absolutely. Westlake families appreciate quality and artistry. and that's exactly what Samantha Haines delivers. From intimate family sessions to senior portraits, Samantha creates imagery worthy of Westlake's elegant homes.",
       },
     },
     {
@@ -32,7 +32,7 @@ const faqSchema = {
       name: "Where is your studio located?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX — just 15 minutes from Westlake. It's one of the closest premium portrait studios to the Westlake area.",
+        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX. just 15 minutes from Westlake. It's one of the closest premium portrait studios to the Westlake area.",
       },
     },
     {
@@ -74,7 +74,7 @@ const services = [
   { href: "/boudoir-photographer-austin", title: "Boudoir", desc: "Intimate, empowering portraits celebrating who you are right now.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364364/shp/homepage/shp/homepage/service-boudoir.jpg" },
   { href: "/family-photographer-austin", title: "Family", desc: "Genuine connection and real moments your family will treasure forever.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364370/shp/homepage/shp/homepage/service-family.jpg" },
   { href: "/senior-portrait-photographer-austin", title: "Senior Portraits", desc: "Confident, editorial senior portraits that reflect your personality.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364368/shp/homepage/shp/homepage/service-senior.jpg" },
-  { href: "/newborn-photographer-austin", title: "Newborn", desc: "Tiny details and pure wonder — captured in the first days of life.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg" },
+  { href: "/newborn-photographer-austin", title: "Newborn", desc: "Tiny details and pure wonder. captured in the first days of life.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg" },
   { href: "/maternity-photographer-austin", title: "Maternity", desc: "Powerful, beautiful portraits honoring this remarkable chapter.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364377/shp/homepage/shp/homepage/service-maternity.jpg" },
   { href: "/headshots-branding-photographer-austin", title: "Headshots & Branding", desc: "Professional images that tell your brand story with confidence.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364372/shp/homepage/shp/homepage/service-headshots.jpg" },
 ];
@@ -99,7 +99,7 @@ export default function WestlakePhotographerPage() {
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364413/shp/headshots/shp/headshots/hero.jpg"
-              alt="Westlake Photographer — Samantha Haines Photography"
+              alt="Westlake Photographer. Samantha Haines Photography"
               fill
               priority
               className="object-cover"
@@ -110,7 +110,7 @@ export default function WestlakePhotographerPage() {
               Westlake · Austin, Texas
             </p>
             <h1 className="font-serif text-6xl md:text-8xl text-[#faf9f7] leading-none mb-8 italic">
-              Westlake Photographer — Samantha Haines
+              Westlake Photographer. Samantha Haines
             </h1>
             <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10">
               Refined portrait photography for Westlake&rsquo;s discerning families and women —
@@ -130,13 +130,13 @@ export default function WestlakePhotographerPage() {
               Westlake expects excellence. Samantha delivers it.
             </h2>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-4">
-              Westlake is one of Austin&rsquo;s most sought-after communities — known for its beauty,
+              Westlake is one of Austin&rsquo;s most sought-after communities. known for its beauty,
               its standards, and its families who value the finer things. Samantha Haines brings
               that same level of care and artistry to every portrait session she creates.
               From boudoir to family to senior portraits, the result is always imagery worthy of your walls.
             </p>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-              Vue Studio is just 15 minutes from Westlake — one of the most convenient premium portrait
+              Vue Studio is just 15 minutes from Westlake. one of the most convenient premium portrait
               studios in the Austin area for Westlake residents.
             </p>
           </div>

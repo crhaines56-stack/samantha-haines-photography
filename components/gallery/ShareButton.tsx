@@ -105,12 +105,12 @@ export default function ShareButton({ gallery, iconOnly = false }: Props) {
     if (!navigator.share) return;
     try {
       await navigator.share({
-        title: `${gallery.clientName}'s Gallery — Samantha Haines Photography`,
+        title: `${gallery.clientName}'s Gallery. Samantha Haines Photography`,
         url: galleryUrl,
         text: `View your gallery. Password: ${collectionPassword ?? ''}`,
       });
     } catch {
-      // User cancelled — ignore
+      // User cancelled. ignore
     }
   };
 

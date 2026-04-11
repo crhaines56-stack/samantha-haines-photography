@@ -63,7 +63,7 @@ export default function BlogPage() {
               The Blog
             </h1>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed max-w-xl mx-auto">
-              Tips, stories, and everything you need to know before booking your session — from an Austin photographer who&apos;s seen it all.
+              Tips, stories, and everything you need to know before booking your session. from an Austin photographer who&apos;s seen it all.
             </p>
           </div>
         </section>

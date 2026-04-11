@@ -83,7 +83,7 @@ export async function POST(req: NextRequest) {
         resend.emails.send({
           from: 'Samantha Haines Photography <noreply@samanthahainesphotography.com>',
           to: email,
-          subject: `${resolvedName}'s Gallery is ready — Samantha Haines Photography`,
+          subject: `${resolvedName}'s Gallery is ready. Samantha Haines Photography`,
           html,
         })
       )

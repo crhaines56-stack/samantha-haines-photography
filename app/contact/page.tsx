@@ -74,7 +74,7 @@ export default function ContactPage() {
               Start the Conversation
             </h2>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-              Every session begins here — with a conversation. No pressure, no obligation.
+              Every session begins here. with a conversation. No pressure, no obligation.
               Just Samantha, and you, talking about what this could look like.
             </p>
           </div>

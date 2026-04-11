@@ -55,7 +55,7 @@ const services = [
 const testimonials = [
   {
     quote:
-      "I almost didn't book. Now I tell every woman I know — do it. You will not regret a single moment.",
+      "I almost didn't book. Now I tell every woman I know. do it. You will not regret a single moment.",
     name: "Ashley M.",
     service: "Boudoir",
   },
@@ -67,7 +67,7 @@ const testimonials = [
   },
   {
     quote:
-      "The attention to detail, the experience, the final images — everything exceeded every expectation I had.",
+      "The attention to detail, the experience, the final images. everything exceeded every expectation I had.",
     name: "Rachel T.",
     service: "Senior Portraits",
   },
@@ -83,7 +83,7 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364356/shp/homepage/shp/homepage/hero.jpg"
-              alt="Samantha Haines Photography — Austin portrait photographer"
+              alt="Samantha Haines Photography. Austin portrait photographer"
               fill
               priority
               className="object-cover"
@@ -233,10 +233,10 @@ export default function HomePage() {
               5-star rated on Google.
             </p>
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-6 max-w-xl mx-auto">
-              Don&apos;t take our word for it — read what Austin women are saying about their experience.
+              Don't take our word for it. Read what Austin women are saying about their experience.
             </p>
             <a
-              href="https://g.page/r/samanthahainesphotography/review"
+              href="https://share.google/RattRFsVNZ7AkcM3F"
               target="_blank"
               rel="noopener noreferrer"
               className="font-sans text-[12px] tracking-[0.2em] uppercase text-[#8b6f5e] hover:text-[#1a1a1a] transition-colors border-b border-[#c9b99a] pb-1"

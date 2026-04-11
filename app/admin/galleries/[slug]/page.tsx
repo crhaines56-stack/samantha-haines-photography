@@ -232,7 +232,7 @@ export default function ManageGalleryPage() {
         </div>
 
         <div style={{ display: 'flex', gap: '12px', alignItems: 'center', flexWrap: 'wrap' }}>
-          {/* Save order button — only shows when changed */}
+          {/* Save order button. only shows when changed */}
           {orderChanged && (
             <button
               type="button"
@@ -402,7 +402,7 @@ export default function ManageGalleryPage() {
                   }}
                 />
 
-                {/* Drag handle — top left */}
+                {/* Drag handle. top left */}
                 <div
                   draggable={false}
                   onMouseDown={(e) => e.stopPropagation()}
@@ -425,7 +425,7 @@ export default function ManageGalleryPage() {
                   ⠿
                 </div>
 
-                {/* Delete button — top right */}
+                {/* Delete button. top right */}
                 <button
                   type="button"
                   onClick={(e) => {

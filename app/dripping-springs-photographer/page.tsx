@@ -24,7 +24,7 @@ const faqSchema = {
       name: "Do you photograph families in Dripping Springs?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes — Dripping Springs is one of the most beautiful communities in the Austin area, and Samantha loves serving the families who call the Texas Hill Country home. The natural beauty of the area makes for stunning outdoor portraits.",
+        text: "Yes. Dripping Springs is one of the most beautiful communities in the Austin area, and Samantha loves serving the families who call the Texas Hill Country home. The natural beauty of the area makes for stunning outdoor portraits.",
       },
     },
     {
@@ -32,7 +32,7 @@ const faqSchema = {
       name: "Where is your studio located?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX — approximately 30 minutes from Dripping Springs. For clients who prefer a studio experience, the drive through the Hill Country is a beautiful one.",
+        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX. approximately 30 minutes from Dripping Springs. For clients who prefer a studio experience, the drive through the Hill Country is a beautiful one.",
       },
     },
     {
@@ -40,7 +40,7 @@ const faqSchema = {
       name: "What's included in every session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Every session includes professional hair and makeup, a pre-shoot consultation, expert posing direction, and white-glove wall art installation assistance. The complete experience is always included — no hidden extras.",
+        text: "Every session includes professional hair and makeup, a pre-shoot consultation, expert posing direction, and white-glove wall art installation assistance. The complete experience is always included. no hidden extras.",
       },
     },
     {
@@ -48,7 +48,7 @@ const faqSchema = {
       name: "Do you travel to Dripping Springs for outdoor sessions?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely. The Texas Hill Country surrounding Dripping Springs is some of the most beautiful land in Texas — perfect for outdoor portrait sessions. Samantha loves photographing in natural settings like this.",
+        text: "Absolutely. The Texas Hill Country surrounding Dripping Springs is some of the most beautiful land in Texas. perfect for outdoor portrait sessions. Samantha loves photographing in natural settings like this.",
       },
     },
     {
@@ -74,7 +74,7 @@ const services = [
   { href: "/boudoir-photographer-austin", title: "Boudoir", desc: "Intimate, empowering portraits celebrating who you are right now.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364364/shp/homepage/shp/homepage/service-boudoir.jpg" },
   { href: "/family-photographer-austin", title: "Family", desc: "Genuine connection and real moments your family will treasure forever.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364370/shp/homepage/shp/homepage/service-family.jpg" },
   { href: "/senior-portrait-photographer-austin", title: "Senior Portraits", desc: "Confident, editorial senior portraits that reflect your personality.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364368/shp/homepage/shp/homepage/service-senior.jpg" },
-  { href: "/newborn-photographer-austin", title: "Newborn", desc: "Tiny details and pure wonder — captured in the first days of life.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg" },
+  { href: "/newborn-photographer-austin", title: "Newborn", desc: "Tiny details and pure wonder. captured in the first days of life.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg" },
   { href: "/maternity-photographer-austin", title: "Maternity", desc: "Powerful, beautiful portraits honoring this remarkable chapter.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364377/shp/homepage/shp/homepage/service-maternity.jpg" },
   { href: "/headshots-branding-photographer-austin", title: "Headshots & Branding", desc: "Professional images that tell your brand story with confidence.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364372/shp/homepage/shp/homepage/service-headshots.jpg" },
 ];
@@ -99,7 +99,7 @@ export default function DrippingSpringsPhotographerPage() {
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364379/shp/newborn/shp/newborn/hero.jpg"
-              alt="Dripping Springs Photographer — Samantha Haines Photography"
+              alt="Dripping Springs Photographer. Samantha Haines Photography"
               fill
               priority
               className="object-cover"
@@ -110,10 +110,10 @@ export default function DrippingSpringsPhotographerPage() {
               Dripping Springs · Texas Hill Country
             </p>
             <h1 className="font-serif text-6xl md:text-8xl text-[#faf9f7] leading-none mb-8 italic">
-              Dripping Springs Photographer — Samantha Haines
+              Dripping Springs Photographer. Samantha Haines
             </h1>
             <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10">
-              Hill Country portraits as breathtaking as the land itself — serving Dripping Springs
+              Hill Country portraits as breathtaking as the land itself. serving Dripping Springs
               families with artistry, warmth, and a genuine love for this beautiful corner of Texas.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
@@ -130,13 +130,13 @@ export default function DrippingSpringsPhotographerPage() {
               The Hill Country is beautiful. Your portraits should be too.
             </h2>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-4">
-              Dripping Springs sits in the heart of the Texas Hill Country — surrounded by cedar, limestone,
+              Dripping Springs sits in the heart of the Texas Hill Country. surrounded by cedar, limestone,
               and wide-open skies that photographers dream about. Samantha Haines brings her artistry
               and personal touch to Dripping Springs families and women, creating portraits that feel
               as natural and beautiful as the land around them.
             </p>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-              Vue Studio is 30 minutes from Dripping Springs — and for those who prefer the studio experience,
+              Vue Studio is 30 minutes from Dripping Springs. and for those who prefer the studio experience,
               every moment of the drive is worth it. Samantha also happily travels to outdoor locations
               throughout the Hill Country.
             </p>

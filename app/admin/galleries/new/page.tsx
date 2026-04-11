@@ -382,7 +382,7 @@ Samantha`;
                 {emailStatus === 'idle' && 'Send Email Invitations'}
                 {emailStatus === 'sending' && 'Sending…'}
                 {emailStatus === 'sent' && '✓ Emails Sent'}
-                {emailStatus === 'error' && 'Failed — Try Again'}
+                {emailStatus === 'error' && 'Failed. Try Again'}
               </button>
             </div>
           )}

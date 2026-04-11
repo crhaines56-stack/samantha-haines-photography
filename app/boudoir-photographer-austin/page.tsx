@@ -9,7 +9,7 @@ import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
 export const metadata: Metadata = {
   title: "Boudoir Photographer Austin TX | Samantha Haines Photography",
   description:
-    "Austin boudoir photography by Samantha Haines. A slow reveal of every facet of you — hair & makeup included, fully private, designed for every woman at every stage.",
+    "Austin boudoir photography by Samantha Haines. A slow reveal of every facet of you. hair & makeup included, fully private, designed for every woman at every stage.",
   alternates: {
     canonical:
       "https://www.samanthahainesphotography.com/boudoir-photographer-austin",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Boudoir Photographer Austin TX",
     description:
-      "Austin boudoir photography by Samantha Haines. A slow reveal of every facet of you — hair & makeup included, fully private, designed for every woman at every stage.",
+      "Austin boudoir photography by Samantha Haines. A slow reveal of every facet of you. hair & makeup included, fully private, designed for every woman at every stage.",
     url: "https://www.samanthahainesphotography.com/boudoir-photographer-austin",
     images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg", width: 1200, height: 630, alt: "Boudoir photographer Austin TX" }],
   },
@@ -39,7 +39,7 @@ const faqSchema = {
       name: "Do I have to be a certain size or age to do a boudoir session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely not. Samantha has photographed women from their 20s to their 60s — at every size, every stage, every season of life. Every woman deserves to feel beautifully seen.",
+        text: "Absolutely not. Samantha has photographed women from their 20s to their 60s. at every size, every stage, every season of life. Every woman deserves to feel beautifully seen.",
       },
     },
     {
@@ -55,7 +55,7 @@ const faqSchema = {
       name: "Will my images be shared publicly?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Your images belong to you — completely. Nothing is shared without your explicit permission, ever. What happens in your session stays exactly where it belongs: with you.",
+        text: "Your images belong to you. completely. Nothing is shared without your explicit permission, ever. What happens in your session stays exactly where it belongs: with you.",
       },
     },
     {
@@ -71,7 +71,7 @@ const faqSchema = {
       name: "How long does a boudoir session take?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Sessions are unhurried. You'll have time for multiple outfits, multiple moods, and multiple moments. The goal is a complete, layered collection — not a rushed shoot.",
+        text: "Sessions are unhurried. You'll have time for multiple outfits, multiple moods, and multiple moments. The goal is a complete, layered collection. not a rushed shoot.",
       },
     },
     {
@@ -87,7 +87,7 @@ const faqSchema = {
       name: "What if I'm nervous?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "That's completely normal — most women are. Samantha guides you through every single moment. Your only job is to show up. She handles the rest.",
+        text: "That's completely normal. most women are. Samantha guides you through every single moment. Your only job is to show up. She handles the rest.",
       },
     },
     {
@@ -95,7 +95,7 @@ const faqSchema = {
       name: "What do I receive after my session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "After your session, you'll receive a curated gallery of beautifully edited images. These are pieces of art — made to live on your walls and remind you, on any given day, exactly how extraordinary you are.",
+        text: "After your session, you'll receive a curated gallery of beautifully edited images. These are pieces of art. made to live on your walls and remind you, on any given day, exactly how extraordinary you are.",
       },
     },
   ],
@@ -148,7 +148,7 @@ export default function BoudoirPage() {
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg"
-              alt="Boudoir photographer Austin TX — Samantha Haines Photography"
+              alt="Boudoir photographer Austin TX. Samantha Haines Photography"
               fill
               priority
               className="object-cover"
@@ -162,7 +162,7 @@ export default function BoudoirPage() {
               How do you capture all the facets of you?
             </h1>
             <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10">
-              A session with Samantha is a slow reveal — different outfits, different moods,
+              A session with Samantha is a slow reveal. different outfits, different moods,
               every side of who you are. The result is a collection of images that&rsquo;s as
               layered and complex as you are.
             </p>
@@ -199,7 +199,7 @@ export default function BoudoirPage() {
                 A slow reveal.
               </h2>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                You&rsquo;ll arrive as one version of yourself — and through different outfits,
+                You&rsquo;ll arrive as one version of yourself. and through different outfits,
                 different moods, and different moments, the full range of who you are gets to
                 exist in front of the lens.
               </p>
@@ -211,7 +211,7 @@ export default function BoudoirPage() {
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
                 Hair and makeup are included. Wardrobe guidance is included. And Samantha
-                guides you through every single moment — so your only job is to show up.
+                guides you through every single moment. so your only job is to show up.
               </p>
             </div>
             <div className="relative h-[600px]">
@@ -267,7 +267,7 @@ export default function BoudoirPage() {
                 {
                   icon: "✦",
                   title: "Hair & Makeup",
-                  desc: "Professional styling before every session — arrive and let the team take care of you.",
+                  desc: "Professional styling before every session. arrive and let the team take care of you.",
                 },
                 {
                   icon: "✦",
@@ -277,7 +277,7 @@ export default function BoudoirPage() {
                 {
                   icon: "✦",
                   title: "Direction",
-                  desc: "Samantha guides every moment. You don't need to know how to pose — that's her job.",
+                  desc: "Samantha guides every moment. You don't need to know how to pose. that's her job.",
                 },
                 {
                   icon: "✦",
@@ -304,7 +304,7 @@ export default function BoudoirPage() {
               Your Privacy
             </p>
             <p className="font-serif text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed italic">
-              &ldquo;Your images belong to you — completely. Nothing is shared without your
+              &ldquo;Your images belong to you. completely. Nothing is shared without your
               explicit permission, ever. What happens in your session stays exactly where it
               belongs: with you.&rdquo;
             </p>
@@ -315,7 +315,7 @@ export default function BoudoirPage() {
         <section className="py-20 px-6 bg-[#faf9f7]">
           <div className="max-w-3xl mx-auto text-center">
             <p className="font-serif text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed italic mb-8">
-              &ldquo;Samantha has photographed women from their 20s to their 60s — at every size,
+              &ldquo;Samantha has photographed women from their 20s to their 60s. at every size,
               every stage, every season of life. The one thing they all have in common is that
               they left feeling more like themselves than they did walking in.&rdquo;
             </p>
@@ -326,7 +326,7 @@ export default function BoudoirPage() {
         <section className="py-20 px-6 bg-[#1a1a1a] text-center">
           <div className="max-w-3xl mx-auto">
             <p className="font-serif text-3xl md:text-4xl text-[#faf9f7] leading-relaxed italic">
-              &ldquo;These aren&rsquo;t snapshots. They&rsquo;re pieces of art — made to live on
+              &ldquo;These aren&rsquo;t snapshots. They&rsquo;re pieces of art. made to live on
               your walls and remind you, on any given day, exactly how extraordinary you are.&rdquo;
             </p>
             <p className="font-sans text-[14px] text-[#8b6f5e] tracking-widest mt-8">— Samantha</p>
@@ -349,7 +349,7 @@ export default function BoudoirPage() {
                 A First in Austin
               </p>
               <h2 className="font-serif text-5xl text-[#1a1a1a] leading-tight mb-8 italic">
-                Wild &amp; free — boudoir in the Hill Country.
+                Wild &amp; free. boudoir in the Hill Country.
               </h2>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
                 Nobody else in Austin is doing this. Samantha is bringing boudoir photography
@@ -391,7 +391,7 @@ export default function BoudoirPage() {
               {[
                 {
                   quote:
-                    "I almost didn't book. Now I tell every woman I know — do it. You will not regret a single moment.",
+                    "I almost didn't book. Now I tell every woman I know. do it. You will not regret a single moment.",
                   label: "Boudoir Client",
                 },
                 {
@@ -448,7 +448,7 @@ export default function BoudoirPage() {
             </h2>
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-10">
               Every session starts with a conversation. There&rsquo;s no pressure, no
-              obligation — just Samantha, and you, talking about what this could look like.
+              obligation. just Samantha, and you, talking about what this could look like.
             </p>
             <CTAButton size="lg" variant="secondary">
               Start the Conversation

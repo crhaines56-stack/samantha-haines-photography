@@ -111,7 +111,7 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
-            {/* Phone — update with Samantha's real number before launch */}
+            {/* Phone. update with Samantha's real number before launch */}
             <a
               href="tel:+15125550000"
               className="block font-sans text-[13px] text-[#6b6b6b] hover:text-[#faf9f7] transition-colors mb-4"

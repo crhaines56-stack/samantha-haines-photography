@@ -24,7 +24,7 @@ const faqSchema = {
       name: "Do you photograph families in Round Rock?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes — Samantha regularly serves Round Rock families. As one of Austin's fastest-growing suburbs, Round Rock is full of families at every stage of life, and Samantha loves capturing those milestones beautifully.",
+        text: "Yes. Samantha regularly serves Round Rock families. As one of Austin's fastest-growing suburbs, Round Rock is full of families at every stage of life, and Samantha loves capturing those milestones beautifully.",
       },
     },
     {
@@ -32,7 +32,7 @@ const faqSchema = {
       name: "Where is your studio located?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX — approximately 25 minutes from Round Rock. It's a private, beautifully appointed studio that's worth every minute of the drive.",
+        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX. approximately 25 minutes from Round Rock. It's a private, beautifully appointed studio that's worth every minute of the drive.",
       },
     },
     {
@@ -40,7 +40,7 @@ const faqSchema = {
       name: "What's included in every session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Every session includes professional hair and makeup, a pre-shoot consultation, expert posing direction, and white-glove wall art installation assistance. No surprises — just a fully inclusive, elevated experience.",
+        text: "Every session includes professional hair and makeup, a pre-shoot consultation, expert posing direction, and white-glove wall art installation assistance. No surprises. just a fully inclusive, elevated experience.",
       },
     },
     {
@@ -74,7 +74,7 @@ const services = [
   { href: "/boudoir-photographer-austin", title: "Boudoir", desc: "Intimate, empowering portraits celebrating who you are right now.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364364/shp/homepage/shp/homepage/service-boudoir.jpg" },
   { href: "/family-photographer-austin", title: "Family", desc: "Genuine connection and real moments your family will treasure forever.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364370/shp/homepage/shp/homepage/service-family.jpg" },
   { href: "/senior-portrait-photographer-austin", title: "Senior Portraits", desc: "Confident, editorial senior portraits that reflect your personality.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364368/shp/homepage/shp/homepage/service-senior.jpg" },
-  { href: "/newborn-photographer-austin", title: "Newborn", desc: "Tiny details and pure wonder — captured in the first days of life.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg" },
+  { href: "/newborn-photographer-austin", title: "Newborn", desc: "Tiny details and pure wonder. captured in the first days of life.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg" },
   { href: "/maternity-photographer-austin", title: "Maternity", desc: "Powerful, beautiful portraits honoring this remarkable chapter.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364377/shp/homepage/shp/homepage/service-maternity.jpg" },
   { href: "/headshots-branding-photographer-austin", title: "Headshots & Branding", desc: "Professional images that tell your brand story with confidence.", img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364372/shp/homepage/shp/homepage/service-headshots.jpg" },
 ];
@@ -99,7 +99,7 @@ export default function RoundRockPhotographerPage() {
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364401/shp/family/shp/family/gallery-1.jpg"
-              alt="Round Rock Photographer — Samantha Haines Photography"
+              alt="Round Rock Photographer. Samantha Haines Photography"
               fill
               priority
               className="object-cover"
@@ -110,7 +110,7 @@ export default function RoundRockPhotographerPage() {
               Round Rock · Austin, Texas
             </p>
             <h1 className="font-serif text-6xl md:text-8xl text-[#faf9f7] leading-none mb-8 italic">
-              Round Rock Photographer — Samantha Haines
+              Round Rock Photographer. Samantha Haines
             </h1>
             <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10">
               Portrait photography for Round Rock families, seniors, and women ready to invest
@@ -135,7 +135,7 @@ export default function RoundRockPhotographerPage() {
               From newborn to senior portraits, every chapter of your life deserves to be documented beautifully.
             </p>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-              Vue Studio is just 25 minutes from Round Rock — and the experience waiting for you there
+              Vue Studio is just 25 minutes from Round Rock. and the experience waiting for you there
               makes it one of the easiest drives you&rsquo;ll ever make.
             </p>
           </div>

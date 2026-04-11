@@ -7,14 +7,14 @@ import CTAButton from "@/components/ui/CTAButton";
 export const metadata: Metadata = {
   title: "About Samantha Haines | Austin TX Portrait Photographer",
   description:
-    "Meet Samantha Haines — Austin portrait photographer, mother of four, and storyteller. Based in Steiner Ranch, serving families, couples & businesses across Austin, TX.",
+    "Meet Samantha Haines. Austin portrait photographer, mother of four, and storyteller. Based in Steiner Ranch, serving families, couples & businesses across Austin, TX.",
   alternates: {
     canonical: "https://www.samanthahainesphotography.com/about",
   },
   openGraph: {
     title: "About Samantha Haines | Austin TX Portrait Photographer",
     description:
-      "Meet Samantha Haines — Austin portrait photographer, mother of four, and storyteller. Based in Steiner Ranch, serving families, couples & businesses across Austin, TX.",
+      "Meet Samantha Haines. Austin portrait photographer, mother of four, and storyteller. Based in Steiner Ranch, serving families, couples & businesses across Austin, TX.",
     url: "https://www.samanthahainesphotography.com/about",
     images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg", width: 1200, height: 630, alt: "Samantha Haines Photography Austin" }],
   },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About Samantha Haines | Austin TX Portrait Photographer",
     description:
-      "Meet Samantha Haines — Austin portrait photographer, mother of four, and storyteller.",
+      "Meet Samantha Haines. Austin portrait photographer, mother of four, and storyteller.",
     images: ["https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg"],
   },
 };
@@ -69,7 +69,7 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg"
-              alt="Samantha Haines — Austin portrait photographer"
+              alt="Samantha Haines. Austin portrait photographer"
               fill
               priority
               className="object-cover"
@@ -149,7 +149,7 @@ export default function AboutPage() {
               {[
                 {
                   title: "Storyteller First",
-                  desc: "Every session is about telling your story — not just documenting a moment, but capturing the feeling, connection, and soul behind it.",
+                  desc: "Every session is about telling your story. not just documenting a moment, but capturing the feeling, connection, and soul behind it.",
                 },
                 {
                   title: "Community Rooted",
@@ -180,7 +180,7 @@ export default function AboutPage() {
             </h2>
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-10">
               Every session begins with a conversation. There&rsquo;s no pressure, no obligation
-              — just two people talking about what matters most to you.
+             . just two people talking about what matters most to you.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
           </div>

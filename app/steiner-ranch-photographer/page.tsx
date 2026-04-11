@@ -24,7 +24,7 @@ const faqSchema = {
       name: "Do you photograph families in Steiner Ranch?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely — Steiner Ranch is Samantha's home community. She photographs families throughout the neighborhood and surrounding areas, including the beautiful lake and hill views Steiner Ranch is known for.",
+        text: "Absolutely. Steiner Ranch is Samantha's home community. She photographs families throughout the neighborhood and surrounding areas, including the beautiful lake and hill views Steiner Ranch is known for.",
       },
     },
     {
@@ -32,7 +32,7 @@ const faqSchema = {
       name: "Where is your studio located?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX. The studio is approximately 5 minutes from Steiner Ranch — you couldn't ask for a more convenient location.",
+        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX. The studio is approximately 5 minutes from Steiner Ranch. you couldn't ask for a more convenient location.",
       },
     },
     {
@@ -40,7 +40,7 @@ const faqSchema = {
       name: "What's included in every session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Every session includes professional hair and makeup, a pre-shoot consultation, expert posing direction, and white-glove wall art installation assistance. No hidden extras — it's all part of the experience.",
+        text: "Every session includes professional hair and makeup, a pre-shoot consultation, expert posing direction, and white-glove wall art installation assistance. No hidden extras. it's all part of the experience.",
       },
     },
     {
@@ -92,7 +92,7 @@ const services = [
   {
     href: "/newborn-photographer-austin",
     title: "Newborn",
-    desc: "Tiny details and pure wonder — captured in the first days of life.",
+    desc: "Tiny details and pure wonder. captured in the first days of life.",
     img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364375/shp/homepage/shp/homepage/service-newborn.jpg",
   },
   {
@@ -129,7 +129,7 @@ export default function SteinerRanchPhotographerPage() {
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg"
-              alt="Steiner Ranch Photographer — Samantha Haines Photography"
+              alt="Steiner Ranch Photographer. Samantha Haines Photography"
               fill
               priority
               className="object-cover"
@@ -140,10 +140,10 @@ export default function SteinerRanchPhotographerPage() {
               Steiner Ranch · Austin, Texas
             </p>
             <h1 className="font-serif text-6xl md:text-8xl text-[#faf9f7] leading-none mb-8 italic">
-              Steiner Ranch Photographer — Samantha Haines
+              Steiner Ranch Photographer. Samantha Haines
             </h1>
             <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10">
-              Local. Personal. Extraordinary. Samantha calls Steiner Ranch home — and there&rsquo;s
+              Local. Personal. Extraordinary. Samantha calls Steiner Ranch home. and there&rsquo;s
               no one who knows this community, its families, and its beauty better.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
@@ -160,7 +160,7 @@ export default function SteinerRanchPhotographerPage() {
               Serving Steiner Ranch families and women with heart.
             </h2>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-4">
-              Samantha Haines lives in Steiner Ranch — she&rsquo;s not just serving this community, she&rsquo;s part of it.
+              Samantha Haines lives in Steiner Ranch. she&rsquo;s not just serving this community, she&rsquo;s part of it.
               From families navigating the beautiful chaos of life to women ready to see themselves differently,
               Samantha creates portrait experiences that feel personal because they are.
             </p>
@@ -240,7 +240,7 @@ export default function SteinerRanchPhotographerPage() {
               &ldquo;We were blessed to have Samantha take our family pictures recently, and the final product was beyond our expectations! One word… ecstatic! Samantha has a vision and executes that vision to perfection. She has that eye for photography that even on a cloudy, dreary day she can find the magic!!!&rdquo;
             </p>
             <p className="font-sans text-[12px] tracking-widest uppercase text-[#8b6f5e]">
-              Family Client — Steiner Ranch
+              Family Client. Steiner Ranch
             </p>
           </div>
         </section>

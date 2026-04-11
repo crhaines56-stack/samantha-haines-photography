@@ -10,7 +10,7 @@ export default function HappinessGuarantee() {
         </h2>
         <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed max-w-2xl mx-auto mb-6">
           If we come to the end of the experience and you&apos;ve reviewed your final
-          images and it&apos;s not love — we&apos;ll re-edit, re-shoot, or refund.
+          images and it&apos;s not love. we&apos;ll re-edit, re-shoot, or refund.
         </p>
         <p className="font-sans text-[13px] text-[#c9b99a] tracking-widest uppercase">
           No questions asked. No fine print.

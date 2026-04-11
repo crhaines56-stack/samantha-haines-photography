@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
       from: `Samantha Haines Photography <${fromDomain}>`,
       to: process.env.CONTACT_EMAIL || "crhaines56@gmail.com",
       replyTo: email,
-      subject: `New inquiry from ${name} — ${service || "General"}`,
+      subject: `New inquiry from ${name}. ${service || "General"}`,
       html: `
         <div style="font-family: Georgia, serif; max-width: 600px; margin: 0 auto; padding: 40px; background: #faf9f7;">
           <h2 style="color: #1a1a1a; font-size: 24px; margin-bottom: 24px;">New Client Inquiry</h2>

@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'galleryId and file are required' }, { status: 400 });
     }
 
-    // Convert file to base64 data URI — more reliable in serverless than upload_stream
+    // Convert file to base64 data URI. more reliable in serverless than upload_stream
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
     const mimeType = file.type || 'image/jpeg';

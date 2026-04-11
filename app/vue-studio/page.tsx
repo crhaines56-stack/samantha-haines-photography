@@ -8,7 +8,7 @@ import CTAButton from "@/components/ui/CTAButton";
 export const metadata: Metadata = {
   title: "Vue Studio Austin | Premium Portrait Photography Studio",
   description:
-    "Vue Studio — Austin's newest premium portrait studio. 2,500 sq ft, 8 fully furnished sets, motorized backdrops, dedicated hair & makeup room. Available for sessions and studio rental.",
+    "Vue Studio. Austin's newest premium portrait studio. 2,500 sq ft, 8 fully furnished sets, motorized backdrops, dedicated hair & makeup room. Available for sessions and studio rental.",
   alternates: {
     canonical: "https://www.samanthahainesphotography.com/vue-studio",
   },
@@ -41,7 +41,7 @@ const studioSchema = {
           name: "How many sets does Vue Studio have?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Vue Studio has 8 separate, fully furnished sets — each with its own distinct look and feel. All 8 sets are available for every session type.",
+            text: "Vue Studio has 8 separate, fully furnished sets. each with its own distinct look and feel. All 8 sets are available for every session type.",
           },
         },
         {
@@ -57,7 +57,7 @@ const studioSchema = {
           name: "Does Vue Studio have parking?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes — on-site parking is available for clients and photographers.",
+            text: "Yes. on-site parking is available for clients and photographers.",
           },
         },
         {
@@ -81,7 +81,7 @@ const sets = [
   },
   {
     name: "The Bedroom",
-    description: "Lush bedding, soft tones, and privacy — designed for intimate sessions.",
+    description: "Lush bedding, soft tones, and privacy. designed for intimate sessions.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364441/shp/vue-studio/shp/vue-studio/set-2.jpg",
   },
   {
@@ -91,7 +91,7 @@ const sets = [
   },
   {
     name: "The Vanity Suite",
-    description: "Dedicated hair and makeup room — fully equipped, beautifully lit.",
+    description: "Dedicated hair and makeup room. fully equipped, beautifully lit.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364444/shp/vue-studio/shp/vue-studio/for-photographers.jpg",
   },
   {
@@ -125,7 +125,7 @@ export default function VueStudioPage() {
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364437/shp/vue-studio/shp/vue-studio/hero.jpg"
-              alt="Vue Studio Austin — premium portrait photography studio"
+              alt="Vue Studio Austin. premium portrait photography studio"
               fill
               priority
               className="object-cover"
@@ -143,7 +143,7 @@ export default function VueStudioPage() {
             </p>
             <p className="font-sans text-[14px] text-[#e8e4df] max-w-xl leading-relaxed mb-10">
               2,500 square feet. 8 fully furnished sets. Motorized backdrops.
-              A dedicated hair & makeup suite. Everything your session — or your shoot — deserves.
+              A dedicated hair & makeup suite. Everything your session. or your shoot. deserves.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <CTAButton size="lg">Book a Session</CTAButton>
@@ -196,7 +196,7 @@ export default function VueStudioPage() {
                   <div className="relative h-72 overflow-hidden">
                     <Image
                       src={set.image}
-                      alt={`${set.name} — Vue Studio Austin`}
+                      alt={`${set.name}. Vue Studio Austin`}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-105"
                     />
@@ -239,7 +239,7 @@ export default function VueStudioPage() {
                   },
                   {
                     title: "8 Sets in One Session",
-                    body: "Move through multiple looks, moods, and settings — all in one visit. No location scouting. No driving between spots. Pure creativity.",
+                    body: "Move through multiple looks, moods, and settings. all in one visit. No location scouting. No driving between spots. Pure creativity.",
                   },
                   {
                     title: "Completely Private",
@@ -266,7 +266,7 @@ export default function VueStudioPage() {
           </div>
         </section>
 
-        {/* For Photographers — PeerSpace */}
+        {/* For Photographers. PeerSpace */}
         <section className="py-24 px-6 bg-[#1a1a1a]">
           <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -279,19 +279,19 @@ export default function VueStudioPage() {
                 <em className="text-[#c9b99a]">starts here.</em>
               </h2>
               <p className="font-sans text-[14px] text-[#8b949e] leading-relaxed mb-8">
-                Vue Studio is available for rental on PeerSpace — by the hour or the day.
+                Vue Studio is available for rental on PeerSpace. by the hour or the day.
                 Whether you&apos;re a photographer, content creator, brand team, or production house,
                 you&apos;ll find exactly the space you need without the overhead of owning it.
               </p>
               <div className="space-y-5 mb-10">
                 {[
-                  "8 distinct, fully furnished sets — ready to shoot on arrival",
+                  "8 distinct, fully furnished sets. ready to shoot on arrival",
                   "Fully motorized seamless backdrops in curated neutral tones",
                   "Professional lighting infrastructure throughout",
                   "Dedicated hair & makeup suite for talent",
-                  "2,500 sq ft of usable space — room to move, room to create",
+                  "2,500 sq ft of usable space. room to move, room to create",
                   "On-site parking for crew and clients",
-                  "Central Austin location — easy access from any direction",
+                  "Central Austin location. easy access from any direction",
                 ].map((feature) => (
                   <div key={feature} className="flex gap-3">
                     <span className="text-[#c9b99a] flex-shrink-0 mt-0.5">✦</span>
@@ -356,7 +356,7 @@ export default function VueStudioPage() {
               {[
                 {
                   q: "How many sets does Vue Studio have?",
-                  a: "8 separate, fully furnished sets — each with its own distinct look and feel. All 8 sets are available for every session and rental.",
+                  a: "8 separate, fully furnished sets. each with its own distinct look and feel. All 8 sets are available for every session and rental.",
                 },
                 {
                   q: "Is Vue Studio available to rent for other photographers?",
@@ -368,11 +368,11 @@ export default function VueStudioPage() {
                 },
                 {
                   q: "Where is Vue Studio located?",
-                  a: "2302 Jacks Pass, Austin, TX — centrally located with easy access from Steiner Ranch, Westlake, Cedar Park, and the greater Austin area.",
+                  a: "2302 Jacks Pass, Austin, TX. centrally located with easy access from Steiner Ranch, Westlake, Cedar Park, and the greater Austin area.",
                 },
                 {
                   q: "Can clients book sessions at Vue Studio with Samantha?",
-                  a: "Absolutely — all Samantha Haines Photography sessions are held at Vue Studio. Hair and makeup are always included.",
+                  a: "Absolutely. all Samantha Haines Photography sessions are held at Vue Studio. Hair and makeup are always included.",
                 },
               ].map((faq, i) => (
                 <div key={i} className="border-b border-[#e8e4df] pb-8">

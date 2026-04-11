@@ -42,7 +42,7 @@ export async function DELETE(
         await cloudinary.uploader.destroy(image.cloudinary_public_id);
       } catch (cloudinaryErr) {
         console.error('Cloudinary delete error (non-fatal):', cloudinaryErr);
-        // Continue even if Cloudinary delete fails — still remove from DB
+        // Continue even if Cloudinary delete fails. still remove from DB
       }
     }
 
