@@ -79,7 +79,7 @@ export default function AboutPage() {
             <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-4">
               The Photographer
             </p>
-            <h1 className="font-serif text-6xl md:text-8xl text-[#faf9f7] leading-none italic">
+            <h1 className="font-serif text-6xl md:text-8xl text-[#faf9f7] leading-none italic text-shadow-hero">
               About Samantha
             </h1>
           </div>

@@ -185,19 +185,19 @@ export default function WestlakeHillsBoudoirPage() {
             />
           </div>
           <div className="relative max-w-5xl mx-auto w-full">
-            <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6">
+            <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6 text-shadow-sm">
               Boudoir · Westlake Hills, Texas
             </p>
-            <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 italic">
+            <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 italic text-shadow-hero">
               Westlake Hills Boudoir Photographer
             </h1>
-            <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10">
+            <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10 text-shadow-sm">
               Luxury boudoir photography for the women of Westlake Hills, Rollingwood, Bee
               Cave, and Barton Creek. at Vue Studio Austin, minutes from your door.
               A slow reveal of every facet of you. Hair &amp; makeup included.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
-            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase">
+            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
               Now booking. limited sessions available
             </p>
           </div>

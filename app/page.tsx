@@ -96,21 +96,21 @@ export default function HomePage() {
             />
           </div>
           <div className="relative max-w-7xl mx-auto w-full">
-            <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6 animate-fade-in">
+            <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6 animate-fade-in text-shadow-sm">
               Austin, Texas · Est. 2022
             </p>
-            <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 animate-slide-up">
+            <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 animate-slide-up text-shadow-hero">
               This is about
               <br />
               <em>more than</em>
               <br />
               a photo.
             </h1>
-            <p className="font-sans text-[14px] text-[#e8e4df] max-w-lg leading-relaxed mb-10">
+            <p className="font-sans text-[14px] text-[#e8e4df] max-w-lg leading-relaxed mb-10 text-shadow-sm">
               Your story is waiting to be told.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
-            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase">
+            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
               Now booking April &amp; May sessions
             </p>
           </div>

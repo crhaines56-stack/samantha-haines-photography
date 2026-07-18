@@ -140,13 +140,13 @@ export default function NewbornPhotographerAustinPage() {
             />
           </div>
           <div className="relative max-w-5xl mx-auto w-full">
-            <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6">
+            <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6 text-shadow-sm">
               Newborn Photography · Austin, Texas
             </p>
-            <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 italic">
+            <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 italic text-shadow-hero">
               The days that feel like forever and a flash.
             </h1>
-            <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10">
+            <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10 text-shadow-sm">
               Those first days are here for only the briefest window. The weight of them. The curl of tiny fingers. The way they fit perfectly against your chest. These are the moments worth documenting with the care and intention they deserve.
             </p>
             <CTAButton href="/contact" size="lg">Start the Conversation</CTAButton>
@@ -256,7 +256,7 @@ export default function NewbornPhotographerAustinPage() {
               ].map((item) => (
                 <div key={item.timing} className="border-t border-[#333] pt-8">
                   <p className="font-sans text-[11px] tracking-[0.3em] uppercase text-[#c9b99a] mb-4">{item.timing}</p>
-                  <p className="font-sans text-[14px] text-[#e8e4df] leading-relaxed">{item.desc}</p>
+                  <p className="font-sans text-[14px] text-[#e8e4df] leading-relaxed text-shadow-sm">{item.desc}</p>
                 </div>
               ))}
             </div>

@@ -132,16 +132,16 @@ export default function VueStudioPage() {
             />
           </div>
           <div className="relative max-w-7xl mx-auto w-full">
-            <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6">
+            <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6 text-shadow-sm">
               Now Open · Austin, Texas
             </p>
-            <h1 className="font-serif text-6xl md:text-8xl text-[#faf9f7] leading-none mb-6">
+            <h1 className="font-serif text-6xl md:text-8xl text-[#faf9f7] leading-none mb-6 text-shadow-hero">
               Vue Studio.
             </h1>
-            <p className="font-serif text-3xl md:text-4xl text-[#c9b99a] italic mb-8">
+            <p className="font-serif text-3xl md:text-4xl text-[#c9b99a] italic mb-8 text-shadow-sm">
               Where every session becomes art.
             </p>
-            <p className="font-sans text-[14px] text-[#e8e4df] max-w-xl leading-relaxed mb-10">
+            <p className="font-sans text-[14px] text-[#e8e4df] max-w-xl leading-relaxed mb-10 text-shadow-sm">
               2,500 square feet. 8 fully furnished sets. Motorized backdrops.
               A dedicated hair & makeup suite. Everything your session. or your shoot. deserves.
             </p>

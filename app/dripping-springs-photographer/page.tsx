@@ -106,13 +106,13 @@ export default function DrippingSpringsPhotographerPage() {
             />
           </div>
           <div className="relative max-w-5xl mx-auto w-full">
-            <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6">
+            <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6 text-shadow-sm">
               Dripping Springs · Texas Hill Country
             </p>
-            <h1 className="font-serif text-6xl md:text-8xl text-[#faf9f7] leading-none mb-8 italic">
+            <h1 className="font-serif text-6xl md:text-8xl text-[#faf9f7] leading-none mb-8 italic text-shadow-hero">
               Dripping Springs Photographer. Samantha Haines
             </h1>
-            <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10">
+            <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10 text-shadow-sm">
               Hill Country portraits as breathtaking as the land itself. serving Dripping Springs
               families with artistry, warmth, and a genuine love for this beautiful corner of Texas.
             </p>

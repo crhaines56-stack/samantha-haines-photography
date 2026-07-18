@@ -158,17 +158,17 @@ export default function MaternityNewbornPage() {
             />
           </div>
           <div className="relative max-w-5xl mx-auto w-full">
-            <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6">
+            <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6 text-shadow-sm">
               Maternity & Newborn · Austin, Texas
             </p>
-            <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 italic">
+            <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 italic text-shadow-hero">
               From bump to baby.
             </h1>
-            <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10">
+            <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10 text-shadow-sm">
               Pregnancy is extraordinary. And those first days with your newborn. the weight of them, the smell, the way they curl into you. are here for only the briefest window. Both deserve to be documented beautifully.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
-            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase">
+            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
               Now booking April &amp; May sessions
             </p>
           </div>
