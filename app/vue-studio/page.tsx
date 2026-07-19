@@ -121,7 +121,8 @@ export default function VueStudioPage() {
       <Header />
       <main>
         {/* Hero */}
-        <section className="relative h-screen flex items-end pb-24 px-6 overflow-hidden">
+        <div style={{height: '200vh'}}>
+          <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364437/shp/vue-studio/shp/vue-studio/hero.jpg"
@@ -161,6 +162,7 @@ export default function VueStudioPage() {
             </div>
           </div>
         </section>
+          </div>
 
         {/* Studio Specs */}
         <section className="py-20 px-6 bg-[#1a1a1a]">

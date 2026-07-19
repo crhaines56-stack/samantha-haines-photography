@@ -144,7 +144,8 @@ export default function HeadshotsPage() {
       <Header />
       <main className="pt-20">
         {/* Hero */}
-        <section className="relative min-h-screen flex items-end pb-24 px-6 overflow-hidden">
+        <div style={{height: '200vh'}}>
+          <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364413/shp/headshots/shp/headshots/hero.jpg"
@@ -174,6 +175,7 @@ export default function HeadshotsPage() {
             </p>
           </div>
         </section>
+          </div>
 
         {/* Happiness Guarantee */}
         <HappinessGuarantee />

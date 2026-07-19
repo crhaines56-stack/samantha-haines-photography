@@ -65,7 +65,8 @@ export default function AboutPage() {
       <Header />
       <main className="pt-20">
         {/* Hero */}
-        <section className="relative h-[70vh] flex items-end pb-20 px-6 overflow-hidden">
+        <div style={{height: '200vh'}}>
+          <section className="sticky top-0 h-screen flex items-end pb-20 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg"
@@ -87,6 +88,7 @@ export default function AboutPage() {
             </h1>
           </div>
         </section>
+          </div>
 
         {/* Intro / Philosophy */}
         <section className="py-24 px-6 bg-[#faf9f7]">

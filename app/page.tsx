@@ -79,7 +79,8 @@ export default function HomePage() {
       <Header />
       <main>
         {/* Hero */}
-        <section className="relative h-screen flex items-end pb-24 px-6 overflow-hidden">
+        <div style={{height: '200vh'}}>
+          <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
               src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364356/shp/homepage/shp/homepage/hero.jpg"
@@ -109,6 +110,7 @@ export default function HomePage() {
             </p>
           </div>
         </section>
+          </div>
 
         {/* Philosophy */}
         <section className="py-24 px-6 bg-[#faf9f7]">
