@@ -45,12 +45,6 @@ const services = [
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364377/shp/homepage/shp/homepage/service-maternity.jpg",
   },
   {
-    href: "/corporate-events-photographer-austin",
-    title: "Corporate Events",
-    description: "Conferences, team days, and brand moments — captured with intention.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364372/shp/homepage/shp/homepage/service-headshots.jpg",
-  },
-  {
     href: "/headshots-branding-photographer-austin",
     title: "Headshots & Branding",
     description: "The image that precedes you in every room.",
