@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 
 const navLinks = [
-  { href: "/boudoir-photographer-austin", label: "Boudoir" },
   { href: "/vue-studio", label: "Vue Studio" },
+  { href: "/boudoir-photographer-austin", label: "Boudoir" },
   { href: "/senior-portrait-photographer-austin", label: "Senior" },
   { href: "/family-photographer-austin", label: "Family" },
   { href: "/maternity-photographer-austin", label: "Maternity" },
