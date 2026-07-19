@@ -163,11 +163,11 @@ export default function HeadshotsPage() {
               Branding · Austin, Texas
             </p>
             <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 italic text-shadow-hero">
-              The image that precedes you in every room.
+              First impressions are forever.
             </h1>
             <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10 text-shadow-sm">
-              Your headshot is often the first impression you make. It should be
-              compelling, confident, and completely authentic to who you are.
+              Your brand image speaks before you do. It should be
+              compelling, confident, and completely yours.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
             <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
