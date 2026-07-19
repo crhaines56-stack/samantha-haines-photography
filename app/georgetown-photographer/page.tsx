@@ -121,6 +121,9 @@ export default function GeorgetownPhotographerPage() {
               charm and community spirit of one of Texas&rsquo;s most beloved cities.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
+            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
+              Austin Texas Photographer
+            </p>
           </div>
         </section>
           </div>

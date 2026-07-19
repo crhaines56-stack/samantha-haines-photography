@@ -170,6 +170,9 @@ export default function HeadshotsPage() {
               compelling, confident, and completely authentic to who you are.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
+            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
+              Austin Texas Photographer
+            </p>
           </div>
         </section>
           </div>

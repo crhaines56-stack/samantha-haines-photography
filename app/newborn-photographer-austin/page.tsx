@@ -154,6 +154,9 @@ export default function NewbornPhotographerAustinPage() {
               Those first days are here for only the briefest window. The weight of them. The curl of tiny fingers. The way they fit perfectly against your chest. These are the moments worth documenting with the care and intention they deserve.
             </p>
             <CTAButton href="/contact" size="lg">Start the Conversation</CTAButton>
+            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
+              Austin Texas Photographer
+            </p>
           </div>
         </section>
           </div>
