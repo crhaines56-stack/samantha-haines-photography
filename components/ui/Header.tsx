@@ -8,7 +8,7 @@ const navLinks = [
   { href: "/vue-studio", label: "Vue Studio" },
   { href: "/senior-portrait-photographer-austin", label: "Senior" },
   { href: "/family-photographer-austin", label: "Family" },
-  { href: "/maternity-photographer-austin", label: "Maternity + Newborn" },
+  { href: "/maternity-photographer-austin", label: "Maternity" },
   { href: "/headshots-branding-photographer-austin", label: "Headshots" },
   { href: "/about", label: "About" },
   { href: "/blog", label: "Blog" },
@@ -35,7 +35,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex flex-col items-start">
-          <span className={`font-serif text-2xl tracking-widest leading-none transition-colors duration-300 ${isScrolled ? "text-[#1a1a1a]" : "text-[#faf9f7]"}`}>
+          <span className={`font-serif text-lg tracking-[0.18em] leading-none transition-colors duration-300 ${isScrolled ? "text-[#1a1a1a]" : "text-[#faf9f7]"}`}>
             SAMANTHA HAINES
           </span>
           <span className="font-sans text-[10px] tracking-[0.3em] text-[#c9b99a] uppercase mt-0.5">
@@ -44,12 +44,12 @@ export default function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-5">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`font-sans text-[11px] tracking-[0.2em] uppercase transition-colors duration-200 ${
+              className={`font-sans text-[11px] tracking-[0.14em] uppercase whitespace-nowrap transition-colors duration-200 ${
                 isScrolled
                   ? "text-[#6b6b6b] hover:text-[#1a1a1a]"
                   : "text-[#faf9f7]/80 hover:text-[#faf9f7]"
