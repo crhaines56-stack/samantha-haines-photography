@@ -432,7 +432,7 @@ export default function WestlakeHillsBoudoirPage() {
               {[
                 {
                   quote:
-                    "I almost didn't book. Now I tell every woman I know. do it. You will not regret a single moment.",
+                    "I almost didn't book. Now I tell every woman I know — do it. You will not regret a single moment.",
                   label: "Boudoir Client",
                 },
                 {

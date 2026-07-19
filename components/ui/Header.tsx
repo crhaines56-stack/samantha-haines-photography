@@ -8,7 +8,7 @@ const navLinks = [
   { href: "/vue-studio", label: "Vue Studio" },
   { href: "/senior-portrait-photographer-austin", label: "Senior" },
   { href: "/family-photographer-austin", label: "Family" },
-  { href: "/maternity-newborn-photographer-austin", label: "Maternity + Newborn" },
+  { href: "/maternity-photographer-austin", label: "Maternity + Newborn" },
   { href: "/headshots-branding-photographer-austin", label: "Headshots" },
   { href: "/about", label: "About" },
   { href: "/blog", label: "Blog" },

@@ -182,9 +182,6 @@ export default function MaternityNewbornPage() {
         {/* Happiness Guarantee */}
         <HappinessGuarantee />
 
-        {/* Happiness Guarantee */}
-        <HappinessGuarantee />
-
         {/* </section>
 
         {/* Maternity Section */}

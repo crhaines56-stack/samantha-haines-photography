@@ -184,13 +184,9 @@ export default function AboutPage() {
               Your story is waiting to be told.
             </h2>
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-10">
-              Every session begins with a conversation. There&rsquo;s no pressure, no obligation
-             . just two people talking about what matters most to you.
+              Every session begins with a conversation. There&rsquo;s no pressure, no obligation — just two people talking about what matters most to you.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
-            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
-              Austin Texas Photographer
-            </p>
           </div>
         </section>
       </main>

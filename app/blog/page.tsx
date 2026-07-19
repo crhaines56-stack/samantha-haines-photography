@@ -102,7 +102,7 @@ export default function BlogPage() {
                   </p>
 
                   {/* Title */}
-                  <h2 className="font-serif text-2xl text-[#1a1a1a] mb-3 leading-snug">
+                  <h2 className="font-serif text-3xl text-[#1a1a1a] mb-3 leading-snug">
                     <Link
                       href={`/blog/${post.slug}`}
                       className="hover:text-[#8b6f5e] transition-colors duration-200"

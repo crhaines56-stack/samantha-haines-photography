@@ -147,7 +147,7 @@ export default function VueStudioPage() {
             </p>
             <p className="font-sans text-[14px] text-[#e8e4df] max-w-xl leading-relaxed mb-10 text-shadow-sm">
               2,500 square feet. 8 fully furnished sets. Motorized backdrops.
-              A dedicated hair & makeup suite. Everything your session. or your shoot. deserves.
+              A dedicated hair & makeup suite. Everything your session. or your shoot — deserves.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <CTAButton size="lg">Book a Session</CTAButton>
@@ -243,7 +243,7 @@ export default function VueStudioPage() {
                 {[
                   {
                     title: "Hair & Makeup Included",
-                    body: "Every Samantha Haines Photography session begins in our dedicated H&amp;M suite. Arrive as yourself. Leave camera-ready.",
+                    body: "Every Samantha Haines Photography session begins in our dedicated hair & makeup suite. Arrive as yourself. Leave camera-ready.",
                   },
                   {
                     title: "8 Sets in One Session",
@@ -404,7 +404,7 @@ export default function VueStudioPage() {
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-10">
               Every service. Every story. All at Vue Studio.
             </p>
-            <div className="flex flex-wrap justify-center gap-3 mb-10">
+            <div className="grid grid-cols-3 justify-center gap-3 mb-10 max-w-sm mx-auto">
               {[
                 { href: "/boudoir-photographer-austin", label: "Boudoir" },
                 { href: "/senior-portrait-photographer-austin", label: "Senior" },

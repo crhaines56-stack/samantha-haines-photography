@@ -180,9 +180,6 @@ export default function FamilyPage() {
         {/* Happiness Guarantee */}
         <HappinessGuarantee />
 
-        {/* Happiness Guarantee */}
-        <HappinessGuarantee />
-
         {/* </section>
 
         {/* The Experience */}

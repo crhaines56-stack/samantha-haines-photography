@@ -4,7 +4,7 @@ const services = [
   { href: "/boudoir-photographer-austin", label: "Boudoir" },
   { href: "/senior-portrait-photographer-austin", label: "Senior Portraits" },
   { href: "/family-photographer-austin", label: "Family" },
-  { href: "/maternity-newborn-photographer-austin", label: "Maternity + Newborn" },
+  { href: "/maternity-photographer-austin", label: "Maternity + Newborn" },
   { href: "/vue-studio", label: "Vue Studio" },
   { href: "/headshots-branding-photographer-austin", label: "Headshots & Branding" },
 ];

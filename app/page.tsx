@@ -55,7 +55,7 @@ const services = [
 const testimonials = [
   {
     quote:
-      "I almost didn't book. Now I tell every woman I know. do it. You will not regret a single moment.",
+      "I almost didn't book. Now I tell every woman I know — do it. You will not regret a single moment.",
     name: "Ashley M.",
     service: "Boudoir",
   },
