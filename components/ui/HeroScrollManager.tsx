@@ -13,8 +13,8 @@ export default function HeroScrollManager() {
     let ticking = false;
 
     const update = () => {
-      // Fully revealed by the time the hero sticky zone ends (1 viewport height)
-      const progress = Math.min(window.scrollY / window.innerHeight, 1);
+      // Reveal over first 40% of viewport scroll, then locked at full visibility
+      const progress = Math.min(window.scrollY / (window.innerHeight * 0.4), 1);
       document.documentElement.style.setProperty("--hero-progress", String(progress));
       ticking = false;
     };

@@ -65,7 +65,7 @@ export default function AboutPage() {
       <Header />
       <main className="pt-20">
         {/* Hero */}
-        <div style={{height: '200vh'}}>
+        <div style={{height: '300vh'}}>
           <section className="sticky top-0 h-screen flex items-end pb-20 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
