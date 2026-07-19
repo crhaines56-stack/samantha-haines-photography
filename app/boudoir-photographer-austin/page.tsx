@@ -338,52 +338,7 @@ export default function BoudoirPage() {
           </div>
         </section>
 
-        {/* Outdoor / Hill Country Boudoir */}
-        <section className="py-24 px-6 bg-[#faf9f7]">
-          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-            <div className="relative h-[500px] order-last md:order-first">
-              <Image
-                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364251/shp/boudoir/shp/boudoir/gallery-1.jpg"
-                alt="Outdoor Hill Country boudoir photography Austin TX"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div>
-              <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-6">
-                A First in Austin
-              </p>
-              <h2 className="font-serif text-5xl text-[#1a1a1a] leading-tight mb-8 italic">
-                Wild &amp; free. boudoir in the Hill Country.
-              </h2>
-              <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                Nobody else in Austin is doing this. Samantha is bringing boudoir photography
-                out of the studio and into the breathtaking landscape of the Austin Hill Country
-                &mdash; and the results are unlike anything you&rsquo;ve seen before.
-              </p>
-              <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                Imagine standing at the edge of Barton Creek Greenbelt at golden hour, the
-                Texas limestone warm beneath your feet. Or the still expanse of Lake Travis
-                at dusk, light spilling across the water in shades of copper and rose.
-                Or the ancient cedar formations of the Hill Country &mdash; wild, textured,
-                unapologetically yours.
-              </p>
-              <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                This is nature-empowered boudoir. It&rsquo;s feminine and fierce. It&rsquo;s
-                grounded in the raw beauty of this landscape and the even rawer beauty of the
-                woman standing in it. There&rsquo;s nothing staged about it &mdash; and that&rsquo;s
-                exactly the point.
-              </p>
-              <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-                Outdoor sessions are available by request and are planned with intention
-                &mdash; timing, light, and location all chosen to make every frame extraordinary.
-                If you&rsquo;ve ever wanted something truly one-of-a-kind, this is it.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Testimonials */}
+        {/* Testimonials */
         <section className="py-24 px-6 bg-[#faf9f7]">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
