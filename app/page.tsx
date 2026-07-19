@@ -99,9 +99,6 @@ export default function HomePage() {
           <div className="absolute inset-0 pointer-events-none" style={{background: 'linear-gradient(to right, rgba(0,0,0,0.52) 0%, rgba(0,0,0,0.28) 45%, transparent 72%)'}} />
 
           <div className="relative max-w-7xl mx-auto w-full">
-            <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6 animate-fade-in text-shadow-sm">
-              Austin, Texas · Est. 2022
-            </p>
             <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 animate-slide-up text-shadow-hero">
               This is about
               <br />
