@@ -9,7 +9,7 @@ const navLinks = [
   { href: "/senior-portrait-photographer-austin", label: "Senior" },
   { href: "/family-photographer-austin", label: "Family" },
   { href: "/maternity-photographer-austin", label: "Maternity" },
-  { href: "/headshots-branding-photographer-austin", label: "Headshots" },
+  { href: "/headshots-branding-photographer-austin", label: "Branding" },
   { href: "/about", label: "About" },
   { href: "/blog", label: "Blog" },
 ];

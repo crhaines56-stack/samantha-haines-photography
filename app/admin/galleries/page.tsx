@@ -26,7 +26,7 @@ const SESSION_TYPE_COLORS: Record<string, string> = {
   'Senior Portraits': '#c9852a',
   Newborn: '#5a8bbf',
   Maternity: '#bf5a7a',
-  'Headshots & Branding': '#5a8a5a',
+  'Branding': '#5a8a5a',
 };
 
 function getStatusBadge(gallery: Gallery) {

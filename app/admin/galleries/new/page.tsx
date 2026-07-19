@@ -10,7 +10,7 @@ const SESSION_TYPES = [
   'Senior Portraits',
   'Newborn',
   'Maternity',
-  'Headshots & Branding',
+  'Branding',
 ];
 
 function generatePassword(length = 8): string {

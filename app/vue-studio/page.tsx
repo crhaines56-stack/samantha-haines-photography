@@ -409,7 +409,7 @@ export default function VueStudioPage() {
                 { href: "/family-photographer-austin", label: "Family" },
                 { href: "/newborn-photographer-austin", label: "Newborn" },
                 { href: "/maternity-photographer-austin", label: "Maternity" },
-                { href: "/headshots-branding-photographer-austin", label: "Headshots" },
+                { href: "/headshots-branding-photographer-austin", label: "Branding" },
               ].map((s) => (
                 <Link
                   key={s.href}

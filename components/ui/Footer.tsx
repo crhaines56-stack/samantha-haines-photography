@@ -6,7 +6,7 @@ const services = [
   { href: "/family-photographer-austin", label: "Family" },
   { href: "/maternity-photographer-austin", label: "Maternity + Newborn" },
   { href: "/vue-studio", label: "Vue Studio" },
-  { href: "/headshots-branding-photographer-austin", label: "Headshots & Branding" },
+  { href: "/headshots-branding-photographer-austin", label: "Branding" },
 ];
 
 const locations = [

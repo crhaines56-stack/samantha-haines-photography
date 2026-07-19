@@ -160,7 +160,7 @@ export default function HeadshotsPage() {
 
           <div className="relative max-w-5xl mx-auto w-full hero-text">
             <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-6 text-shadow-sm">
-              Headshots & Branding · Austin, Texas
+              Branding · Austin, Texas
             </p>
             <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 italic text-shadow-hero">
               The image that precedes you in every room.
@@ -311,7 +311,7 @@ export default function HeadshotsPage() {
                 {
                   quote:
                     "I've had professional photos taken before and never felt like they truly looked like me. Samantha changed that. These headshots look like me on my best day. and I use them everywhere.",
-                  label: "Headshots Client",
+                  label: "Branding Client",
                 },
               ].map((t, i) => (
                 <div key={i} className="p-8 bg-[#f5f0ea]">

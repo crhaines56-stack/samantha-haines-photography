@@ -131,7 +131,7 @@ const galleryImages = [
 const relatedServices = [
   { href: "/family-photographer-austin", label: "Family" },
   { href: "/senior-portrait-photographer-austin", label: "Senior Portraits" },
-  { href: "/headshots-branding-photographer-austin", label: "Headshots & Branding" },
+  { href: "/headshots-branding-photographer-austin", label: "Branding" },
 ];
 
 export default function BoudoirPage() {

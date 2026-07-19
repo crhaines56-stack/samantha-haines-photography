@@ -10,7 +10,7 @@ const services = [
   "Senior Portraits",
   "Newborn",
   "Maternity",
-  "Headshots & Branding",
+  "Branding",
   "Vue Studio",
   "Other",
 ];

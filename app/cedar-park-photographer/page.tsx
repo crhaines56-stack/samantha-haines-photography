@@ -103,7 +103,7 @@ const services = [
   },
   {
     href: "/headshots-branding-photographer-austin",
-    title: "Headshots & Branding",
+    title: "Branding",
     desc: "Professional images that tell your brand story with confidence.",
     img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364372/shp/homepage/shp/homepage/service-headshots.jpg",
   },

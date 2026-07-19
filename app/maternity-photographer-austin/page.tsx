@@ -134,7 +134,7 @@ const newbornImages = [
 const relatedServices = [
   { href: "/family-photographer-austin", label: "Family" },
   { href: "/boudoir-photographer-austin", label: "Boudoir" },
-  { href: "/headshots-austin", label: "Headshots" },
+  { href: "/headshots-austin", label: "Branding" },
 ];
 
 export default function MaternityNewbornPage() {
