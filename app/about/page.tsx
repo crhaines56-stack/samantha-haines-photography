@@ -92,18 +92,28 @@ export default function AboutPage() {
 
         {/* Intro / Philosophy */}
         <section className="py-24 px-6 bg-[#faf9f7]">
-          <div className="max-w-3xl mx-auto">
-            <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-8">
-              In Her Own Words
-            </p>
-            <p className="font-serif text-3xl md:text-4xl text-[#1a1a1a] leading-relaxed italic mb-10">
-              &ldquo;As a mother of four, I connect with families. As a wife I connect
-              with couples. And as a business owner and previous digital and social media
-              marketing executive, I connect with businesses. I am so excited to expertly
-              guide you in whatever stage you&rsquo;re looking for through this process to
-              create stunning imagery that truly tells everyone your unique story.&rdquo;
-            </p>
-            <p className="font-sans text-[14px] text-[#8b6f5e] tracking-widest">— xx Samantha</p>
+          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div>
+              <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-8">
+                In Her Own Words
+              </p>
+              <p className="font-serif text-3xl md:text-4xl text-[#1a1a1a] leading-relaxed italic mb-10">
+                &ldquo;As a mother of four, I connect with families. As a wife I connect
+                with couples. And as a business owner and previous digital and social media
+                marketing executive, I connect with businesses. I am so excited to expertly
+                guide you in whatever stage you&rsquo;re looking for through this process to
+                create stunning imagery that truly tells everyone your unique story.&rdquo;
+              </p>
+              <p className="font-sans text-[14px] text-[#8b6f5e] tracking-widest">— xx Samantha</p>
+            </div>
+            <div className="relative h-[560px]">
+              <Image
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg"
+                alt="Samantha Haines Austin portrait photographer"
+                fill
+                className="object-cover object-top"
+              />
+            </div>
           </div>
         </section>
 
