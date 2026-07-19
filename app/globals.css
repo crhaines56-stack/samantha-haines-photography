@@ -62,6 +62,15 @@ button {
   color: var(--brand-white);
 }
 
+/* Hero scroll-reveal — driven by --hero-progress (0→1) set by HeroScrollManager */
+.hero-scrim {
+  opacity: var(--hero-progress, 0);
+}
+
+.hero-text {
+  opacity: var(--hero-progress, 0);
+}
+
 /* Hero text shadow utilities — keeps photos untouched while ensuring readability */
 .text-shadow-hero {
   text-shadow:

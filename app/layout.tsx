@@ -3,6 +3,7 @@ import { Cormorant_Garamond, Jost, Dancing_Script } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import LocalBusinessSchema from "@/components/schema/LocalBusinessSchema";
+import HeroScrollManager from "@/components/ui/HeroScrollManager";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -80,6 +81,7 @@ export default function RootLayout({
       className={`${cormorant.variable} ${jost.variable} ${dancing.variable}`}
     >
       <body className="antialiased">
+        <HeroScrollManager />
         <LocalBusinessSchema />
         {children}
         <Script

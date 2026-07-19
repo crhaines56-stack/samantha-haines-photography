@@ -90,9 +90,9 @@ export default function HomePage() {
             />
           </div>
           {/* Text readability scrim — separate layer, photo untouched */}
-          <div className="absolute inset-0 pointer-events-none" style={{background: 'linear-gradient(to right, rgba(0,0,0,0.52) 0%, rgba(0,0,0,0.28) 45%, transparent 72%)'}} />
+          <div className="absolute inset-0 pointer-events-none hero-scrim" style={{background: 'linear-gradient(to right, rgba(0,0,0,0.52) 0%, rgba(0,0,0,0.28) 45%, transparent 72%)'}} />
 
-          <div className="relative max-w-7xl mx-auto w-full">
+          <div className= hero-text"relative max-w-7xl mx-auto w-full">
             <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 animate-slide-up text-shadow-hero">
               This is about
               <br />
