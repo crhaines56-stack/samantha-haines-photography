@@ -75,6 +75,9 @@ export default function AboutPage() {
               className="object-cover"
             />
           </div>
+          {/* Text readability scrim — separate layer, photo untouched */}
+          <div className="absolute inset-0 pointer-events-none" style={{background: 'linear-gradient(to right, rgba(0,0,0,0.52) 0%, rgba(0,0,0,0.28) 45%, transparent 72%)'}} />
+
           <div className="relative max-w-4xl mx-auto w-full">
             <p className="font-sans text-[10px] tracking-[0.4em] uppercase text-[#c9b99a] mb-4">
               The Photographer
