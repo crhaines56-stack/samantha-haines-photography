@@ -163,7 +163,7 @@ export default function SeniorPortraitPage() {
               Senior Portraits · Austin, Texas
             </p>
             <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#faf9f7] leading-none mb-8 italic text-shadow-hero">
-              The chapter worth remembering.
+              A chapter worth remembering.
             </h1>
             <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10 text-shadow-sm">
               Your senior year is unlike any other. These portraits should be too —
