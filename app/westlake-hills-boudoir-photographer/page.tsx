@@ -201,9 +201,6 @@ export default function WestlakeHillsBoudoirPage() {
               A slow reveal of every facet of you. Hair &amp; makeup included.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
-            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
-              Now booking. limited sessions available
-            </p>
           </div>
         </section>
           </div>

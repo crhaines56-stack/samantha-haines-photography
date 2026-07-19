@@ -172,9 +172,6 @@ export default function MaternityNewbornPage() {
               Pregnancy is extraordinary. And those first days with your newborn. the weight of them, the smell, the way they curl into you. are here for only the briefest window. Both deserve to be documented beautifully.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
-            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
-              Now booking April &amp; May sessions
-            </p>
           </div>
         </section>
           </div>

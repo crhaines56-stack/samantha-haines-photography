@@ -171,9 +171,6 @@ export default function BoudoirPage() {
               layered and complex as you are.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
-            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
-              Now booking April &amp; May sessions
-            </p>
           </div>
         </section>
           </div>
