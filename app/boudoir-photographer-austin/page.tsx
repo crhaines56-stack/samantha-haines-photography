@@ -338,7 +338,50 @@ export default function BoudoirPage() {
           </div>
         </section>
 
-        {/* Testimonials */
+        {/* A Different Take on Boudoir */}
+        <section className="py-24 px-6 bg-[#f5f0ea]">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+              <div>
+                <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-6">
+                  The Philosophy
+                </p>
+                <h2 className="font-serif text-5xl md:text-6xl text-[#1a1a1a] leading-tight mb-8 italic">
+                  A Different Take on Boudoir.
+                </h2>
+                <p className="font-serif text-2xl text-[#8b6f5e] italic leading-relaxed mb-10">
+                  This isn&rsquo;t about how much you can show.
+                  This is about creating beautiful pieces of art where you are the centerpiece.
+                </p>
+                <div className="mt-10">
+                  <CTAButton size="lg">Start the Conversation</CTAButton>
+                </div>
+              </div>
+              <div className="space-y-8">
+                <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
+                  This art celebrates femininity and is tailored to your unique comfort level.
+                  Whether you arrive with a clear vision or no idea where to start, Samantha
+                  will meet you exactly where you are.
+                </p>
+                <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
+                  The goal is to show you hundreds of ways you are stunning and beautiful
+                  &mdash; with the littlest or most skin on display, or somewhere beautifully
+                  in between. There is no wrong answer. There is only your answer.
+                </p>
+                <div className="border-l-2 border-[#c9b99a] pl-6">
+                  <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
+                    There are no hidden fees to try multiple outfits. Samantha personally
+                    assists in curating your looks &mdash; finding the colors, fits, and
+                    styles for each set that are right for you and, most importantly,
+                    tell your story.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Testimonials */}
         <section className="py-24 px-6 bg-[#faf9f7]">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
