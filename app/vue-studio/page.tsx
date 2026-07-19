@@ -109,7 +109,6 @@ const sets = [
 const specs = [
   { label: "Square Footage", value: "2,500 sq ft" },
   { label: "Furnished Sets", value: "8 Unique Sets" },
-  { label: "Backdrops", value: "Fully Motorized" },
   { label: "Hair & Makeup", value: "Dedicated Suite" },
   { label: "Parking", value: "On-Site" },
   { label: "Location", value: "2302 Jacks Pass, Austin TX" },
@@ -146,7 +145,7 @@ export default function VueStudioPage() {
               Where every session becomes art.
             </p>
             <p className="font-sans text-[14px] text-[#e8e4df] max-w-xl leading-relaxed mb-10 text-shadow-sm">
-              2,500 square feet. 8 fully furnished sets. Motorized backdrops.
+              2,500 square feet. 8 fully furnished sets.
               A dedicated hair & makeup suite. Everything your session. or your shoot — deserves.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -170,7 +169,7 @@ export default function VueStudioPage() {
         {/* Studio Specs */}
         <section className="py-20 px-6 bg-[#1a1a1a]">
           <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-px bg-[#2a2a2a]">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-px bg-[#2a2a2a]">
               {specs.map((spec) => (
                 <div key={spec.label} className="bg-[#1a1a1a] p-8 text-center">
                   <p className="font-serif text-2xl text-[#faf9f7] mb-2">{spec.value}</p>
@@ -294,7 +293,6 @@ export default function VueStudioPage() {
               <div className="space-y-5 mb-10">
                 {[
                   "8 distinct, fully furnished sets. ready to shoot on arrival",
-                  "Fully motorized seamless backdrops in curated neutral tones",
                   "Professional lighting infrastructure throughout",
                   "Dedicated hair & makeup suite for talent",
                   "2,500 sq ft of usable space. room to move, room to create",

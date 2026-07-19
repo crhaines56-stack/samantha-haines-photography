@@ -181,7 +181,7 @@ export default function HomePage() {
                   A private studio.<br />Built for you.
                 </h2>
                 <p className="font-sans text-[15px] text-[#a0a0a0] leading-relaxed mb-6">
-                  Most photographers rent space. Samantha built hers. Vue Studio is a 2,500 sq ft private luxury portrait studio in Austin. 8 fully furnished sets, motorized backdrops, and a dedicated hair and makeup suite. When you book a session, the entire space is yours.
+                  Most photographers rent space. Samantha built hers. Vue Studio is a 2,500 sq ft private luxury portrait studio in Austin. 8 fully furnished sets and a dedicated hair and makeup suite. When you book a session, the entire space is yours.
                 </p>
                 <p className="font-sans text-[15px] text-[#a0a0a0] leading-relaxed mb-10">
                   No shared hallways. No strangers. No compromises. Just privacy, intention, and the kind of space that makes every woman feel exactly as she should: like the only person in the room.
