@@ -222,7 +222,7 @@ export default function MaternityNewbornPage() {
                     src={img.src}
                     alt={img.alt}
                     fill
-                    className="object-cover hover:scale-105 transition-transform duration-700"
+                    className="object-cover object-[50%_25%] hover:scale-105 transition-transform duration-700"
                   />
                 </div>
               ))}
@@ -281,7 +281,7 @@ export default function MaternityNewbornPage() {
                     src={img.src}
                     alt={img.alt}
                     fill
-                    className="object-cover hover:scale-105 transition-transform duration-700"
+                    className="object-cover object-[50%_25%] hover:scale-105 transition-transform duration-700"
                   />
                 </div>
               ))}
