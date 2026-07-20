@@ -162,7 +162,6 @@ export default function NewbornPhotographerAustinPage() {
           </div>
 
         {/* Happiness Guarantee. above the fold on scroll */}
-        <HappinessGuarantee />
 
         {/* About the Experience */}
         <section className="py-24 px-6 bg-[#faf9f7]">
@@ -246,6 +245,8 @@ export default function NewbornPhotographerAustinPage() {
             </div>
           </div>
         </section>
+
+        <HappinessGuarantee />
 
         {/* Timing Guide */}
         <section className="py-24 px-6 bg-[#1a1a1a]">

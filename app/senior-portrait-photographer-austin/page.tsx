@@ -178,7 +178,6 @@ export default function SeniorPortraitPage() {
           </div>
 
         {/* Happiness Guarantee */}
-        <HappinessGuarantee />
 
         {/* </section>
 
@@ -246,6 +245,8 @@ export default function SeniorPortraitPage() {
             </div>
           </div>
         </section>
+
+        <HappinessGuarantee />
 
         {/* What's Always Included */
         <section className="py-24 px-6 bg-[#1a1a1a]">

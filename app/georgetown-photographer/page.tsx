@@ -173,6 +173,8 @@ export default function GeorgetownPhotographerPage() {
           </div>
         </section>
 
+        <HappinessGuarantee />
+
         {/* What's Always Included */}
         <section className="py-24 px-6 bg-[#1a1a1a]">
           <div className="max-w-5xl mx-auto">
@@ -196,8 +198,6 @@ export default function GeorgetownPhotographerPage() {
             </div>
           </div>
         </section>
-
-        <HappinessGuarantee />
 
         {/* Testimonial */}
         <section className="py-24 px-6 bg-[#faf9f7]">

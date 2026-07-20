@@ -179,7 +179,6 @@ export default function BoudoirPage() {
           </div>
 
         {/* Happiness Guarantee */}
-        <HappinessGuarantee />
 
         {/* Hook */}
         <section className="py-24 px-6 bg-[#faf9f7]">
@@ -258,6 +257,8 @@ export default function BoudoirPage() {
             </div>
           </div>
         </section>
+
+        <HappinessGuarantee />
 
         {/* What's Always Included */}
         <section className="py-24 px-6 bg-[#1a1a1a]">

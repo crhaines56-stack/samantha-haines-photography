@@ -184,7 +184,6 @@ export default function MaternityNewbornPage() {
           </div>
 
         {/* Happiness Guarantee */}
-        <HappinessGuarantee />
 
         {/* </section>
 
@@ -244,6 +243,8 @@ export default function MaternityNewbornPage() {
             </div>
           </div>
         </section>
+
+        <HappinessGuarantee />
 
         {/* Newborn Section */
         <section className="py-24 px-6 bg-[#faf9f7]">

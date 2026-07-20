@@ -209,7 +209,6 @@ export default function WestlakeHillsBoudoirPage() {
           </div>
 
         {/* Happiness Guarantee */}
-        <HappinessGuarantee />
 
         {/* Intro / Location Copy */}
         <section className="py-24 px-6 bg-[#faf9f7]">
@@ -314,6 +313,8 @@ export default function WestlakeHillsBoudoirPage() {
             </div>
           </div>
         </section>
+
+        <HappinessGuarantee />
 
         {/* What's Always Included */}
         <section className="py-24 px-6 bg-[#1a1a1a]">
