@@ -111,15 +111,15 @@ const galleryImages = [
     alt: "Business headshots Austin Texas",
   },
   {
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506592/shp/headshots/shp/headshots/gallery-3.jpg",
+    alt: "Branding photographer Austin TX",
+  },
+  {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364417/shp/headshots/shp/headshots/gallery-2.jpg",
     alt: "Professional headshots Austin Texas",
   },
   {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364424/shp/headshots/shp/headshots/gallery-5.jpg",
-    alt: "Branding photographer Austin TX",
-  },
-  {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506592/shp/headshots/shp/headshots/gallery-3.jpg",
     alt: "Branding photographer Austin TX",
   },
   {
