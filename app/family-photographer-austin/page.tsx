@@ -39,7 +39,7 @@ const faqSchema = {
       name: "What is the best time for a family photo session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha schedules sessions during golden hour. the hour after sunrise or the hour before sunset. for the most beautiful, flattering light. She'll work with your family's schedule to find the perfect time.",
+        text: "Samantha schedules sessions during golden hour — the hour after sunrise or the hour before sunset — for the most beautiful, flattering light. She'll work with your family's schedule to find the perfect time.",
       },
     },
     {
@@ -55,7 +55,7 @@ const faqSchema = {
       name: "What if our kids don't cooperate during the session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha comes prepared. with patience, treats, playlists, and the experience to draw genuine moments from even the most unpredictable little ones. Some of the most beautiful family photos happen in the candid, unscripted moments.",
+        text: "Samantha comes prepared — with patience, treats, playlists, and the experience to draw genuine moments from even the most unpredictable little ones. Some of the most beautiful family photos happen in the candid, unscripted moments.",
       },
     },
     {
@@ -71,7 +71,7 @@ const faqSchema = {
       name: "How long is a family session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Sessions are designed with room to breathe. enough time for everyone to settle in, play, connect, and let the real moments emerge. No rushed, stiff posing. Just your family being yourselves.",
+        text: "Sessions are designed with room to breathe — enough time for everyone to settle in, play, connect, and let the real moments emerge. No rushed, stiff posing. Just your family being yourselves.",
       },
     },
     {
@@ -79,7 +79,7 @@ const faqSchema = {
       name: "Is hair and makeup included for family sessions?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. professional hair and makeup are available for parents in family sessions. Details are discussed during your consultation.",
+        text: "Yes — professional hair and makeup are available for parents in family sessions. Details are discussed during your consultation.",
       },
     },
     {
@@ -144,7 +144,7 @@ export default function FamilyPage() {
       <Header />
       <main className="pt-20">
         {/* Hero */}
-        <div style={{height: '300vh'}}>
+        <div style={{height: '150vh'}}>
           <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
@@ -193,11 +193,11 @@ export default function FamilyPage() {
               </h2>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
                 Samantha doesn&rsquo;t want you to stand in a line and say cheese. She wants to
-                capture your family the way you actually are. laughing, running, holding on
+                capture your family the way you actually are — laughing, running, holding on
                 to each other, and being completely yourselves.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                She arrives prepared. with treats for the kids, a playlist, and the patience
+                She arrives prepared — with treats for the kids, a playlist, and the patience
                 to let moments unfold naturally. The result is imagery that feels alive, not
                 posed. Connection, not performance.
               </p>
@@ -274,7 +274,7 @@ export default function FamilyPage() {
                 {
                   icon: "✦",
                   title: "Direction",
-                  desc: "Samantha guides every moment. so your family can just be your family.",
+                  desc: "Samantha guides every moment — so your family can just be your family.",
                 },
                 {
                   icon: "✦",

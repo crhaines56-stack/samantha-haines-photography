@@ -32,7 +32,7 @@ const faqSchema = {
       name: "Where is your studio located?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX. approximately 20 minutes from Lakeway. The studio sits close to Lake Travis, making it a natural fit for Lakeway clients.",
+        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX — approximately 20 minutes from Lakeway — the studio sits close to Lake Travis, making it a natural fit for Lakeway clients.",
       },
     },
     {
@@ -125,7 +125,7 @@ export default function LakewayPhotographerPage() {
       <Header />
       <main className="pt-20">
         {/* Hero */}
-        <div style={{height: '300vh'}}>
+        <div style={{height: '150vh'}}>
           <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
@@ -147,7 +147,7 @@ export default function LakewayPhotographerPage() {
               Lakeway Photographer. Samantha Haines
             </h1>
             <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10 text-shadow-sm">
-              Elevated portrait photography for Lakeway&rsquo;s families and women. as refined
+              Elevated portrait photography for Lakeway&rsquo;s families and women — as refined
               as the lakeside community you call home.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
@@ -168,13 +168,13 @@ export default function LakewayPhotographerPage() {
               Lakeside living deserves lakeside-beautiful portraits.
             </h2>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-4">
-              Lakeway&rsquo;s stunning natural setting. the lake, the hills, the wide-open Texas sky. 
+              Lakeway&rsquo;s stunning natural setting — the lake, the hills, the wide-open Texas sky. 
               provides the perfect backdrop for portraits that feel as effortless as life on the water.
               Samantha Haines brings her artistry and her personal touch to every Lakeway client,
               whether you&rsquo;re looking for studio elegance or lakeside magic.
             </p>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-              Vue Studio is only 20 minutes from Lakeway. and the studio&rsquo;s warmth and beauty
+              Vue Studio is only 20 minutes from Lakeway — and the studio&rsquo;s warmth and beauty
               match perfectly with the refined aesthetic Lakeway clients love.
             </p>
           </div>

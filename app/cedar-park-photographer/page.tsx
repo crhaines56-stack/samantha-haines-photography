@@ -32,7 +32,7 @@ const faqSchema = {
       name: "Where is your studio located?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX. approximately 20 minutes from Cedar Park. It's a beautiful, private studio space that's well worth the short drive.",
+        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX — approximately 20 minutes from Cedar Park — it's a beautiful, private studio space that's well worth the short drive.",
       },
     },
     {
@@ -125,7 +125,7 @@ export default function CedarParkPhotographerPage() {
       <Header />
       <main className="pt-20">
         {/* Hero */}
-        <div style={{height: '300vh'}}>
+        <div style={{height: '150vh'}}>
           <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
@@ -169,12 +169,12 @@ export default function CedarParkPhotographerPage() {
             </h2>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-4">
               Samantha Haines has photographed families across the greater Austin area, and Cedar Park
-              holds a special place. it&rsquo;s a community full of life, love, and moments worth preserving.
+              holds a special place — it&rsquo;s a community full of life, love, and moments worth preserving.
               Whether you&rsquo;re looking for a family session, maternity portraits, or a boudoir experience,
               Samantha brings the same artistry and care to every client.
             </p>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-              Vue Studio is just 20 minutes from Cedar Park. close enough for a relaxed, no-rush experience
+              Vue Studio is just 20 minutes from Cedar Park — close enough for a relaxed, no-rush experience
               that starts the moment you walk through the door.
             </p>
           </div>
@@ -276,7 +276,7 @@ export default function CedarParkPhotographerPage() {
               Let&rsquo;s make something beautiful.
             </h2>
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-10">
-              Cedar Park families. your story deserves to be told beautifully. Let&rsquo;s start with a conversation.
+              Cedar Park families — your story deserves to be told beautifully. Let&rsquo;s start with a conversation.
             </p>
             <CTAButton size="lg" variant="secondary">Start the Conversation</CTAButton>
           </div>

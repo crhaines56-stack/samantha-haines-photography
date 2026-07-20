@@ -39,7 +39,7 @@ const faqSchema = {
       name: "When is the best time for maternity photos?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The ideal window for maternity portraits is between 28–36 weeks. when the bump is beautifully full but you're still comfortable and mobile. Samantha will help you find the perfect timing during your consultation.",
+        text: "The ideal window for maternity portraits is between 28–36 weeks — when the bump is beautifully full but you're still comfortable and mobile. Samantha will help you find the perfect timing during your consultation.",
       },
     },
     {
@@ -55,7 +55,7 @@ const faqSchema = {
       name: "Can I book maternity and newborn together?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. and most clients do. Booking both together creates a continuous story of this entire chapter of your life, from pregnancy through those first fleeting days. Samantha plans both sessions together so the images feel cohesive.",
+        text: "Yes — and most clients do. Booking both together creates a continuous story of this entire chapter of your life, from pregnancy through those first fleeting days. Samantha plans both sessions together so the images feel cohesive.",
       },
     },
     {
@@ -63,7 +63,7 @@ const faqSchema = {
       name: "Is hair and makeup included?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Professional hair and makeup are included with every maternity session. so you can focus entirely on enjoying the experience. For newborn sessions, styling guidance is provided for parents.",
+        text: "Yes. Professional hair and makeup are included with every maternity session — so you can focus entirely on enjoying the experience. For newborn sessions, styling guidance is provided for parents.",
       },
     },
     {
@@ -95,7 +95,7 @@ const faqSchema = {
       name: "Where are maternity sessions held?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Sessions are held at outdoor locations throughout Austin or in Samantha's private studio. depending on your vision. Location is discussed and chosen during your consultation.",
+        text: "Sessions are held at outdoor locations throughout Austin or in Samantha's private studio — depending on your vision. Location is discussed and chosen during your consultation.",
       },
     },
   ],
@@ -147,7 +147,7 @@ export default function MaternityNewbornPage() {
       <Header />
       <main className="pt-20">
         {/* Hero */}
-        <div style={{height: '300vh'}}>
+        <div style={{height: '150vh'}}>
           <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
@@ -169,7 +169,7 @@ export default function MaternityNewbornPage() {
               From bump to baby.
             </h1>
             <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10 text-shadow-sm">
-              Pregnancy is extraordinary. And those first days with your newborn. the weight of them, the smell, the way they curl into you. are here for only the briefest window. Both deserve to be documented beautifully.
+              Pregnancy is extraordinary. And those first days with your newborn — the weight of them, the smell, the way they curl into you — are here for only the briefest window. Both deserve to be documented beautifully.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
             <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
@@ -202,7 +202,7 @@ export default function MaternityNewbornPage() {
                 Celebrated. Seen. Extraordinary.
               </h2>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                Samantha approaches maternity sessions as a celebration of who you are right now. the strength, the tenderness, the anticipation. She guides you through every moment so your only job is to arrive and breathe it in.
+                Samantha approaches maternity sessions as a celebration of who you are right now — the strength, the tenderness, the anticipation. She guides you through every moment so your only job is to arrive and breathe it in.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
                 Wardrobe is thoughtfully planned. Hair and makeup are included. Partners and older children are welcomed. The result is a collection of images that will remind you, years from now, of exactly how powerful and beautiful you were in this season.
@@ -253,10 +253,10 @@ export default function MaternityNewbornPage() {
                 Gentle. Unhurried. Yours.
               </h2>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                Samantha creates a calm, warm environment where your baby is always safe, always comfortable, and always the priority. There&rsquo;s no rush. sessions are built around your baby&rsquo;s needs, with time for feeding, settling, and those in-between moments that become the most treasured images.
+                Samantha creates a calm, warm environment where your baby is always safe, always comfortable, and always the priority. There&rsquo;s no rush — sessions are built around your baby&rsquo;s needs, with time for feeding, settling, and those in-between moments that become the most treasured images.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-                Siblings and parents are welcomed. These are family portraits as much as they are newborn portraits. the beginning of a story that will span a lifetime.
+                Siblings and parents are welcomed. These are family portraits as much as they are newborn portraits — the beginning of a story that will span a lifetime.
               </p>
             </div>
             <div className="relative h-[550px]">
@@ -306,7 +306,7 @@ export default function MaternityNewbornPage() {
               Most clients book both together.
             </h2>
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-10">
-              When you book maternity and newborn sessions together, Samantha plans them as one continuous story. cohesive, intentional, and complete. From the final weeks of pregnancy to those first fleeting days.
+              When you book maternity and newborn sessions together, Samantha plans them as one continuous story — cohesive, intentional, and complete. From the final weeks of pregnancy to those first fleeting days.
             </p>
             <CTAButton size="lg" variant="secondary">
               Start the Conversation
@@ -340,7 +340,7 @@ export default function MaternityNewbornPage() {
                 {
                   icon: "✦",
                   title: "Direction",
-                  desc: "Samantha guides every moment. so you can relax into the experience.",
+                  desc: "Samantha guides every moment — so you can relax into the experience.",
                 },
                 {
                   icon: "✦",

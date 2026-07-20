@@ -39,7 +39,7 @@ const faqSchema = {
       name: "What's the difference between headshots and personal branding photography?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A headshot is a single, polished portrait. typically used for LinkedIn, websites, and directories. Personal branding photography is a broader collection that tells the full story of who you are and what you do: your workspace, your process, your personality. Samantha offers both, and often combines them for a complete package.",
+        text: "A headshot is a single, polished portrait — typically used for LinkedIn, websites, and directories. Personal branding photography is a broader collection that tells the full story of who you are and what you do: your workspace, your process, your personality. Samantha offers both, and often combines them for a complete package.",
       },
     },
     {
@@ -47,7 +47,7 @@ const faqSchema = {
       name: "Is hair and makeup included?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Professional hair and makeup are included with every headshot and branding session. so you arrive and immediately look and feel your best.",
+        text: "Yes. Professional hair and makeup are included with every headshot and branding session — so you arrive and immediately look and feel your best.",
       },
     },
     {
@@ -55,7 +55,7 @@ const faqSchema = {
       name: "How many outfits should I bring?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha recommends 2–4 outfits for a full branding session. each creating a different tone and use case. Wardrobe guidance is provided during your pre-shoot consultation.",
+        text: "Samantha recommends 2–4 outfits for a full branding session — each creating a different tone and use case. Wardrobe guidance is provided during your pre-shoot consultation.",
       },
     },
     {
@@ -79,7 +79,7 @@ const faqSchema = {
       name: "How are the images delivered?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Your final gallery is delivered as high-resolution digital files optimized for web and print. Samantha can also advise on sizing and formatting for specific platforms. LinkedIn, websites, speaking bios, and more.",
+        text: "Your final gallery is delivered as high-resolution digital files optimized for web and print. Samantha can also advise on sizing and formatting for specific platforms — LinkedIn, websites, speaking bios, and more.",
       },
     },
     {
@@ -87,7 +87,7 @@ const faqSchema = {
       name: "What industries do you work with?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha works with professionals across industries. from executives and entrepreneurs to real estate agents, attorneys, coaches, creatives, and beyond. If you have a brand to communicate, she can capture it.",
+        text: "Samantha works with professionals across industries — from executives and entrepreneurs to real estate agents, attorneys, coaches, creatives, and beyond. If you have a brand to communicate, she can capture it.",
       },
     },
     {
@@ -144,7 +144,7 @@ export default function HeadshotsPage() {
       <Header />
       <main className="pt-20">
         {/* Hero */}
-        <div style={{height: '300vh'}}>
+        <div style={{height: '150vh'}}>
           <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
@@ -194,12 +194,12 @@ export default function HeadshotsPage() {
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
                 Samantha approaches headshots and personal branding with the same
                 storytelling instinct she brings to every session. She&rsquo;s not
-                photographing a face. she&rsquo;s photographing a professional, a
+                photographing a face — she&rsquo;s photographing a professional, a
                 personality, a brand.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
                 With a background in digital marketing and visual strategy, she understands
-                what imagery needs to communicate. and how to create it. The result is
+                what imagery needs to communicate — and how to create it. The result is
                 headshots that don&rsquo;t just look polished. They feel right.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
@@ -276,7 +276,7 @@ export default function HeadshotsPage() {
                 {
                   icon: "✦",
                   title: "Direction",
-                  desc: "Samantha guides every expression and pose. naturally and authentically.",
+                  desc: "Samantha guides every expression and pose — naturally and authentically.",
                 },
                 {
                   icon: "✦",
@@ -317,7 +317,7 @@ export default function HeadshotsPage() {
                 },
                 {
                   quote:
-                    "I've had professional photos taken before and never felt like they truly looked like me. Samantha changed that. These headshots look like me on my best day. and I use them everywhere.",
+                    "I've had professional photos taken before and never felt like they truly looked like me. Samantha changed that. These headshots look like me on my best day — and I use them everywhere.",
                   label: "Branding Client",
                 },
               ].map((t, i) => (
@@ -372,7 +372,7 @@ export default function HeadshotsPage() {
             </h2>
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-10">
               Every session starts with a conversation. Tell Samantha about your brand,
-              your goals, your vision. and together you&rsquo;ll create imagery that
+              your goals, your vision — and together you&rsquo;ll create imagery that
               works as hard as you do.
             </p>
             <CTAButton size="lg" variant="secondary">

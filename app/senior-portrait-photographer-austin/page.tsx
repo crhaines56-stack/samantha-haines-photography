@@ -39,7 +39,7 @@ const faqSchema = {
       name: "When should we book a senior portrait session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha recommends booking your senior portrait session in the spring or fall semester of your senior year. Popular dates fill quickly. the earlier you connect, the more flexibility you'll have.",
+        text: "Samantha recommends booking your senior portrait session in the spring or fall semester of your senior year. Popular dates fill quickly — the earlier you connect, the more flexibility you'll have.",
       },
     },
     {
@@ -47,7 +47,7 @@ const faqSchema = {
       name: "How many outfits can we bring?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha encourages multiple outfit changes. each one creates a different mood, a different story. The exact number is discussed during your pre-shoot consultation based on your session.",
+        text: "Samantha encourages multiple outfit changes — each one creates a different mood, a different story. The exact number is discussed during your pre-shoot consultation based on your session.",
       },
     },
     {
@@ -63,7 +63,7 @@ const faqSchema = {
       name: "Can we include sports, hobbies, or interests in the session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely. These sessions are about who you are right now. your interests, your personality, your passions. Samantha works with you to incorporate what makes your story uniquely yours.",
+        text: "Absolutely. These sessions are about who you are right now — your interests, your personality, your passions. Samantha works with you to incorporate what makes your story uniquely yours.",
       },
     },
     {
@@ -71,7 +71,7 @@ const faqSchema = {
       name: "Where are senior portrait sessions held?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Sessions can be held at outdoor locations throughout Austin. parks, urban settings, natural landscapes. or in Samantha's studio. The location is chosen during your consultation to match your vision.",
+        text: "Sessions can be held at outdoor locations throughout Austin — parks, urban settings, natural landscapes — or in Samantha's studio. The location is chosen during your consultation to match your vision.",
       },
     },
     {
@@ -87,7 +87,7 @@ const faqSchema = {
       name: "What makes Samantha's senior portraits different?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha approaches every senior session as an editorial shoot. not a standard school photo. The result is imagery that captures who you truly are at this moment in time: beautiful, layered, and completely yours.",
+        text: "Samantha approaches every senior session as an editorial shoot — not a standard school photo. The result is imagery that captures who you truly are at this moment in time: beautiful, layered, and completely yours.",
       },
     },
     {
@@ -144,7 +144,7 @@ export default function SeniorPortraitPage() {
       <Header />
       <main className="pt-20">
         {/* Hero */}
-        <div style={{height: '300vh'}}>
+        <div style={{height: '150vh'}}>
           <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
@@ -200,13 +200,13 @@ export default function SeniorPortraitPage() {
                 Not your school photo.
               </h2>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                Samantha treats every senior portrait session like an editorial shoot. built
+                Samantha treats every senior portrait session like an editorial shoot — built
                 around your personality, your passions, and the version of yourself you want
                 to remember.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
                 Multiple outfits, locations, and moods. Hair and makeup included. And Samantha
-                directing every moment so you can relax and simply be yourself. beautifully
+                directing every moment so you can relax and simply be yourself — beautifully
                 captured in the process.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
@@ -274,7 +274,7 @@ export default function SeniorPortraitPage() {
                 {
                   icon: "✦",
                   title: "Direction",
-                  desc: "Samantha guides every pose and expression. you just have to show up.",
+                  desc: "Samantha guides every pose and expression — you just have to show up.",
                 },
                 {
                   icon: "✦",
@@ -310,7 +310,7 @@ export default function SeniorPortraitPage() {
               {[
                 {
                   quote:
-                    "The attention to detail, the experience, the final images. everything exceeded every expectation I had. These aren't just senior photos. they're art.",
+                    "The attention to detail, the experience, the final images — everything exceeded every expectation I had. These aren't just senior photos — they're art.",
                   label: "Senior Portrait Client",
                 },
                 {
@@ -369,7 +369,7 @@ export default function SeniorPortraitPage() {
               Let&rsquo;s capture who you are.
             </h2>
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-10">
-              Every session starts with a conversation. Tell Samantha your vision. and
+              Every session starts with a conversation. Tell Samantha your vision — and
               together you&rsquo;ll create portraits worth carrying into the next chapter.
             </p>
             <CTAButton size="lg" variant="secondary">

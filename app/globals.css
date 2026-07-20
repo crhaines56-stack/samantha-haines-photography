@@ -68,8 +68,10 @@ button {
   opacity: var(--hero-progress, 0);
 }
 
+/* Hero text: hidden + shifted on load, reveals as user begins scrolling */
 .hero-text {
   opacity: var(--hero-progress, 0);
+  transform: translateY(calc(20px * (1 - var(--hero-progress, 0))));
 }
 
 /* Hero text shadow utilities — keeps photos untouched while ensuring readability */
