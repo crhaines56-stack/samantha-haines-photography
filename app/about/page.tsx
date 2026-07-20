@@ -168,7 +168,7 @@ export default function AboutPage() {
                 },
                 {
                   title: "Community Rooted",
-                  desc: "Born from Steiner Ranch, Samantha is part of the Austin community she photographs. She knows these families, these streets, this light.",
+                  desc: "Samantha has called Steiner Ranch home for over a decade. She’s raising her family here, building her business here, and photographing the same community she lives in every day. That’s not just local. That’s personal.",
                 },
                 {
                   title: "Artist Always",
