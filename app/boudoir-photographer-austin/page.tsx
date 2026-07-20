@@ -309,7 +309,7 @@ export default function BoudoirPage() {
           </div>
         </section>
 
-        {/* Privacy */
+        {/* Privacy */}
         <section className="py-20 px-6 bg-[#f5f0ea]">
           <div className="max-w-3xl mx-auto text-center">
             <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-6">

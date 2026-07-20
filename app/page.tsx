@@ -171,7 +171,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* What's Always Included */
+        {/* What's Always Included */}
         
         {/* Vue Studio — Private Luxury Boudoir Studio Feature */}
         <section className="py-24 px-6 bg-[#1a1a1a]">
@@ -257,7 +257,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Happiness Guarantee */
+        {/* Happiness Guarantee */}
         <HappinessGuarantee />
 
         {/* Testimonials */}
