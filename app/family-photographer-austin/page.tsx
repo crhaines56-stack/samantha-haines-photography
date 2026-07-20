@@ -111,7 +111,7 @@ const galleryImages = [
     alt: "Austin family portrait session",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364399/shp/family/shp/family/experience.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784515545/shp/family/shp/family/gallery-3.jpg",
     alt: "Outdoor family photos Austin Texas",
   },
   {
