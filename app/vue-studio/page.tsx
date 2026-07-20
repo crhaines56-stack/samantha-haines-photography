@@ -190,7 +190,7 @@ export default function VueStudioPage() {
                 The Space
               </p>
               <h2 className="font-serif text-5xl md:text-6xl text-[#1a1a1a] mb-6">
-                9 sets. Infinite stories.
+                8 sets. Infinite stories.
               </h2>
               <p className="font-sans text-[15px] text-[#6b6b6b] max-w-2xl mx-auto leading-relaxed">
                 Every set at Vue Studio is fully furnished, professionally styled, and
