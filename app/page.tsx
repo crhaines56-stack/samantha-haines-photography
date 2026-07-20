@@ -118,11 +118,12 @@ export default function HomePage() {
             <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-8">
               The Philosophy
             </p>
-            <p className="font-serif text-3xl md:text-5xl text-[#1a1a1a] leading-tight italic">
+            <p className="font-serif text-3xl md:text-5xl text-[#1a1a1a] leading-tight italic mb-10">
               This is about more than looking and smiling at the camera.
               This is about telling a story. With one photo I want you to be
               compelled to pause. To feel. To connect with your art.
             </p>
+            <CTAButton>Start the Conversation</CTAButton>
           </div>
         </section>
 
@@ -164,10 +165,13 @@ export default function HomePage() {
                 </Link>
               ))}
             </div>
+            <div className="text-center mt-14">
+              <CTAButton size="lg">Book Your Session</CTAButton>
+            </div>
           </div>
         </section>
 
-        {/* What's Always Included */}
+        {/* What's Always Included */
         
         {/* Vue Studio — Private Luxury Boudoir Studio Feature */}
         <section className="py-24 px-6 bg-[#1a1a1a]">
@@ -247,10 +251,13 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
+            <div className="text-center mt-14">
+              <CTAButton size="lg" variant="secondary">Start the Conversation</CTAButton>
+            </div>
           </div>
         </section>
 
-        {/* Happiness Guarantee */}
+        {/* Happiness Guarantee */
         <HappinessGuarantee />
 
         {/* Testimonials */}
@@ -277,6 +284,9 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
+            <div className="text-center mt-14">
+              <CTAButton size="lg">Book Your Session</CTAButton>
+            </div>
           </div>
         </section>
 
@@ -292,14 +302,17 @@ export default function HomePage() {
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-6 max-w-xl mx-auto">
               Don&apos;t take our word for it. Read what Austin women are saying about their experience.
             </p>
-            <a
-              href="https://share.google/RattRFsVNZ7AkcM3F"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-sans text-[12px] tracking-[0.2em] uppercase text-[#8b6f5e] hover:text-[#1a1a1a] transition-colors border-b border-[#c9b99a] pb-1"
-            >
-              Read Reviews on Google →
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <a
+                href="https://share.google/RattRFsVNZ7AkcM3F"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-sans text-[12px] tracking-[0.2em] uppercase text-[#8b6f5e] hover:text-[#1a1a1a] transition-colors border-b border-[#c9b99a] pb-1"
+              >
+                Read Reviews on Google →
+              </a>
+              <CTAButton size="lg">Book Your Session</CTAButton>
+            </div>
           </div>
         </section>
 

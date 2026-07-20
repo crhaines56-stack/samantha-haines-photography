@@ -150,9 +150,6 @@ export default function VueStudioPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <CTAButton size="lg">Book a Session</CTAButton>
-            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
-              Austin Texas Photographer
-            </p>
               <a
                 href="https://www.peerspace.com"
                 target="_blank"
@@ -162,6 +159,9 @@ export default function VueStudioPage() {
                 Rent the Studio
               </a>
             </div>
+            <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
+              Austin Texas Photographer
+            </p>
           </div>
         </section>
           </div>

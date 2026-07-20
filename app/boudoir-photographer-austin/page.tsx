@@ -253,6 +253,9 @@ export default function BoudoirPage() {
                 </div>
               ))}
             </div>
+            <div className="text-center mt-12">
+              <CTAButton size="lg">Book Your Session</CTAButton>
+            </div>
           </div>
         </section>
 
@@ -299,10 +302,13 @@ export default function BoudoirPage() {
                 </div>
               ))}
             </div>
+            <div className="text-center mt-14">
+              <CTAButton size="lg" variant="secondary">Start the Conversation</CTAButton>
+            </div>
           </div>
         </section>
 
-        {/* Privacy */}
+        {/* Privacy */
         <section className="py-20 px-6 bg-[#f5f0ea]">
           <div className="max-w-3xl mx-auto text-center">
             <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-6">
@@ -418,6 +424,9 @@ export default function BoudoirPage() {
                   </p>
                 </div>
               ))}
+            </div>
+            <div className="text-center mt-12">
+              <CTAButton size="lg">Book Your Session</CTAButton>
             </div>
           </div>
         </section>

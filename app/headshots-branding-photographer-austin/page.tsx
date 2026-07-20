@@ -247,6 +247,9 @@ export default function HeadshotsPage() {
                 </div>
               ))}
             </div>
+            <div className="text-center mt-12">
+              <CTAButton size="lg">Book Your Session</CTAButton>
+            </div>
           </div>
         </section>
 
@@ -293,6 +296,9 @@ export default function HeadshotsPage() {
                 </div>
               ))}
             </div>
+            <div className="text-center mt-14">
+              <CTAButton size="lg" variant="secondary">Start the Conversation</CTAButton>
+            </div>
           </div>
         </section>
 
@@ -327,6 +333,9 @@ export default function HeadshotsPage() {
                   </p>
                 </div>
               ))}
+            </div>
+            <div className="text-center mt-12">
+              <CTAButton size="lg">Book Your Session</CTAButton>
             </div>
           </div>
         </section>
