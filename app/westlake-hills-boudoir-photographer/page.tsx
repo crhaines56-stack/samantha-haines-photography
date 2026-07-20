@@ -157,7 +157,7 @@ const galleryImages = [
 const relatedLocations = [
   { href: "/westlake-photographer", label: "Westlake Photographer" },
   { href: "/boudoir-photographer-austin", label: "Boudoir Austin" },
-  { href: "/dripping-springs-photographer", label: "Dripping Springs" },
+  { href: "/cedar-park-photographer", label: "Cedar Park" },
 ];
 
 export default function WestlakeHillsBoudoirPage() {

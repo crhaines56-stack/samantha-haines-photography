@@ -110,9 +110,9 @@ const services = [
 ];
 
 const relatedLocations = [
-  { href: "/round-rock-photographer", label: "Round Rock" },
   { href: "/steiner-ranch-photographer", label: "Steiner Ranch" },
-  { href: "/georgetown-photographer", label: "Georgetown" },
+  { href: "/westlake-photographer", label: "Westlake" },
+  { href: "/lakeway-photographer", label: "Lakeway" },
 ];
 
 export default function CedarParkPhotographerPage() {

@@ -20,12 +20,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/westlake-hills-boudoir-photographer`, priority: 0.8, changeFrequency: "monthly" as const },
     // Location pages
     { url: `${baseUrl}/cedar-park-photographer`, priority: 0.7, changeFrequency: "monthly" as const },
-    { url: `${baseUrl}/dripping-springs-photographer`, priority: 0.7, changeFrequency: "monthly" as const },
     { url: `${baseUrl}/westlake-photographer`, priority: 0.7, changeFrequency: "monthly" as const },
     { url: `${baseUrl}/steiner-ranch-photographer`, priority: 0.7, changeFrequency: "monthly" as const },
     { url: `${baseUrl}/lakeway-photographer`, priority: 0.7, changeFrequency: "monthly" as const },
-    { url: `${baseUrl}/round-rock-photographer`, priority: 0.7, changeFrequency: "monthly" as const },
-    { url: `${baseUrl}/georgetown-photographer`, priority: 0.7, changeFrequency: "monthly" as const },
   ];
 
   const posts = getAllPosts();

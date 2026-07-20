@@ -32,7 +32,7 @@ const faqSchema = {
       name: "Where is your studio located?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX — just 15 minutes from Westlake — it's one of the closest premium portrait studios to the Westlake area.",
+        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX — approximately 25 minutes from Westlake — it's one of the closest premium portrait studios to the Westlake area.",
       },
     },
     {
@@ -112,7 +112,7 @@ const services = [
 const relatedLocations = [
   { href: "/lakeway-photographer", label: "Lakeway" },
   { href: "/steiner-ranch-photographer", label: "Steiner Ranch" },
-  { href: "/dripping-springs-photographer", label: "Dripping Springs" },
+  { href: "/cedar-park-photographer", label: "Cedar Park" },
 ];
 
 export default function WestlakePhotographerPage() {
@@ -174,7 +174,7 @@ export default function WestlakePhotographerPage() {
               From boudoir to family to senior portraits, the result is always imagery worthy of your walls.
             </p>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-              Vue Studio is just 15 minutes from Westlake — one of the most convenient premium portrait
+              Vue Studio is approximately 25 minutes from Westlake — one of the most convenient premium portrait
               studios in the Austin area for Westlake residents.
             </p>
           </div>

@@ -112,7 +112,7 @@ const services = [
 const relatedLocations = [
   { href: "/steiner-ranch-photographer", label: "Steiner Ranch" },
   { href: "/westlake-photographer", label: "Westlake" },
-  { href: "/dripping-springs-photographer", label: "Dripping Springs" },
+  { href: "/cedar-park-photographer", label: "Cedar Park" },
 ];
 
 export default function LakewayPhotographerPage() {

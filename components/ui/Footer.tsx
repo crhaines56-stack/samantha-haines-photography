@@ -13,9 +13,7 @@ const locations = [
   { href: "/steiner-ranch-photographer", label: "Steiner Ranch" },
   { href: "/cedar-park-photographer", label: "Cedar Park" },
   { href: "/westlake-photographer", label: "Westlake" },
-  { href: "/round-rock-photographer", label: "Round Rock" },
   { href: "/lakeway-photographer", label: "Lakeway" },
-  { href: "/dripping-springs-photographer", label: "Dripping Springs" },
 ];
 
 export default function Footer() {
