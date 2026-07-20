@@ -76,32 +76,32 @@ const studioSchema = {
 const sets = [
   {
     name: "The Living Room",
-    description: "Fully furnished with warm, editorial styling. Sofas, rugs, natural light.",
+    description: "Fully furnished with warm, editorial styling. Sofas, rugs, and natural light.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506289/shp/vue-studio/shp/vue-studio/set-1.jpg",
   },
   {
     name: "The Bedroom",
-    description: "Lush bedding, soft tones, and privacy. designed for intimate sessions.",
+    description: "Lush bedding, soft tones, and complete privacy. Designed for intimate, empowering sessions.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506290/shp/vue-studio/shp/vue-studio/set-2.jpg",
   },
   {
-    name: "The Backdrop Wall",
-    description: "Fully motorized seamless backdrops in a curated palette of neutral tones.",
+    name: "The Loft",
+    description: "An elevated, light-filled space with clean architectural lines and an airy, editorial feel.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506292/shp/vue-studio/shp/vue-studio/set-3.jpg",
   },
   {
-    name: "Set 4",
-    description: "A curated space with its own distinct character. ready for your story.",
+    name: "The Office",
+    description: "A polished, professional set designed for executive portraits and personal branding sessions.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506356/shp/vue-studio/shp/vue-studio/set-4.jpg",
   },
   {
-    name: "Set 5",
-    description: "Another fully styled environment built for editorial and intimate work.",
+    name: "The Vanity Suite",
+    description: "Your session begins here. A fully equipped hair and makeup space, beautifully lit.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506358/shp/vue-studio/shp/vue-studio/set-5.jpg",
   },
   {
-    name: "Set 6",
-    description: "Every set at Vue Studio is designed to feel like a world of its own.",
+    name: "The Canvas",
+    description: "Clean, distraction-free backdrops in a curated palette of neutral tones. Pure focus on you.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506359/shp/vue-studio/shp/vue-studio/set-6.jpg",
   },
 ];
