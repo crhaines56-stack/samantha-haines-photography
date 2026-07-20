@@ -93,13 +93,13 @@ const services = [
     href: "/newborn-photographer-austin",
     title: "Newborn",
     desc: "Tiny details and pure wonder. captured in the first days of life.",
-    img: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506565/shp/homepage/shp/homepage/service-newborn.jpg",
+    img: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg",
   },
   {
     href: "/maternity-photographer-austin",
     title: "Maternity",
     desc: "Powerful, beautiful portraits honoring this remarkable chapter.",
-    img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364377/shp/homepage/shp/homepage/service-maternity.jpg",
+    img: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg",
   },
   {
     href: "/headshots-branding-photographer-austin",
@@ -129,7 +129,7 @@ export default function SteinerRanchPhotographerPage() {
           <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506567/shp/boudoir/shp/boudoir/hero.jpg"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364356/shp/homepage/shp/homepage/hero.jpg"
               alt="Steiner Ranch Photographer. Samantha Haines Photography"
               fill
               priority
