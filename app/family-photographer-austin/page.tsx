@@ -79,7 +79,7 @@ const faqSchema = {
       name: "Is hair and makeup included for family sessions?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes — professional hair and makeup are available for parents in family sessions. Details are discussed during your consultation.",
+        text: "Yes — complimentary hair and makeup for one person is always included. Additional family members can add on hair and makeup or men’s grooming services. Details are discussed during your consultation.",
       },
     },
     {
