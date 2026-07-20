@@ -116,6 +116,10 @@ const galleryImages = [
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506256/shp/newborn/shp/newborn/gallery-6.jpg",
     alt: "Newborn and parent portraits Austin TX",
   },
+  {
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506594/shp/newborn/shp/newborn/newbornexperience.jpg",
+    alt: "Newborn photography session Austin TX",
+  },
 ];
 
 export default function NewbornPhotographerAustinPage() {

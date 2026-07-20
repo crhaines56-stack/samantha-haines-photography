@@ -107,7 +107,7 @@ const maternityImages = [
     alt: "Maternity photographer Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364383/shp/newborn/shp/newborn/experience.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506580/shp/newborn/shp/newborn/gallery-2.jpg",
     alt: "Pregnancy photography Austin Texas",
   },
   {
@@ -124,10 +124,6 @@ const newbornImages = [
   {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506254/shp/newborn/shp/newborn/gallery-5.jpg",
     alt: "Newborn portrait session Austin",
-  },
-  {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506594/shp/newborn/shp/newborn/newbornexperience.jpg",
-    alt: "Newborn photography experience Austin TX",
   },
   {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506256/shp/newborn/shp/newborn/gallery-6.jpg",
