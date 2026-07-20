@@ -17,7 +17,7 @@ const services = [
   {
     href: "/vue-studio",
     title: "Vue Studio",
-    description: "Austin's only private luxury boudoir studio. 8 sets. Yours alone.",
+    description: "Austin's private luxury boudoir studio. 8 sets. Yours alone.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784508133/shp/homepage/shp/homepage/service-vue-studio.jpg",
   },
   {
