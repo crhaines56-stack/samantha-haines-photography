@@ -177,10 +177,6 @@ export default function FamilyPage() {
         </section>
           </div>
 
-        {/* Happiness Guarantee */}
-
-        {/* </section>
-
         {/* The Experience */}
         <section className="py-24 px-6 bg-[#faf9f7]">
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
@@ -217,7 +213,7 @@ export default function FamilyPage() {
           </div>
         </section>
 
-        {/* Gallery */}
+        {/* The Work */}
         <section className="py-24 px-6 bg-[#f5f0ea]">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
@@ -246,9 +242,7 @@ export default function FamilyPage() {
           </div>
         </section>
 
-        <HappinessGuarantee />
-
-        {/* What's Always Included */}
+        {/* Every Session */}
         <section className="py-24 px-6 bg-[#1a1a1a]">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
@@ -279,7 +273,7 @@ export default function FamilyPage() {
                 {
                   icon: "✦",
                   title: "Wall Art Install",
-                  desc: "White-glove assistance bringing your finished pieces home.",
+                  desc: "Complimentary wall art installation",
                 },
               ].map((item) => (
                 <div key={item.title}>
@@ -293,49 +287,6 @@ export default function FamilyPage() {
             </div>
             <div className="text-center mt-12">
               <CTAButton size="lg" variant="secondary">Book Your Session</CTAButton>
-            </div>
-          </div>
-        </section>
-
-        {/* Testimonials */}
-        <section className="py-24 px-6 bg-[#faf9f7]">
-          <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-16">
-              <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-4">
-                Client Stories
-              </p>
-              <h2 className="font-serif text-5xl text-[#1a1a1a]">What they say.</h2>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {[
-                {
-                  quote:
-                    "We were blessed to have Samantha take our family pictures recently, and the final product was beyond our expectations! One word… ecstatic! Samantha has a vision and executes that vision to perfection. She has that eye for photography that even on a cloudy, dreary day she can find the magic!!!",
-                  label: "Jessica M.",
-                },
-                {
-                  quote:
-                    "Samantha was amazing from start to finish with our family pictures. She came to the shoot very prepared and chose the perfect time with the best lighting. Samantha was also fabulous with our kids and grabbing great candid shots even when they were being difficult. I have her photos already framed on our wall.",
-                  label: "Sarah K.",
-                },
-                {
-                  quote:
-                    "Our session was laid-back and fun while remaining extremely professional. We have had photos done with numerous photographers, but the entire experience with Samantha was truly something special. She came prepared with treats for the kids and the patience to draw out the most genuine moments.",
-                  label: "Emily R.",
-                },
-              ].map((t, i) => (
-                <div key={i} className="p-8 bg-[#f5f0ea]">
-                  <p className="font-serif text-lg text-[#1a1a1a] leading-relaxed italic mb-6">
-                    &ldquo;{t.quote}&rdquo;
-                  </p>
-                  <p className="font-sans text-[12px] tracking-widest uppercase text-[#8b6f5e]">
-                    {t.label}
-                  </p>
-                </div>
-              ))}
-            </div>
-            <div className="text-center mt-12">
-              <CTAButton size="lg">Book Your Session</CTAButton>
             </div>
           </div>
         </section>
@@ -360,6 +311,52 @@ export default function FamilyPage() {
                   </p>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* The Guarantee */}
+        <HappinessGuarantee />
+
+        {/* Client Stories */}
+        <section className="py-24 px-6 bg-[#faf9f7]">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-16">
+              <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-4">
+                Client Stories
+              </p>
+              <h2 className="font-serif text-5xl text-[#1a1a1a]">What they say.</h2>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {[
+                {
+                  quote:
+                    "We were blessed to have Samantha take our family pictures recently, and the final product was beyond our expectations! One word… ecstatic! Samantha has a vision and executes that vision to perfection. She has that eye for photography that even on a cloudy, dreary day she can find the magic!!!",
+                  label: "Family Client",
+                },
+                {
+                  quote:
+                    "Samantha was amazing from start to finish with our family pictures. She came to the shoot very prepared and chose the perfect time with the best lighting. Samantha was also fabulous with our kids and grabbing great candid shots even when they were being difficult. I have her photos already framed on our wall.",
+                  label: "Family Client",
+                },
+                {
+                  quote:
+                    "Our session was laid-back and fun while remaining extremely professional. We have had photos done with numerous photographers, but the entire experience with Samantha was really something special. She came prepared with her gear, treats for the kids, and a speaker with a playlist.",
+                  label: "Family Client",
+                },
+              ].map((t, i) => (
+                <div key={i} className="p-8 bg-[#f5f0ea]">
+                  <p className="font-serif text-lg text-[#1a1a1a] leading-relaxed italic mb-6">
+                    &ldquo;{t.quote}&rdquo;
+                  </p>
+                  <p className="font-sans text-[12px] tracking-widest uppercase text-[#8b6f5e]">
+                    {t.label}
+                  </p>
+                </div>
+              ))}
+            </div>
+            <div className="text-center mt-12">
+              <CTAButton size="lg">Book Your Session</CTAButton>
             </div>
           </div>
         </section>
