@@ -107,24 +107,24 @@ const galleryImages = [
     alt: "Boudoir photography Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506572/shp/boudoir/shp/boudoir/gallery-3.jpg",
-    alt: "Artistic boudoir session Austin Texas",
-  },
-  {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506573/shp/boudoir/shp/boudoir/gallery-4.jpg",
-    alt: "Intimate portrait photography Austin",
-  },
-  {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506192/shp/boudoir/shp/boudoir/gallery-5.jpg",
-    alt: "Boudoir photography Steiner Ranch Austin",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506322/shp/boudoir/shp/boudoir/gallery-2.jpg",
+    alt: "Boudoir session Austin TX",
   },
   {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506576/shp/boudoir/shp/boudoir/gallery-6.jpg",
     alt: "Empowerment portrait session Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506322/shp/boudoir/shp/boudoir/gallery-2.jpg",
-    alt: "Boudoir session Austin TX",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506192/shp/boudoir/shp/boudoir/gallery-5.jpg",
+    alt: "Boudoir photography Steiner Ranch Austin",
+  },
+  {
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506573/shp/boudoir/shp/boudoir/gallery-4.jpg",
+    alt: "Intimate portrait photography Austin",
+  },
+  {
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506572/shp/boudoir/shp/boudoir/gallery-3.jpg",
+    alt: "Artistic boudoir session Austin Texas",
   },
 ];
 
