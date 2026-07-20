@@ -103,8 +103,8 @@ const faqSchema = {
 
 const galleryImages = [
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364310/shp/senior/shp/senior/gallery-1.jpg",
-    alt: "Senior portrait photographer Austin TX",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506578/shp/senior/shp/senior/gallery-6.jpg",
+    alt: "Senior portrait photography Steiner Ranch Austin",
   },
   {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364325/shp/senior/shp/senior/gallery-3.jpg",
@@ -123,8 +123,8 @@ const galleryImages = [
     alt: "Senior portrait photographer Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506578/shp/senior/shp/senior/gallery-6.jpg",
-    alt: "Senior portrait photography Steiner Ranch Austin",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364310/shp/senior/shp/senior/gallery-1.jpg",
+    alt: "Senior portrait photographer Austin TX",
   },
 ];
 
