@@ -225,7 +225,7 @@ export default function VueStudioPage() {
           <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative h-[500px]">
               <Image
-                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506294/shp/vue-studio/shp/vue-studio/for-photographers.jpg"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506298/shp/vue-studio/shp/vue-studio/for-clients.jpg"
                 alt="Hair and makeup suite at Vue Studio Austin"
                 fill
                 className="object-cover"
@@ -316,7 +316,7 @@ export default function VueStudioPage() {
             </div>
             <div className="relative h-[600px]">
               <Image
-                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506292/shp/vue-studio/shp/vue-studio/set-3.jpg"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506294/shp/vue-studio/shp/vue-studio/for-photographers.jpg"
                 alt="Vue Studio Austin photography studio rental PeerSpace"
                 fill
                 className="object-cover"
