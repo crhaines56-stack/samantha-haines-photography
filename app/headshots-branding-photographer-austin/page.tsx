@@ -107,14 +107,6 @@ const galleryImages = [
     alt: "Headshots photographer Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364417/shp/headshots/shp/headshots/gallery-2.jpg",
-    alt: "Professional headshots Austin Texas",
-  },
-  {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364415/shp/headshots/shp/headshots/experience.jpg",
-    alt: "Personal branding photography Austin TX",
-  },
-  {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506585/shp/headshots/shp/headshots/gallery-4.jpg",
     alt: "Business headshots Austin Texas",
   },
