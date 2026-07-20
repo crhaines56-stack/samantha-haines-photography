@@ -64,7 +64,7 @@ const faqSchema = {
       name: "How do I book a session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Visit samanthahainesphotography.com/contact and fill out the contact form. Samantha will be in touch to schedule your consultation and begin planning your perfect session.",
+        text: "Reach out using our contact form and Samantha will be in touch to schedule your consultation and begin planning your perfect session.",
       },
     },
   ],
@@ -262,6 +262,11 @@ export default function CedarParkPhotographerPage() {
                 <div key={i} className="border-b border-[#c9b99a]/30 pb-8">
                   <h3 className="font-serif text-xl text-[#1a1a1a] mb-4">{faq.name}</h3>
                   <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed">{faq.acceptedAnswer.text}</p>
+                  {faq.name.toLowerCase().includes('book') && (
+                    <Link href="/contact" className="inline-block mt-3 font-sans text-[12px] tracking-[0.15em] uppercase text-[#8b6f5e] hover:text-[#1a1a1a] transition-colors border-b border-[#8b6f5e] pb-0.5">
+                      Book Now &rarr;
+                    </Link>
+                  )}
                 </div>
               ))}
             </div>

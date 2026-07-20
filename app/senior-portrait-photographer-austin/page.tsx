@@ -353,6 +353,11 @@ export default function SeniorPortraitPage() {
                   <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed">
                     {faq.acceptedAnswer.text}
                   </p>
+                  {faq.name.toLowerCase().includes('book') && (
+                    <Link href="/contact" className="inline-block mt-3 font-sans text-[12px] tracking-[0.15em] uppercase text-[#8b6f5e] hover:text-[#1a1a1a] transition-colors border-b border-[#8b6f5e] pb-0.5">
+                      Book Now &rarr;
+                    </Link>
+                  )}
                 </div>
               ))}
             </div>
