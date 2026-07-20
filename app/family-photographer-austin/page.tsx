@@ -192,18 +192,18 @@ export default function FamilyPage() {
                 Laid-back. Real. Extraordinary.
               </h2>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                Samantha doesn&rsquo;t want you to stand in a line and say cheese. She wants to
-                capture your family the way you actually are — laughing, running, holding on
-                to each other, and being completely yourselves.
+                Whether you&rsquo;re looking for candid or formal portraits, Samantha meets you
+                with poses, locations, and styling built around what you want to see. This is
+                an experience curated to your family and your goals &mdash; not a formula
+                applied to everyone who books.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-                She arrives prepared — with treats for the kids, a playlist, and the patience
-                to let moments unfold naturally. The result is imagery that feels alive, not
-                posed. Connection, not performance.
+                She arrives prepared &mdash; thoughtful gifts curated to each child, and the
+                patience to let moments unfold naturally. Nothing is forced. Everything is felt.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-                These photos will hang on your walls. They&rsquo;ll be passed down. They&rsquo;ll
-                matter for a long time. Samantha photographs them accordingly.
+                The photos you take home are not just curated pieces of personalized interior
+                design. They&rsquo;re beautiful moments frozen in time.
               </p>
             </div>
             <div className="relative h-[550px]">
@@ -311,17 +311,17 @@ export default function FamilyPage() {
                 {
                   quote:
                     "We were blessed to have Samantha take our family pictures recently, and the final product was beyond our expectations! One word… ecstatic! Samantha has a vision and executes that vision to perfection. She has that eye for photography that even on a cloudy, dreary day she can find the magic!!!",
-                  label: "Family Client",
+                  label: "Jessica M.",
                 },
                 {
                   quote:
                     "Samantha was amazing from start to finish with our family pictures. She came to the shoot very prepared and chose the perfect time with the best lighting. Samantha was also fabulous with our kids and grabbing great candid shots even when they were being difficult. I have her photos already framed on our wall.",
-                  label: "Family Client",
+                  label: "Sarah K.",
                 },
                 {
                   quote:
-                    "Our session was laid-back and fun while remaining extremely professional. We have had photos done with numerous photographers, but the entire experience with Samantha was really something special. She came prepared with her gear, treats for the kids, and a speaker with a playlist.",
-                  label: "Family Client",
+                    "Our session was laid-back and fun while remaining extremely professional. We have had photos done with numerous photographers, but the entire experience with Samantha was truly something special. She came prepared with treats for the kids and the patience to draw out the most genuine moments.",
+                  label: "Emily R.",
                 },
               ].map((t, i) => (
                 <div key={i} className="p-8 bg-[#f5f0ea]">

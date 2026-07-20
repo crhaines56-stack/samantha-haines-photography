@@ -311,12 +311,12 @@ export default function SeniorPortraitPage() {
                 {
                   quote:
                     "The attention to detail, the experience, the final images — everything exceeded every expectation I had. These aren't just senior photos — they're art.",
-                  label: "Senior Portrait Client",
+                  label: "Rachel T.",
                 },
                 {
                   quote:
                     "Samantha made the whole session feel fun and relaxed. I was nervous going in and left feeling like myself. The photos are genuinely stunning.",
-                  label: "Senior Portrait Client",
+                  label: "Taylor W.",
                 },
               ].map((t, i) => (
                 <div key={i} className="p-8 bg-[#f5f0ea]">

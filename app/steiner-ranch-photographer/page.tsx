@@ -250,7 +250,7 @@ export default function SteinerRanchPhotographerPage() {
               &ldquo;We were blessed to have Samantha take our family pictures recently, and the final product was beyond our expectations! One word… ecstatic! Samantha has a vision and executes that vision to perfection. She has that eye for photography that even on a cloudy, dreary day she can find the magic!!!&rdquo;
             </p>
             <p className="font-sans text-[12px] tracking-widest uppercase text-[#8b6f5e]">
-              Family Client. Steiner Ranch
+              Jessica M. — Steiner Ranch
             </p>
           </div>
         </section>

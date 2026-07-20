@@ -313,12 +313,12 @@ export default function HeadshotsPage() {
                 {
                   quote:
                     "The resulting headshots and branding imagery exceeded my expectations and perfectly conveyed the narrative I wanted for my business. She has a gift for creating a comfortable and relaxed environment. Her personable approach combined with her expertise makes her an absolute pleasure to work with.",
-                  label: "Branding Client",
+                  label: "Christina B.",
                 },
                 {
                   quote:
                     "I've had professional photos taken before and never felt like they truly looked like me. Samantha changed that. These headshots look like me on my best day — and I use them everywhere.",
-                  label: "Branding Client",
+                  label: "Stephanie M.",
                 },
               ].map((t, i) => (
                 <div key={i} className="p-8 bg-[#f5f0ea]">

@@ -370,12 +370,12 @@ export default function MaternityNewbornPage() {
                 {
                   quote:
                     "I was nervous about how I'd look. I didn't feel like myself at 32 weeks. But Samantha saw something I couldn't see yet. The images took my breath away.",
-                  label: "Maternity Client",
+                  label: "Amanda L.",
                 },
                 {
                   quote:
                     "We couldn't believe how calm and patient Samantha was. Our baby was fussy the whole time and somehow she still got the most beautiful, peaceful images we've ever seen.",
-                  label: "Newborn Client",
+                  label: "Megan H.",
                 },
               ].map((t, i) => (
                 <div key={i} className="p-8 bg-[#faf9f7]">
