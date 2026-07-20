@@ -29,7 +29,7 @@ const services = [
   {
     href: "/senior-portrait-photographer-austin",
     title: "Senior Portraits",
-    description: "The chapter worth remembering.",
+    description: "A chapter worth remembering.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364368/shp/homepage/shp/homepage/service-senior.jpg",
   },
   {
