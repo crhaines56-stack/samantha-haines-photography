@@ -99,7 +99,7 @@ const services = [
     href: "/maternity-photographer-austin",
     title: "Maternity",
     desc: "Powerful, beautiful portraits honoring this remarkable chapter.",
-    img: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg",
+    img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364377/shp/homepage/shp/homepage/service-maternity.jpg",
   },
   {
     href: "/headshots-branding-photographer-austin",
