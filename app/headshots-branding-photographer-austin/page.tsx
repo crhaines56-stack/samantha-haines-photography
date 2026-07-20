@@ -203,9 +203,9 @@ export default function HeadshotsPage() {
                 headshots that don&rsquo;t just look polished. They feel right.
               </p>
               <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-                Hair and makeup are included. Wardrobe guidance is provided. And Samantha
-                creates a relaxed, comfortable environment so your authentic self can
-                shine through every single frame.
+                For full branding sessions, hair and makeup are included. Wardrobe guidance
+                is provided. Simple headshot sessions are also available both at the studio
+                or on location, with hair and makeup available as an add-on upon request.
               </p>
             </div>
             <div className="relative h-[550px]">
