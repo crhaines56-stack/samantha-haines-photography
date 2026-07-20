@@ -49,7 +49,7 @@ const studioSchema = {
           name: "Is Vue Studio available to rent for other photographers?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. Vue Studio is available for rental on PeerSpace. Whether you need an hour or a full day, the space is available for photographers, content creators, and production teams.",
+            text: "Yes. Vue Studio is available for rental by the hour or the day. Reach out through the contact form to check availability and discuss your shoot.",
           },
         },
         {
@@ -151,9 +151,9 @@ export default function VueStudioPage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <CTAButton size="lg">Book a Session</CTAButton>
               <a
-                href="https://www.peerspace.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/contact"
+                
+                
                 className="inline-block font-sans text-[12px] tracking-[0.2em] uppercase border border-[#c9b99a] text-[#c9b99a] px-10 py-4 hover:bg-[#c9b99a] hover:text-[#1a1a1a] transition-all duration-300 text-center"
               >
                 Rent the Studio
@@ -273,7 +273,7 @@ export default function VueStudioPage() {
           </div>
         </section>
 
-        {/* For Photographers. PeerSpace */}
+        {/* For Photographers */}
         <section className="py-24 px-6 bg-[#1a1a1a]">
           <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -286,7 +286,7 @@ export default function VueStudioPage() {
                 <em className="text-[#c9b99a]">starts here.</em>
               </h2>
               <p className="font-sans text-[14px] text-[#8b949e] leading-relaxed mb-8">
-                Vue Studio is available for rental on PeerSpace. by the hour or the day.
+                Vue Studio is available for rental by the hour or the day.
                 Whether you&apos;re a photographer, content creator, brand team, or production house,
                 you&apos;ll find exactly the space you need without the overhead of owning it.
               </p>
@@ -306,18 +306,18 @@ export default function VueStudioPage() {
                 ))}
               </div>
               <a
-                href="https://www.peerspace.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/contact"
+                
+                
                 className="inline-block font-sans text-[12px] tracking-[0.2em] uppercase bg-[#c9b99a] text-[#1a1a1a] px-10 py-4 hover:bg-[#faf9f7] transition-all duration-300"
               >
-                View on PeerSpace
+                Inquire About Rental
               </a>
             </div>
             <div className="relative h-[600px]">
               <Image
                 src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506294/shp/vue-studio/shp/vue-studio/for-photographers.jpg"
-                alt="Vue Studio Austin photography studio rental PeerSpace"
+                alt="Vue Studio Austin photography studio rental"
                 fill
                 className="object-cover"
               />
@@ -341,12 +341,12 @@ export default function VueStudioPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <CTAButton size="lg">Book a Session</CTAButton>
               <a
-                href="https://www.peerspace.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/contact"
+                
+                
                 className="inline-block font-sans text-[12px] tracking-[0.2em] uppercase border border-[#1a1a1a] text-[#1a1a1a] px-10 py-4 hover:bg-[#1a1a1a] hover:text-[#faf9f7] transition-all duration-300 text-center"
               >
-                Rent the Studio on PeerSpace
+                Rent the Studio
               </a>
             </div>
           </div>
@@ -366,11 +366,11 @@ export default function VueStudioPage() {
                 },
                 {
                   q: "Is Vue Studio available to rent for other photographers?",
-                  a: "Yes. Vue Studio is listed on PeerSpace and available to photographers, content creators, and production teams by the hour or the day.",
+                  a: "Yes. Vue Studio is available to photographers, content creators, and production teams by the hour or the day. Contact us to check availability.",
                 },
                 {
                   q: "What's included in a studio rental?",
-                  a: "Access to all 8 furnished sets, motorized backdrops, the hair & makeup suite, and on-site parking. Full details and availability on our PeerSpace listing.",
+                  a: "Access to all furnished sets, the hair & makeup suite, and on-site parking. Contact us for full details and availability.",
                 },
                 {
                   q: "Where is Vue Studio located?",
