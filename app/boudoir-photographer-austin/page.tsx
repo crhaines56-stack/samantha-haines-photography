@@ -400,12 +400,12 @@ export default function BoudoirPage() {
                 {
                   quote:
                     "I almost didn't book. Now I tell every woman I know — do it. You will not regret a single moment.",
-                  label: "Boudoir Client",
+                  label: "Ashley M.",
                 },
                 {
                   quote:
                     "I walked in nervous and walked out feeling like the most beautiful, powerful version of myself. Samantha has a rare gift.",
-                  label: "Boudoir Client",
+                  label: "Lauren K.",
                 },
               ].map((t, i) => (
                 <div key={i} className="p-8 bg-[#f5f0ea]">
