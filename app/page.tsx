@@ -42,11 +42,11 @@ const services = [
     href: "/maternity-newborn-photographer-austin",
     title: "Maternity + Newborn",
     description: "Every chapter of new life, beautifully documented.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364377/shp/homepage/shp/homepage/service-maternity.jpg",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg",
   },
   {
     href: "/headshots-branding-photographer-austin",
-    title: "Branding",
+    title: "Branding + Headshots",
     description: "The image that precedes you in every room.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364372/shp/homepage/shp/homepage/service-headshots.jpg",
   },
