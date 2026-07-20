@@ -90,21 +90,6 @@ const sets = [
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506292/shp/vue-studio/shp/vue-studio/set-3.jpg",
   },
   {
-    name: "The Vanity Suite",
-    description: "Dedicated hair and makeup room. fully equipped, beautifully lit.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506294/shp/vue-studio/shp/vue-studio/for-photographers.jpg",
-  },
-  {
-    name: "The Garden Set",
-    description: "Indoor botanicals and natural textures for an organic, editorial look.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506298/shp/vue-studio/shp/vue-studio/for-clients.jpg",
-  },
-  {
-    name: "The Archway",
-    description: "Clean architectural lines and dramatic negative space for striking portraits.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506288/shp/vue-studio/shp/vue-studio/hero.jpg",
-  },
-  {
     name: "Set 4",
     description: "A curated space with its own distinct character. ready for your story.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506356/shp/vue-studio/shp/vue-studio/set-4.jpg",
