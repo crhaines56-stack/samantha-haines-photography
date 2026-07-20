@@ -32,7 +32,7 @@ const faqSchema = {
       name: "Where is your studio located?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX — approximately 20 minutes from Cedar Park — it's a beautiful, private studio space that's well worth the short drive.",
+        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX — approximately 25 minutes from Cedar Park — it's a beautiful, private studio space that's well worth the short drive.",
       },
     },
     {
@@ -174,7 +174,7 @@ export default function CedarParkPhotographerPage() {
               Samantha brings the same artistry and care to every client.
             </p>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-              Vue Studio is just 20 minutes from Cedar Park — close enough for a relaxed, no-rush experience
+              Vue Studio is just 25 minutes from Cedar Park — close enough for a relaxed, no-rush experience
               that starts the moment you walk through the door.
             </p>
           </div>

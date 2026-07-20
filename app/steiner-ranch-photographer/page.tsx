@@ -32,7 +32,7 @@ const faqSchema = {
       name: "Where is your studio located?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX. The studio is approximately 10–15 minutes from Steiner Ranch — you couldn't ask for a more convenient location.",
+        text: "Samantha photographs at Vue Studio, located at 2302 Jacks Pass, Austin, TX. The studio is approximately 15 minutes from Steiner Ranch — you couldn't ask for a more convenient location.",
       },
     },
     {
@@ -173,7 +173,7 @@ export default function SteinerRanchPhotographerPage() {
               Samantha creates portrait experiences that feel personal because they are.
             </p>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
-              Vue Studio is just 10–15 minutes away, making the entire experience seamlessly convenient —
+              Vue Studio is just 15 minutes away, making the entire experience seamlessly convenient —
               from your consultation to your finished wall art.
             </p>
           </div>
