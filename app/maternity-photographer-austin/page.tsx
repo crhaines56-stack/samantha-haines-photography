@@ -261,7 +261,7 @@ export default function MaternityNewbornPage() {
             </div>
             <div className="relative h-[550px]">
               <Image
-                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506254/shp/newborn/shp/newborn/gallery-5.jpg"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506594/shp/newborn/shp/newborn/newbornexperience.jpg"
                 alt="Newborn session experience Austin TX"
                 fill
                 className="object-cover"
