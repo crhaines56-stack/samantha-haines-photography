@@ -159,13 +159,19 @@ export default function GeorgetownPhotographerPage() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {services.map((s) => (
-                <Link key={s.href} href={s.href} className="group block bg-[#faf9f7] overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                  <div className="relative h-56 overflow-hidden">
-                    <Image src={s.img} alt={`${s.title} photographer Georgetown Austin TX`} fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="font-serif text-xl text-[#1a1a1a] mb-2">{s.title}</h3>
-                    <p className="font-sans text-[13px] text-[#6b6b6b] leading-relaxed">{s.desc}</p>
+                <Link key={s.href} href={s.href} className="group block overflow-hidden">
+                  <div className="relative h-96 overflow-hidden">
+                    <Image
+                      src={s.img}
+                      alt={`${s.title} photographer Austin TX`}
+                      fill
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/80 to-transparent" />
+                    <div className="absolute bottom-0 left-0 right-0 p-6">
+                      <h3 className="font-serif text-3xl text-[#faf9f7] mb-1">{s.title}</h3>
+                      <p className="font-sans text-[12px] text-[#c9b99a] tracking-wide">{s.desc}</p>
+                    </div>
                   </div>
                 </Link>
               ))}
