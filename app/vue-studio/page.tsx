@@ -108,7 +108,7 @@ const sets = [
 
 const specs = [
   { label: "Square Footage", value: "2,500 sq ft" },
-  { label: "Furnished Sets", value: "9 Unique Sets" },
+  { label: "Furnished Sets", value: "8 Unique Sets" },
   { label: "Hair & Makeup", value: "Dedicated Suite" },
   { label: "Parking", value: "On-Site" },
   { label: "Location", value: "2302 Jacks Pass, Austin TX" },
