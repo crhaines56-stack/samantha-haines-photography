@@ -324,15 +324,7 @@ export default function BoudoirPage() {
         </section>
 
         {/* Inclusivity */}
-        <section className="py-20 px-6 bg-[#faf9f7]">
-          <div className="max-w-3xl mx-auto text-center">
-            <p className="font-serif text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed italic mb-8">
-              &ldquo;Samantha has photographed women from their 20s to their 60s. at every size,
-              every stage, every season of life. The one thing they all have in common is that
-              they left feeling more like themselves than they did walking in.&rdquo;
-            </p>
-          </div>
-        </section>
+
 
         {/* Art Section */}
         <section className="py-20 px-6 bg-[#1a1a1a] text-center">
