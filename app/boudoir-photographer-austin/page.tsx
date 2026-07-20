@@ -184,10 +184,11 @@ export default function BoudoirPage() {
         <section className="py-24 px-6 bg-[#faf9f7]">
           <div className="max-w-3xl mx-auto text-center">
             <p className="font-serif text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed italic">
-              &ldquo;Most women who book a boudoir session will tell you the same thing afterward:
-              &lsquo;I almost didn&rsquo;t do it.&rsquo; They weren&rsquo;t sure they were ready.
+                Most women who book a boudoir session will tell you the same thing afterward:
+              I almost didn&rsquo;t do it. They weren&rsquo;t sure they were ready.
               They weren&rsquo;t sure they were the right size, age, or type. They weren&rsquo;t
-              sure what to expect walking through the door. And then they saw their photos.&rdquo;
+              sure what to expect walking through the door. And then they saw their photos &mdash;
+              and confess to feeling more confident and beautiful than they had ever imagined.
             </p>
           </div>
         </section>
