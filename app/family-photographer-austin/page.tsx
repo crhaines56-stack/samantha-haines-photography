@@ -123,7 +123,7 @@ const galleryImages = [
     alt: "Candid family portraits Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364411/shp/family/shp/family/gallery-6.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784513875/shp/family/shp/family/gallery-6.jpg",
     alt: "Family photography golden hour Austin",
   },
 ];
