@@ -178,8 +178,6 @@ export default function BoudoirPage() {
         </section>
           </div>
 
-        {/* Happiness Guarantee */}
-
         {/* Hook */}
         <section className="py-24 px-6 bg-[#faf9f7]">
           <div className="max-w-3xl mx-auto text-center">
@@ -230,37 +228,6 @@ export default function BoudoirPage() {
           </div>
         </section>
 
-        {/* Gallery */}
-        <section className="py-24 px-6 bg-[#faf9f7]">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-16">
-              <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-4">
-                The Work
-              </p>
-              <h2 className="font-serif text-5xl text-[#1a1a1a]">
-                Every woman. Beautifully seen.
-              </h2>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              {galleryImages.map((img, i) => (
-                <div key={i} className="relative h-64 md:h-80 overflow-hidden">
-                  <Image
-                    src={img.src}
-                    alt={img.alt}
-                    fill
-                    className="object-cover hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
-              ))}
-            </div>
-            <div className="text-center mt-12">
-              <CTAButton size="lg">Book Your Session</CTAButton>
-            </div>
-          </div>
-        </section>
-
-        <HappinessGuarantee />
-
         {/* What's Always Included */}
         <section className="py-24 px-6 bg-[#1a1a1a]">
           <div className="max-w-5xl mx-auto">
@@ -310,31 +277,32 @@ export default function BoudoirPage() {
           </div>
         </section>
 
-        {/* Privacy */}
-        <section className="py-20 px-6 bg-[#f5f0ea]">
-          <div className="max-w-3xl mx-auto text-center">
-            <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-6">
-              Your Privacy
-            </p>
-            <p className="font-serif text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed">
-              Your images belong to you — completely. Nothing is shared without your
-              explicit permission, ever. What happens in your session stays exactly where it
-              belongs: with you.
-            </p>
-          </div>
-        </section>
-
-        {/* Inclusivity */}
-
-
-        {/* Art Section */}
-        <section className="py-20 px-6 bg-[#1a1a1a] text-center">
-          <div className="max-w-3xl mx-auto">
-            <p className="font-serif text-3xl md:text-4xl text-[#faf9f7] leading-relaxed italic">
-              &ldquo;These aren&rsquo;t snapshots. They&rsquo;re pieces of art — made to live on
-              your walls and remind you, on any given day, exactly how extraordinary you are.&rdquo;
-            </p>
-            <p className="font-sans text-[14px] text-[#8b6f5e] tracking-widest mt-8">— Samantha</p>
+        {/* Gallery */}
+        <section className="py-24 px-6 bg-[#faf9f7]">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-16">
+              <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-4">
+                The Work
+              </p>
+              <h2 className="font-serif text-5xl text-[#1a1a1a]">
+                Every woman. Beautifully seen.
+              </h2>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              {galleryImages.map((img, i) => (
+                <div key={i} className="relative h-64 md:h-80 overflow-hidden">
+                  <Image
+                    src={img.src}
+                    alt={img.alt}
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+              ))}
+            </div>
+            <div className="text-center mt-12">
+              <CTAButton size="lg">Book Your Session</CTAButton>
+            </div>
           </div>
         </section>
 
@@ -386,6 +354,22 @@ export default function BoudoirPage() {
             </div>
           </div>
         </section>
+
+        {/* Privacy */}
+        <section className="py-20 px-6 bg-[#f5f0ea]">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-6">
+              Your Privacy
+            </p>
+            <p className="font-serif text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed">
+              Your images belong to you — completely. Nothing is shared without your
+              explicit permission, ever. What happens in your session stays exactly where it
+              belongs: with you.
+            </p>
+          </div>
+        </section>
+
+        <HappinessGuarantee />
 
         {/* Testimonials */}
         <section className="py-24 px-6 bg-[#faf9f7]">
