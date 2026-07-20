@@ -47,7 +47,7 @@ const services = [
   {
     href: "/headshots-branding-photographer-austin",
     title: "Branding + Headshots",
-    description: "The image that precedes you in every room.",
+    description: "First impressions are forever.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364372/shp/homepage/shp/homepage/service-headshots.jpg",
   },
 ];
