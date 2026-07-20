@@ -241,10 +241,13 @@ export default function FamilyPage() {
                 </div>
               ))}
             </div>
+            <div className="text-center mt-12">
+              <CTAButton size="lg">Book Your Session</CTAButton>
+            </div>
           </div>
         </section>
 
-        {/* What's Always Included */}
+        {/* What's Always Included */
         <section className="py-24 px-6 bg-[#1a1a1a]">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
@@ -287,10 +290,13 @@ export default function FamilyPage() {
                 </div>
               ))}
             </div>
+            <div className="text-center mt-12">
+              <CTAButton size="lg" variant="secondary">Book Your Session</CTAButton>
+            </div>
           </div>
         </section>
 
-        {/* Testimonials */}
+        {/* Testimonials */
         <section className="py-24 px-6 bg-[#faf9f7]">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
@@ -327,10 +333,13 @@ export default function FamilyPage() {
                 </div>
               ))}
             </div>
+            <div className="text-center mt-12">
+              <CTAButton size="lg">Book Your Session</CTAButton>
+            </div>
           </div>
         </section>
 
-        {/* FAQ */}
+        {/* FAQ */
         <section className="py-24 px-6 bg-[#f5f0ea]">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-16">

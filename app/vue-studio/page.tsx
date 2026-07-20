@@ -100,7 +100,7 @@ const sets = [
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506358/shp/vue-studio/shp/vue-studio/set-5.jpg",
   },
   {
-    name: "The Canvas",
+    name: "The Studio",
     description: "Clean, distraction-free backdrops in a curated palette of neutral tones. Pure focus on you.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506359/shp/vue-studio/shp/vue-studio/set-6.jpg",
   },
