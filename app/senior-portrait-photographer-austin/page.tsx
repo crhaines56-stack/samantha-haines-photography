@@ -107,10 +107,6 @@ const galleryImages = [
     alt: "Senior portrait photographer Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364306/shp/senior/shp/senior/experience.jpg",
-    alt: "High school senior portraits Austin",
-  },
-  {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364325/shp/senior/shp/senior/gallery-3.jpg",
     alt: "Senior portrait session Austin Texas",
   },

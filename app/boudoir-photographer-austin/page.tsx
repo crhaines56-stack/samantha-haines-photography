@@ -107,10 +107,6 @@ const galleryImages = [
     alt: "Boudoir photography Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364241/shp/boudoir/shp/boudoir/experience.jpg",
-    alt: "Elegant boudoir portrait Austin",
-  },
-  {
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506572/shp/boudoir/shp/boudoir/gallery-3.jpg",
     alt: "Artistic boudoir session Austin Texas",
   },
@@ -354,22 +350,17 @@ export default function BoudoirPage() {
                   className="object-cover object-top"
                 />
               </div>
-              <div>
-                <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-6">
+              <div className="space-y-6">
+                <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e]">
                   The Philosophy
                 </p>
-                <h2 className="font-serif text-5xl md:text-6xl text-[#1a1a1a] leading-tight mb-8 italic">
+                <h2 className="font-serif text-5xl md:text-6xl text-[#1a1a1a] leading-tight italic">
                   A Different Take on Boudoir.
                 </h2>
-                <p className="font-serif text-2xl text-[#8b6f5e] italic leading-relaxed mb-10">
+                <p className="font-serif text-2xl text-[#8b6f5e] italic leading-relaxed">
                   This isn&rsquo;t about how much you can show.
                   This is about creating beautiful pieces of art where you are the centerpiece.
                 </p>
-                <div className="mt-10">
-                  <CTAButton size="lg">Start the Conversation</CTAButton>
-                </div>
-              </div>
-              <div className="space-y-8 lg:pt-0">
                 <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed">
                   This art celebrates femininity and is tailored to your unique comfort level.
                   Whether you arrive with a clear vision or no idea where to start, Samantha
@@ -387,6 +378,9 @@ export default function BoudoirPage() {
                     styles for each set that are right for you and, most importantly,
                     tell your story.
                   </p>
+                </div>
+                <div>
+                  <CTAButton size="lg">Start the Conversation</CTAButton>
                 </div>
               </div>
             </div>
