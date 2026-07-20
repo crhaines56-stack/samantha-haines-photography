@@ -102,14 +102,7 @@ export default function Footer() {
                   About Samantha
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/blog"
-                  className="font-sans text-[13px] text-[#6b6b6b] hover:text-[#faf9f7] transition-colors"
-                >
-                  Blog
-                </Link>
-              </li>
+
             </ul>
             {/* Phone. update with Samantha's real number before launch */}
             <a

@@ -11,7 +11,7 @@ const navLinks = [
   { href: "/maternity-photographer-austin", label: "Maternity" },
   { href: "/headshots-branding-photographer-austin", label: "Branding" },
   { href: "/about", label: "About" },
-  { href: "/blog", label: "Blog" },
+  // { href: "/blog", label: "Blog" }, // hidden
 ];
 
 export default function Header() {
