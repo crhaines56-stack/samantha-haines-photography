@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: "https://www.samanthahainesphotography.com/westlake-hills-boudoir-photographer",
     images: [
       {
-        url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg",
+        url: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506567/shp/boudoir/shp/boudoir/hero.jpg",
         width: 1200,
         height: 630,
         alt: "Westlake Hills boudoir photographer. Samantha Haines Photography",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description:
       "Luxury boudoir photography for Westlake Hills women. Hair & makeup included, fully private. Vue Studio Austin.",
     images: [
-      "https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg",
+      "https://res.cloudinary.com/du67vy39a/image/upload/v1784506567/shp/boudoir/shp/boudoir/hero.jpg",
     ],
   },
 };
@@ -44,7 +44,7 @@ const localBusinessSchema = {
   "@type": "LocalBusiness",
   name: "Samantha Haines Photography",
   image:
-    "https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg",
+    "https://res.cloudinary.com/du67vy39a/image/upload/v1784506567/shp/boudoir/shp/boudoir/hero.jpg",
   url: "https://www.samanthahainesphotography.com/westlake-hills-boudoir-photographer",
   description:
     "Luxury boudoir photographer serving Westlake Hills TX and surrounding Austin communities including Rollingwood, Bee Cave, and Barton Creek.",
@@ -129,7 +129,7 @@ const faqSchema = {
 
 const galleryImages = [
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364251/shp/boudoir/shp/boudoir/gallery-1.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506569/shp/boudoir/shp/boudoir/gallery-1.jpg",
     alt: "Westlake Hills boudoir photography. Samantha Haines",
   },
   {
@@ -137,19 +137,19 @@ const galleryImages = [
     alt: "Elegant boudoir portrait near Westlake Hills TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364267/shp/boudoir/shp/boudoir/gallery-3.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506572/shp/boudoir/shp/boudoir/gallery-3.jpg",
     alt: "Luxury boudoir session Austin Texas",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364286/shp/boudoir/shp/boudoir/gallery-4.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506573/shp/boudoir/shp/boudoir/gallery-4.jpg",
     alt: "Intimate boudoir portrait Westlake Hills photographer",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364293/shp/boudoir/shp/boudoir/gallery-5.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506192/shp/boudoir/shp/boudoir/gallery-5.jpg",
     alt: "Empowering boudoir photography near Bee Cave TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364299/shp/boudoir/shp/boudoir/gallery-6.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506576/shp/boudoir/shp/boudoir/gallery-6.jpg",
     alt: "Confidence portrait session Austin TX boudoir",
   },
 ];
@@ -178,7 +178,7 @@ export default function WestlakeHillsBoudoirPage() {
           <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364228/shp/boudoir/shp/boudoir/hero.jpg"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506567/shp/boudoir/shp/boudoir/hero.jpg"
               alt="Westlake Hills boudoir photographer. Samantha Haines Photography"
               fill
               priority

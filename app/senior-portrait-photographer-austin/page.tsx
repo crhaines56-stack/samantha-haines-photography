@@ -123,7 +123,11 @@ const galleryImages = [
     alt: "Editorial senior portraits Austin",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364338/shp/senior/shp/senior/gallery-6.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506590/shp/senior/shp/senior/gallery-2.jpg",
+    alt: "Senior portrait photographer Austin TX",
+  },
+  {
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506578/shp/senior/shp/senior/gallery-6.jpg",
     alt: "Senior portrait photography Steiner Ranch Austin",
   },
 ];

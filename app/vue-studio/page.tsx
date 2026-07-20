@@ -77,32 +77,47 @@ const sets = [
   {
     name: "The Living Room",
     description: "Fully furnished with warm, editorial styling. Sofas, rugs, natural light.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364439/shp/vue-studio/shp/vue-studio/set-1.jpg",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506289/shp/vue-studio/shp/vue-studio/set-1.jpg",
   },
   {
     name: "The Bedroom",
     description: "Lush bedding, soft tones, and privacy. designed for intimate sessions.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364441/shp/vue-studio/shp/vue-studio/set-2.jpg",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506290/shp/vue-studio/shp/vue-studio/set-2.jpg",
   },
   {
     name: "The Backdrop Wall",
     description: "Fully motorized seamless backdrops in a curated palette of neutral tones.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364442/shp/vue-studio/shp/vue-studio/set-3.jpg",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506292/shp/vue-studio/shp/vue-studio/set-3.jpg",
   },
   {
     name: "The Vanity Suite",
     description: "Dedicated hair and makeup room. fully equipped, beautifully lit.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364444/shp/vue-studio/shp/vue-studio/for-photographers.jpg",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506294/shp/vue-studio/shp/vue-studio/for-photographers.jpg",
   },
   {
     name: "The Garden Set",
     description: "Indoor botanicals and natural textures for an organic, editorial look.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364446/shp/vue-studio/shp/vue-studio/for-clients.jpg",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506298/shp/vue-studio/shp/vue-studio/for-clients.jpg",
   },
   {
     name: "The Archway",
     description: "Clean architectural lines and dramatic negative space for striking portraits.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364437/shp/vue-studio/shp/vue-studio/hero.jpg",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506288/shp/vue-studio/shp/vue-studio/hero.jpg",
+  },
+  {
+    name: "Set 4",
+    description: "A curated space with its own distinct character. ready for your story.",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506356/shp/vue-studio/shp/vue-studio/set-4.jpg",
+  },
+  {
+    name: "Set 5",
+    description: "Another fully styled environment built for editorial and intimate work.",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506358/shp/vue-studio/shp/vue-studio/set-5.jpg",
+  },
+  {
+    name: "Set 6",
+    description: "Every set at Vue Studio is designed to feel like a world of its own.",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506359/shp/vue-studio/shp/vue-studio/set-6.jpg",
   },
 ];
 
@@ -124,7 +139,7 @@ export default function VueStudioPage() {
           <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364437/shp/vue-studio/shp/vue-studio/hero.jpg"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506288/shp/vue-studio/shp/vue-studio/hero.jpg"
               alt="Vue Studio Austin. premium portrait photography studio"
               fill
               priority
@@ -225,7 +240,7 @@ export default function VueStudioPage() {
           <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative h-[500px]">
               <Image
-                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364444/shp/vue-studio/shp/vue-studio/for-photographers.jpg"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506294/shp/vue-studio/shp/vue-studio/for-photographers.jpg"
                 alt="Hair and makeup suite at Vue Studio Austin"
                 fill
                 className="object-cover"
@@ -316,7 +331,7 @@ export default function VueStudioPage() {
             </div>
             <div className="relative h-[600px]">
               <Image
-                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364442/shp/vue-studio/shp/vue-studio/set-3.jpg"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506292/shp/vue-studio/shp/vue-studio/set-3.jpg"
                 alt="Vue Studio Austin photography studio rental PeerSpace"
                 fill
                 className="object-cover"

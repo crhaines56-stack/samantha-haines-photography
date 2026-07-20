@@ -18,13 +18,13 @@ const services = [
     href: "/vue-studio",
     title: "Vue Studio",
     description: "Austin's only private luxury boudoir studio. 8 sets. Yours alone.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364364/shp/homepage/shp/homepage/service-boudoir.jpg",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506563/shp/homepage/shp/homepage/service-boudoir.jpg",
   },
   {
     href: "/boudoir-photographer-austin",
     title: "Boudoir",
     description: "A slow reveal of every facet of you.",
-    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364364/shp/homepage/shp/homepage/service-boudoir.jpg",
+    image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506563/shp/homepage/shp/homepage/service-boudoir.jpg",
   },
   {
     href: "/senior-portrait-photographer-austin",

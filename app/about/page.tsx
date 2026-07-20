@@ -69,7 +69,7 @@ export default function AboutPage() {
           <section className="sticky top-0 h-screen flex items-end pb-20 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506600/shp/about/shp/about/samantha-header.jpg"
               alt="Samantha Haines. Austin portrait photographer"
               fill
               priority
@@ -108,7 +108,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[560px]">
               <Image
-                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506363/shp/about/shp/about/dsc04760-edit.jpg"
                 alt="Samantha Haines Austin portrait photographer"
                 fill
                 className="object-cover object-top"
@@ -122,8 +122,8 @@ export default function AboutPage() {
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="relative h-[500px]">
               <Image
-                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364397/shp/family/shp/family/hero.jpg"
-                alt="Samantha with her family in Austin Texas"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506598/shp/about/shp/about/lifeinlove.jpg"
+                alt="Samantha Haines with her family in Austin Texas"
                 fill
                 className="object-cover"
               />

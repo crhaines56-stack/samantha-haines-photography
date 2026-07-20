@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     description:
       "Austin maternity and newborn photographer Samantha Haines captures the full journey. from bump to baby. Beautiful portraits in Austin TX & Steiner Ranch.",
     url: "https://www.samanthahainesphotography.com/maternity-photographer-austin",
-    images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364379/shp/newborn/shp/newborn/hero.jpg", width: 1200, height: 630, alt: "Maternity and newborn photographer Austin TX" }],
+    images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg", width: 1200, height: 630, alt: "Maternity and newborn photographer Austin TX" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Maternity & Newborn Photographer Austin TX",
     description:
       "Austin maternity and newborn photographer Samantha Haines. From pregnancy to those first fleeting days.",
-    images: ["https://res.cloudinary.com/du67vy39a/image/upload/v1775364379/shp/newborn/shp/newborn/hero.jpg"],
+    images: ["https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg"],
   },
 };
 
@@ -103,7 +103,7 @@ const faqSchema = {
 
 const maternityImages = [
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364384/shp/newborn/shp/newborn/gallery-1.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506233/shp/newborn/shp/newborn/gallery-1.jpg",
     alt: "Maternity photographer Austin TX",
   },
   {
@@ -118,15 +118,19 @@ const maternityImages = [
 
 const newbornImages = [
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364391/shp/newborn/shp/newborn/gallery-4.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506583/shp/newborn/shp/newborn/gallery-4.jpg",
     alt: "Newborn photographer Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364393/shp/newborn/shp/newborn/gallery-5.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506254/shp/newborn/shp/newborn/gallery-5.jpg",
     alt: "Newborn portrait session Austin",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364395/shp/newborn/shp/newborn/gallery-6.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506594/shp/newborn/shp/newborn/newbornexperience.jpg",
+    alt: "Newborn photography experience Austin TX",
+  },
+  {
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506256/shp/newborn/shp/newborn/gallery-6.jpg",
     alt: "Newborn photos Austin TX",
   },
 ];
@@ -151,7 +155,7 @@ export default function MaternityNewbornPage() {
           <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364379/shp/newborn/shp/newborn/hero.jpg"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg"
               alt="Maternity and newborn photographer Austin TX. Samantha Haines Photography"
               fill
               priority
@@ -257,7 +261,7 @@ export default function MaternityNewbornPage() {
             </div>
             <div className="relative h-[550px]">
               <Image
-                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364393/shp/newborn/shp/newborn/gallery-5.jpg"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506254/shp/newborn/shp/newborn/gallery-5.jpg"
                 alt="Newborn session experience Austin TX"
                 fill
                 className="object-cover"

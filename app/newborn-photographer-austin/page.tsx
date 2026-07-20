@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     description:
       "Austin newborn photographer capturing the first fleeting days of life. Safe, gentle, stunning studio sessions in Austin TX.",
     url: "https://www.samanthahainesphotography.com/newborn-photographer-austin",
-    images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364379/shp/newborn/shp/newborn/hero.jpg", width: 1200, height: 630, alt: "Newborn photographer Austin TX. Samantha Haines Photography" }],
+    images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg", width: 1200, height: 630, alt: "Newborn photographer Austin TX. Samantha Haines Photography" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Newborn Photographer Austin TX | Samantha Haines Photography",
     description: "Austin newborn photographer capturing the first fleeting days of life.",
-    images: ["https://res.cloudinary.com/du67vy39a/image/upload/v1775364379/shp/newborn/shp/newborn/hero.jpg"],
+    images: ["https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg"],
   },
 };
 
@@ -93,11 +93,11 @@ const faqSchema = {
 
 const galleryImages = [
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364384/shp/newborn/shp/newborn/gallery-1.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506233/shp/newborn/shp/newborn/gallery-1.jpg",
     alt: "Newborn studio portrait Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364387/shp/newborn/shp/newborn/gallery-2.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506580/shp/newborn/shp/newborn/gallery-2.jpg",
     alt: "Newborn baby photos Austin Texas",
   },
   {
@@ -105,15 +105,15 @@ const galleryImages = [
     alt: "Family newborn session Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364391/shp/newborn/shp/newborn/gallery-4.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506583/shp/newborn/shp/newborn/gallery-4.jpg",
     alt: "Newborn lifestyle photography Austin",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364393/shp/newborn/shp/newborn/gallery-5.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506254/shp/newborn/shp/newborn/gallery-5.jpg",
     alt: "Austin newborn photographer Samantha Haines",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364395/shp/newborn/shp/newborn/gallery-6.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506256/shp/newborn/shp/newborn/gallery-6.jpg",
     alt: "Newborn and parent portraits Austin TX",
   },
 ];
@@ -133,7 +133,7 @@ export default function NewbornPhotographerAustinPage() {
           <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364379/shp/newborn/shp/newborn/hero.jpg"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg"
               alt="Newborn photographer Austin TX. Samantha Haines Photography"
               fill
               priority
