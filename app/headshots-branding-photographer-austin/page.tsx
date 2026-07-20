@@ -237,7 +237,7 @@ export default function HeadshotsPage() {
                     src={img.src}
                     alt={img.alt}
                     fill
-                    className="object-cover object-top hover:scale-105 transition-transform duration-700"
+                    className="object-cover object-[50%_25%] hover:scale-105 transition-transform duration-700"
                   />
                 </div>
               ))}
