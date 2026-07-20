@@ -49,7 +49,7 @@ const studioSchema = {
           name: "Is Vue Studio available to rent for other photographers?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. Vue Studio is available for rental by the hour or the day. Reach out through the contact form to check availability and discuss your shoot.",
+            text: "Yes. Vue Studio is available for rental by the hour or the day. Fill out the Book Now form to check availability and discuss your shoot.",
           },
         },
         {

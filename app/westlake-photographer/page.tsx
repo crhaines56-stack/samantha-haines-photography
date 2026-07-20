@@ -64,7 +64,7 @@ const faqSchema = {
       name: "How do I book a session?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Reach out using our contact form and Samantha will personally respond to schedule your consultation and begin crafting an experience tailored to you.",
+        text: "Fill out the Book Now form to get started. Samantha will personally be in touch to schedule your consultation.",
       },
     },
   ],
