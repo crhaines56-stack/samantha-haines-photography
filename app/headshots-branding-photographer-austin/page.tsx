@@ -47,7 +47,7 @@ const faqSchema = {
       name: "Is hair and makeup included?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Professional hair and makeup are included with every headshot and branding session — so you arrive and immediately look and feel your best.",
+        text: "For full branding sessions, professional hair and makeup are included. For simple headshot sessions, hair and makeup is available as an add-on upon request — whether at the studio or on location.",
       },
     },
     {
