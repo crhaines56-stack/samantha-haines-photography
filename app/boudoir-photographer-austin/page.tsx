@@ -315,10 +315,10 @@ export default function BoudoirPage() {
             <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-6">
               Your Privacy
             </p>
-            <p className="font-serif text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed italic">
-              &ldquo;Your images belong to you. completely. Nothing is shared without your
+            <p className="font-serif text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed">
+              Your images belong to you. completely. Nothing is shared without your
               explicit permission, ever. What happens in your session stays exactly where it
-              belongs: with you.&rdquo;
+              belongs: with you.
             </p>
           </div>
         </section>
