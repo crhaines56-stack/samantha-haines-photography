@@ -74,14 +74,7 @@ const faqSchema = {
         text: "Absolutely. Partner and sibling frames are a beautiful addition to both maternity and newborn sessions. Samantha plans time for these within every session.",
       },
     },
-    {
-      "@type": "Question",
-      name: "Is the studio safe and warm for my newborn?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Absolutely. Samantha keeps the studio warm, clean, and calm. Every prop and wrap is sanitized. Your baby's comfort and safety are the highest priority throughout the entire session.",
-      },
-    },
+
     {
       "@type": "Question",
       name: "How long do sessions take?",
@@ -169,7 +162,7 @@ export default function MaternityNewbornPage() {
               From bump to baby.
             </h1>
             <p className="font-sans text-[15px] text-[#e8e4df] max-w-2xl leading-relaxed mb-10 text-shadow-sm">
-              Pregnancy is extraordinary. And those first days with your newborn — the weight of them, the smell, the way they curl into you — are here for only the briefest window. Both deserve to be documented beautifully.
+              From the fullness of pregnancy to those first fleeting days with your newborn — each season passes faster than you expect. Samantha is here to make sure none of it goes undocumented.
             </p>
             <CTAButton size="lg">Start the Conversation</CTAButton>
             <p className="font-sans text-[11px] text-[#c9b99a] tracking-wider mt-5 uppercase text-shadow-sm">
