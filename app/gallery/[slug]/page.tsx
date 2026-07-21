@@ -1,16 +1,77 @@
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 import { getGallery, getGalleryImages, getGallerySets } from '@/lib/gallery';
 import GalleryClient from '@/components/gallery/GalleryClient';
+import PortfolioGalleryClient from '@/components/ui/PortfolioGalleryClient';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
+
+// Portfolio categories (static, no DB lookup needed)
+const categoryLabels: Record<string, string> = {
+  boudoir: 'Boudoir',
+  senior: 'Senior Portraits',
+  family: 'Family',
+  maternity: 'Maternity & Newborn',
+  branding: 'Branding & Headshots',
+};
+
+const categoryServiceLinks: Record<string, string> = {
+  boudoir: '/boudoir-photographer-austin',
+  senior: '/senior-portrait-photographer-austin',
+  family: '/family-photographer-austin',
+  maternity: '/maternity-photographer-austin',
+  branding: '/headshots-branding-photographer-austin',
+};
 
 interface Props {
   params: Promise<{ slug: string }>;
 }
 
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+
+  // Portfolio category
+  if (categoryLabels[slug]) {
+    const label = categoryLabels[slug];
+    return {
+      title: `${label} Portfolio | Samantha Haines Photography`,
+      description: `Full ${label.toLowerCase()} portfolio — Samantha Haines Photography, Austin TX.`,
+    };
+  }
+
+  // Client gallery
+  const gallery = await getGallery(slug);
+  if (!gallery) return {};
+  return {
+    title: `${gallery.client_name}'s Gallery | Samantha Haines Photography`,
+    robots: { index: false, follow: false },
+  };
+}
+
+export async function generateStaticParams() {
+  return ['boudoir', 'senior', 'family', 'maternity', 'branding'].map((slug) => ({
+    slug,
+  }));
+}
+
 export default async function GalleryPage({ params }: Props) {
   const { slug } = await params;
+
+  // Portfolio category pages
+  if (categoryLabels[slug]) {
+    const label = categoryLabels[slug];
+    const serviceLink = categoryServiceLinks[slug] || '/contact';
+    return (
+      <PortfolioGalleryClient
+        category={slug}
+        label={label}
+        serviceLink={serviceLink}
+      />
+    );
+  }
+
+  // Client gallery (DB lookup)
   const gallery = await getGallery(slug);
 
   if (!gallery) {
@@ -65,7 +126,6 @@ export default async function GalleryPage({ params }: Props) {
     getGallerySets(gallery.id),
   ]);
 
-  // Serialize for client
   const galleryData = {
     id: gallery.id,
     slug: gallery.slug,
@@ -76,7 +136,6 @@ export default async function GalleryPage({ params }: Props) {
     allowDownloads: gallery.allow_downloads,
     downloadPin: gallery.download_pin ?? null,
     watermarkPreviews: gallery.watermark_previews,
-    // Only expose password to client when gallery is shareable (not sensitive in that case)
     collectionPassword: gallery.is_shareable ? (gallery.collection_password ?? null) : null,
   };
 
@@ -110,14 +169,4 @@ export default async function GalleryPage({ params }: Props) {
       sets={setsData}
     />
   );
-}
-
-export async function generateMetadata({ params }: Props) {
-  const { slug } = await params;
-  const gallery = await getGallery(slug);
-  if (!gallery) return {};
-  return {
-    title: `${gallery.client_name}'s Gallery | Samantha Haines Photography`,
-    robots: { index: false, follow: false },
-  };
 }

@@ -13,7 +13,6 @@ interface CarouselImage {
 export default function PortfolioCarousel({
   images,
   category,
-  label,
 }: {
   images: CarouselImage[];
   category: string;
