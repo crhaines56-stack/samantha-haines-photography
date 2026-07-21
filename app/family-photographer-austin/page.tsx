@@ -5,6 +5,7 @@ import Header from "@/components/ui/Header";
 import Footer from "@/components/ui/Footer";
 import CTAButton from "@/components/ui/CTAButton";
 import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
+import PortfolioCarousel from "@/components/ui/PortfolioCarousel";
 
 export const metadata: Metadata = {
   title: "Family Photographer Austin TX",
@@ -463,6 +464,16 @@ export default function FamilyPage() {
             </div>
           </div>
         </section>
+
+        {/* Portfolio Carousel */}
+        <PortfolioCarousel
+          category="family"
+          label="Family"
+          images={[
+            ...galleryImages.map(img => ({ src: img.src, alt: img.alt })),
+            { src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364399/shp/family/shp/family/experience.jpg", alt: "Family session Austin TX" },
+          ]}
+        />
 
         {/* CTA */}
         <section className="py-24 px-6 bg-[#1a1a1a] text-center">
