@@ -127,18 +127,6 @@ const galleryImages = [
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672423/shp/family/gallery-6.jpg",
     alt: "Family photography golden hour Austin",
   },
-  {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672442/shp/family/gallery-7.jpg",
-    alt: "Family photography Austin TX outdoors",
-  },
-  {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672445/shp/family/gallery-8.jpg",
-    alt: "Austin family session golden hour",
-  },
-  {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672447/shp/family/gallery-9.jpg",
-    alt: "Family portrait session Austin Texas",
-  },
 ];
 
 const relatedServices = [
