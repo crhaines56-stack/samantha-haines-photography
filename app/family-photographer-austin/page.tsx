@@ -275,7 +275,7 @@ export default function FamilyPage() {
                   alt: "Outdoor family photography Austin TX",
                 },
                 {
-                  title: "In-Home",
+                  title: "In-Home or Studio",
                   desc: "Your home is already full of your family\u2019s story. Samantha documents it there \u2014 where the kids are comfortable, the light is familiar, and everything feels real.",
                   img: "https://res.cloudinary.com/du67vy39a/image/upload/v1784515545/shp/family/shp/family/gallery-3.jpg",
                   alt: "In-home family photography Austin TX",
