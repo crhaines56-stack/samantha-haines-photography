@@ -104,40 +104,39 @@ const faqSchema = {
 
 const galleryImages = [
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364401/shp/family/shp/family/gallery-1.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672430/shp/family/gallery-1.jpg",
     alt: "Family photography Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364403/shp/family/shp/family/gallery-2.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672432/shp/family/gallery-2.jpg",
     alt: "Austin family portrait session",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784515545/shp/family/shp/family/gallery-3.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672435/shp/family/gallery-3.jpg",
     alt: "Outdoor family photos Austin Texas",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364407/shp/family/shp/family/gallery-4.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672437/shp/family/gallery-4.jpg",
     alt: "Family session Steiner Ranch Austin",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364409/shp/family/shp/family/gallery-5.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672438/shp/family/gallery-5.jpg",
     alt: "Candid family portraits Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784513875/shp/family/shp/family/gallery-6.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672423/shp/family/gallery-6.jpg",
     alt: "Family photography golden hour Austin",
   },
-  // TODO: replace with new photos from Samantha
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784513875/shp/family/shp/family/gallery-6.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672442/shp/family/gallery-7.jpg",
     alt: "Family photography Austin TX outdoors",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364401/shp/family/shp/family/gallery-1.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672445/shp/family/gallery-8.jpg",
     alt: "Austin family session golden hour",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364403/shp/family/shp/family/gallery-2.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672447/shp/family/gallery-9.jpg",
     alt: "Family portrait session Austin Texas",
   },
 ];
@@ -162,7 +161,7 @@ export default function FamilyPage() {
           <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364397/shp/family/shp/family/hero.jpg"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1784672453/shp/family/hero.jpg"
               alt="Family photographer Austin TX. Samantha Haines Photography"
               fill
               priority
@@ -218,7 +217,7 @@ export default function FamilyPage() {
             </div>
             <div className="relative h-[550px]">
               <Image
-                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364399/shp/family/shp/family/experience.jpg"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784672424/shp/family/experience.jpg"
                 alt="Family session experience Austin TX"
                 fill
                 className="object-cover"
@@ -275,13 +274,13 @@ export default function FamilyPage() {
                 {
                   title: "Outdoor",
                   desc: "Austin\u2019s parks, lakesides, and Hill Country backdrops. Golden hour light on your family in a setting that feels like you.",
-                  img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364401/shp/family/shp/family/gallery-1.jpg",
+                  img: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672468/shp/family/outdoor-session.jpg",
                   alt: "Outdoor family photography Austin TX",
                 },
                 {
                   title: "In-Home or Studio",
                   desc: "Your home is already full of your family\u2019s story. Samantha documents it there \u2014 where the kids are comfortable, the light is familiar, and everything feels real.",
-                  img: "https://res.cloudinary.com/du67vy39a/image/upload/v1784515545/shp/family/shp/family/gallery-3.jpg",
+                  img: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672462/shp/family/indoor-session.jpg",
                   alt: "In-home family photography Austin TX",
                 },
               ].map((item) => (
@@ -434,7 +433,7 @@ export default function FamilyPage() {
           <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative h-[500px]">
               <Image
-                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364403/shp/family/shp/family/gallery-2.jpg"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784672458/shp/family/howitworks.jpg"
                 alt="Family photography session Austin TX"
                 fill
                 className="object-cover object-[50%_25%]"
