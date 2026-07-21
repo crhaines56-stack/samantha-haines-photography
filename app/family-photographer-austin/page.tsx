@@ -116,7 +116,7 @@ const galleryImages = [
     alt: "Outdoor family photos Austin Texas",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672437/shp/family/gallery-4.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784672442/shp/family/gallery-7.jpg",
     alt: "Family session Steiner Ranch Austin",
   },
   {
