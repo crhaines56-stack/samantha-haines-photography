@@ -253,8 +253,8 @@ export default function FamilyPage() {
             <div className="text-center mt-12">
               <CTAButton size="lg">Book Your Session</CTAButton>
             </div>
-            <div className="text-center mt-6">
-              <Link href="/gallery/family" className="font-sans text-[12px] tracking-[0.2em] uppercase text-[#8b6f5e] hover:text-[#1a1a1a] transition-colors border-b border-[#8b6f5e] pb-0.5">
+            <div className="text-center mt-8">
+              <Link href="/gallery/family" className="inline-block font-sans text-[11px] tracking-[0.2em] uppercase border border-[#1a1a1a] text-[#1a1a1a] px-8 py-3 hover:bg-[#1a1a1a] hover:text-[#faf9f7] transition-all duration-300">
                 See Full Portfolio →
               </Link>
             </div>
