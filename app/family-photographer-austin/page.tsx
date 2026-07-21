@@ -254,9 +254,7 @@ export default function FamilyPage() {
               <CTAButton size="lg">Book Your Session</CTAButton>
             </div>
             <div className="text-center mt-8">
-              <Link href="/gallery/family" className="inline-block font-sans text-[11px] tracking-[0.2em] uppercase border border-[#1a1a1a] text-[#1a1a1a] px-8 py-3 hover:bg-[#1a1a1a] hover:text-[#faf9f7] transition-all duration-300">
-                See Full Portfolio →
-              </Link>
+              <CTAButton href="/gallery/family" variant="ghost">See Full Portfolio →</CTAButton>
             </div>
           </div>
         </section>
