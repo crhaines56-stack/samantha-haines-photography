@@ -362,34 +362,19 @@ export default function FamilyPage() {
               </h2>
             </div>
             <div className="space-y-8">
-              {faqSchema.mainEntity.map((faq, i) => {
-                const isKidsQuestion = faq.name.toLowerCase().includes("cooperate") || faq.name.toLowerCase().includes("kids");
-                return (
-                  <div key={i} className={`border-b border-[#c9b99a]/30 pb-8 ${isKidsQuestion ? "md:grid md:grid-cols-2 md:gap-12 md:items-start" : ""}`}>
-                    <div>
-                      <h3 className="font-serif text-xl text-[#1a1a1a] mb-4">{faq.name}</h3>
-                      <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed">
-                        {faq.acceptedAnswer.text}
-                      </p>
-                      {faq.name.toLowerCase().includes('book') && (
-                        <Link href="/contact" className="inline-block mt-3 font-sans text-[12px] tracking-[0.15em] uppercase text-[#8b6f5e] hover:text-[#1a1a1a] transition-colors border-b border-[#8b6f5e] pb-0.5">
-                          Book Now →
-                        </Link>
-                      )}
-                    </div>
-                    {isKidsQuestion && (
-                      <div className="relative h-64 mt-6 md:mt-0 overflow-hidden">
-                        <Image
-                          src="https://res.cloudinary.com/du67vy39a/image/upload/v1784513875/shp/family/shp/family/gallery-6.jpg"
-                          alt="Candid family moments Austin TX"
-                          fill
-                          className="object-cover object-[50%_25%]"
-                        />
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
+              {faqSchema.mainEntity.map((faq, i) => (
+                <div key={i} className="border-b border-[#c9b99a]/30 pb-8">
+                  <h3 className="font-serif text-xl text-[#1a1a1a] mb-4">{faq.name}</h3>
+                  <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed">
+                    {faq.acceptedAnswer.text}
+                  </p>
+                  {faq.name.toLowerCase().includes('book') && (
+                    <Link href="/contact" className="inline-block mt-3 font-sans text-[12px] tracking-[0.15em] uppercase text-[#8b6f5e] hover:text-[#1a1a1a] transition-colors border-b border-[#8b6f5e] pb-0.5">
+                      Book Now →
+                    </Link>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
         </section>
