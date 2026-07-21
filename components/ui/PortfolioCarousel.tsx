@@ -50,6 +50,9 @@ export default function PortfolioCarousel({
         </div>
       </div>
 
+      {/* Scroll hint */}
+      <p className="px-6 mb-4 font-sans text-[11px] text-[#6b6b6b] tracking-widest">← Swipe to see more →</p>
+
       {/* Horizontal scroll */}
       <div
         ref={scrollRef}
@@ -81,21 +84,16 @@ export default function PortfolioCarousel({
           );
         })}
 
-        {/* End CTA card */}
-        <div
-          className="flex-shrink-0 flex items-center justify-center bg-[#1a1a1a] border border-white/10"
-          style={{ height: '420px', width: '280px', scrollSnapAlign: 'start' }}
-        >
-          <div className="text-center px-8">
-            <p className="font-serif text-2xl text-[#faf9f7] italic mb-6">See it all.</p>
-            <Link
-              href={`/gallery/${category}`}
-              className="inline-block font-sans text-[11px] tracking-[0.2em] uppercase bg-[#faf9f7] text-[#1a1a1a] px-6 py-3 hover:bg-[#c9b99a] transition-colors"
-            >
-              See Full Portfolio →
-            </Link>
-          </div>
         </div>
+
+      {/* Always-visible portfolio link */}
+      <div className="px-6 mt-8 text-center">
+        <Link
+          href={`/gallery/${category}`}
+          className="inline-block font-sans text-[11px] tracking-[0.2em] uppercase border border-[#c9b99a] text-[#c9b99a] px-8 py-3 hover:bg-[#c9b99a] hover:text-[#0f0f0f] transition-all duration-300"
+        >
+          See Full Portfolio →
+        </Link>
       </div>
     </section>
   );
