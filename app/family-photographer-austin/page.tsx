@@ -126,6 +126,19 @@ const galleryImages = [
     src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784513875/shp/family/shp/family/gallery-6.jpg",
     alt: "Family photography golden hour Austin",
   },
+  // TODO: replace with new photos from Samantha
+  {
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784513875/shp/family/shp/family/gallery-6.jpg",
+    alt: "Family photography Austin TX outdoors",
+  },
+  {
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364401/shp/family/shp/family/gallery-1.jpg",
+    alt: "Austin family session golden hour",
+  },
+  {
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364403/shp/family/shp/family/gallery-2.jpg",
+    alt: "Family portrait session Austin Texas",
+  },
 ];
 
 const relatedServices = [
@@ -242,6 +255,52 @@ export default function FamilyPage() {
           </div>
         </section>
 
+        {/* Outdoor vs. In-Home */}
+        <section className="py-24 px-6 bg-[#faf9f7]">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-4">
+                Where We Shoot
+              </p>
+              <h2 className="font-serif text-5xl text-[#1a1a1a]">
+                Your space. Your story.
+              </h2>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {[
+                {
+                  title: "Outdoor",
+                  desc: "Austin\u2019s parks, lakesides, and Hill Country backdrops. Golden hour light on your family in a setting that feels like you.",
+                  img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364401/shp/family/shp/family/gallery-1.jpg",
+                  alt: "Outdoor family photography Austin TX",
+                },
+                {
+                  title: "In-Home",
+                  desc: "Your home is already full of your family\u2019s story. Samantha documents it there \u2014 where the kids are comfortable, the light is familiar, and everything feels real.",
+                  img: "https://res.cloudinary.com/du67vy39a/image/upload/v1784515545/shp/family/shp/family/gallery-3.jpg",
+                  alt: "In-home family photography Austin TX",
+                },
+              ].map((item) => (
+                <div key={item.title} className="group">
+                  <div className="relative h-80 overflow-hidden mb-6">
+                    <Image
+                      src={item.img}
+                      alt={item.alt}
+                      fill
+                      className="object-cover object-[50%_25%] transition-transform duration-700 group-hover:scale-105"
+                    />
+                  </div>
+                  <h3 className="font-serif text-2xl text-[#1a1a1a] mb-3">{item.title}</h3>
+                  <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-4">{item.desc}</p>
+                  <Link href="/contact" className="font-sans text-[11px] tracking-[0.2em] uppercase text-[#8b6f5e] border-b border-[#8b6f5e] pb-0.5 hover:text-[#1a1a1a] hover:border-[#1a1a1a] transition-colors">
+                    Book Now →
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Every Session */}
         <section className="py-24 px-6 bg-[#1a1a1a]">
           <div className="max-w-5xl mx-auto">
@@ -303,19 +362,34 @@ export default function FamilyPage() {
               </h2>
             </div>
             <div className="space-y-8">
-              {faqSchema.mainEntity.map((faq, i) => (
-                <div key={i} className="border-b border-[#c9b99a]/30 pb-8">
-                  <h3 className="font-serif text-xl text-[#1a1a1a] mb-4">{faq.name}</h3>
-                  <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed">
-                    {faq.acceptedAnswer.text}
-                  </p>
-                  {faq.name.toLowerCase().includes('book') && (
-                    <Link href="/contact" className="inline-block mt-3 font-sans text-[12px] tracking-[0.15em] uppercase text-[#8b6f5e] hover:text-[#1a1a1a] transition-colors border-b border-[#8b6f5e] pb-0.5">
-                      Book Now &rarr;
-                    </Link>
-                  )}
-                </div>
-              ))}
+              {faqSchema.mainEntity.map((faq, i) => {
+                const isKidsQuestion = faq.name.toLowerCase().includes("cooperate") || faq.name.toLowerCase().includes("kids");
+                return (
+                  <div key={i} className={`border-b border-[#c9b99a]/30 pb-8 ${isKidsQuestion ? "md:grid md:grid-cols-2 md:gap-12 md:items-start" : ""}`}>
+                    <div>
+                      <h3 className="font-serif text-xl text-[#1a1a1a] mb-4">{faq.name}</h3>
+                      <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed">
+                        {faq.acceptedAnswer.text}
+                      </p>
+                      {faq.name.toLowerCase().includes('book') && (
+                        <Link href="/contact" className="inline-block mt-3 font-sans text-[12px] tracking-[0.15em] uppercase text-[#8b6f5e] hover:text-[#1a1a1a] transition-colors border-b border-[#8b6f5e] pb-0.5">
+                          Book Now →
+                        </Link>
+                      )}
+                    </div>
+                    {isKidsQuestion && (
+                      <div className="relative h-64 mt-6 md:mt-0 overflow-hidden">
+                        <Image
+                          src="https://res.cloudinary.com/du67vy39a/image/upload/v1784513875/shp/family/shp/family/gallery-6.jpg"
+                          alt="Candid family moments Austin TX"
+                          fill
+                          className="object-cover object-[50%_25%]"
+                        />
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </div>
         </section>
@@ -362,6 +436,45 @@ export default function FamilyPage() {
             </div>
             <div className="text-center mt-12">
               <CTAButton size="lg">Book Your Session</CTAButton>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Book */}
+        <section className="py-24 px-6 bg-[#f5f0ea]">
+          <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="relative h-[500px]">
+              <Image
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1775364403/shp/family/shp/family/gallery-2.jpg"
+                alt="Family photography session Austin TX"
+                fill
+                className="object-cover object-[50%_25%]"
+              />
+            </div>
+            <div>
+              <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-8">
+                How It Works
+              </p>
+              <div className="space-y-8">
+                {[
+                  { step: "01", title: "Start the Conversation", desc: "Reach out and tell Samantha a little about your family. No pressure \u2014 just a conversation about what you\u2019re looking for." },
+                  { step: "02", title: "Customize the Details", desc: "Samantha works with you to plan location, timing, outfits, and every detail that makes this session yours." },
+                  { step: "03", title: "Enjoy Your Photos", desc: "Receive a beautifully edited gallery backed by the SHP Happiness Guarantee. Your family, beautifully documented." },
+                ].map((item) => (
+                  <div key={item.step} className="flex gap-6">
+                    <span className="font-serif text-4xl text-[#c9b99a] leading-none">{item.step}</span>
+                    <div>
+                      <h3 className="font-serif text-xl text-[#1a1a1a] mb-2">{item.title}</h3>
+                      <p className="font-sans text-[13px] text-[#6b6b6b] leading-relaxed">{item.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-10">
+                <Link href="/contact" className="inline-block font-sans text-[11px] tracking-[0.2em] uppercase bg-[#1a1a1a] text-[#faf9f7] px-8 py-4 hover:bg-[#8b6f5e] transition-colors duration-300">
+                  Book Your Session
+                </Link>
+              </div>
             </div>
           </div>
         </section>
