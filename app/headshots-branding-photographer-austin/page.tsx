@@ -245,6 +245,11 @@ export default function HeadshotsPage() {
             <div className="text-center mt-12">
               <CTAButton size="lg">Book Your Session</CTAButton>
             </div>
+            <div className="text-center mt-6">
+              <Link href="/gallery/branding" className="font-sans text-[12px] tracking-[0.2em] uppercase text-[#8b6f5e] hover:text-[#1a1a1a] transition-colors border-b border-[#8b6f5e] pb-0.5">
+                See Full Portfolio →
+              </Link>
+            </div>
           </div>
         </section>
 

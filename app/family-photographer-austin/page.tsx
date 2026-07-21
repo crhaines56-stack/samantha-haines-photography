@@ -5,7 +5,7 @@ import Header from "@/components/ui/Header";
 import Footer from "@/components/ui/Footer";
 import CTAButton from "@/components/ui/CTAButton";
 import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
-import PortfolioCarousel from "@/components/ui/PortfolioCarousel";
+
 
 export const metadata: Metadata = {
   title: "Family Photographer Austin TX",
@@ -253,6 +253,11 @@ export default function FamilyPage() {
             <div className="text-center mt-12">
               <CTAButton size="lg">Book Your Session</CTAButton>
             </div>
+            <div className="text-center mt-6">
+              <Link href="/gallery/family" className="font-sans text-[12px] tracking-[0.2em] uppercase text-[#8b6f5e] hover:text-[#1a1a1a] transition-colors border-b border-[#8b6f5e] pb-0.5">
+                See Full Portfolio →
+              </Link>
+            </div>
           </div>
         </section>
 
@@ -464,16 +469,6 @@ export default function FamilyPage() {
             </div>
           </div>
         </section>
-
-        {/* Portfolio Carousel */}
-        <PortfolioCarousel
-          category="family"
-          label="Family"
-          images={[
-            ...galleryImages.map(img => ({ src: img.src, alt: img.alt })),
-            { src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364399/shp/family/shp/family/experience.jpg", alt: "Family session Austin TX" },
-          ]}
-        />
 
         {/* CTA */}
         <section className="py-24 px-6 bg-[#1a1a1a] text-center">
