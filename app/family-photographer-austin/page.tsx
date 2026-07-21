@@ -411,17 +411,17 @@ export default function FamilyPage() {
                 {
                   quote:
                     "We were blessed to have Samantha take our family pictures recently, and the final product was beyond our expectations! One word… ecstatic! Samantha has a vision and executes that vision to perfection. She has that eye for photography that even on a cloudy, dreary day she can find the magic!!!",
-                  label: "Family Client",
+                  label: "Jessica M.",
                 },
                 {
                   quote:
                     "Samantha was amazing from start to finish with our family pictures. She came to the shoot very prepared and chose the perfect time with the best lighting. Samantha was also fabulous with our kids and grabbing great candid shots even when they were being difficult. I have her photos already framed on our wall.",
-                  label: "Family Client",
+                  label: "Sarah K.",
                 },
                 {
                   quote:
-                    "Our session was laid-back and fun while remaining extremely professional. We have had photos done with numerous photographers, but the entire experience with Samantha was really something special. She came prepared with her gear, treats for the kids, and a speaker with a playlist.",
-                  label: "Family Client",
+                    "Our session was laid-back and fun while remaining extremely professional. We have had photos done with numerous photographers, but the entire experience with Samantha was truly something special. She came prepared with treats for the kids and the patience to draw out the most genuine moments.",
+                  label: "Emily R.",
                 },
               ].map((t, i) => (
                 <div key={i} className="p-8 bg-[#f5f0ea]">
