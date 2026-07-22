@@ -103,27 +103,27 @@ const faqSchema = {
 
 const galleryImages = [
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364416/shp/headshots/shp/headshots/gallery-1.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784745846/shp/headshots/gallery-1.jpg",
     alt: "Headshots photographer Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506585/shp/headshots/shp/headshots/gallery-4.jpg",
-    alt: "Business headshots Austin Texas",
-  },
-  {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506592/shp/headshots/shp/headshots/gallery-3.jpg",
-    alt: "Branding photographer Austin TX",
-  },
-  {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364417/shp/headshots/shp/headshots/gallery-2.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784745847/shp/headshots/gallery-2.jpg",
     alt: "Professional headshots Austin Texas",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364424/shp/headshots/shp/headshots/gallery-5.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784746172/shp/headshots/gallery-3.jpg",
     alt: "Branding photographer Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364425/shp/headshots/shp/headshots/gallery-6.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784746174/shp/headshots/gallery-4.jpg",
+    alt: "Business headshots Austin Texas",
+  },
+  {
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784745878/shp/headshots/gallery-5.jpg",
+    alt: "Branding photographer Austin TX",
+  },
+  {
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784745880/shp/headshots/gallery-6.jpg",
     alt: "Executive headshots Austin Texas",
   },
 ];
@@ -237,7 +237,7 @@ export default function HeadshotsPage() {
                     src={img.src}
                     alt={img.alt}
                     fill
-                    className="object-cover object-[50%_25%] hover:scale-105 transition-transform duration-700"
+                    className="object-cover object-[50%_15%] hover:scale-105 transition-transform duration-700"
                   />
                 </div>
               ))}
