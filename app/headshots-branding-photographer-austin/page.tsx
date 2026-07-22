@@ -115,7 +115,7 @@ const galleryImages = [
     alt: "Branding photographer Austin TX",
   },
   {
-    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784746174/shp/headshots/gallery-4.jpg",
+    src: "https://res.cloudinary.com/du67vy39a/image/upload/v1784747048/shp/headshots/gallery-4.jpg",
     alt: "Business headshots Austin Texas",
   },
   {
