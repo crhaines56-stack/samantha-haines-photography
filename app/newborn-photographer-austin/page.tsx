@@ -235,7 +235,7 @@ export default function NewbornPhotographerAustinPage() {
               <p className="font-sans text-[10px] tracking-[0.35em] uppercase text-[#8b6f5e] mb-4">Gallery</p>
               <h2 className="font-serif text-4xl text-[#1a1a1a] italic">The first days.</h2>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
               {galleryImages.map((img, i) => (
                 <div key={i} className="relative aspect-square overflow-hidden">
                   <Image

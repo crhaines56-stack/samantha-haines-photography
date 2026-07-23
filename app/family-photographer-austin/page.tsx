@@ -225,9 +225,9 @@ export default function FamilyPage() {
                 Every family has a story worth telling.
               </h2>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               {galleryImages.map((img, i) => (
-                <div key={i} className="relative h-64 md:h-80 overflow-hidden">
+                <div key={i} className="relative h-[80vw] sm:h-72 md:h-80 overflow-hidden">
                   <Image
                     src={img.src}
                     alt={img.alt}

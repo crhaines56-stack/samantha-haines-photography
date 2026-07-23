@@ -215,9 +215,9 @@ export default function MaternityNewbornPage() {
                 A season worth remembering.
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               {maternityImages.map((img, i) => (
-                <div key={i} className="relative h-80 overflow-hidden">
+                <div key={i} className="relative h-[80vw] sm:h-72 md:h-80 overflow-hidden">
                   <Image
                     src={img.src}
                     alt={img.alt}
@@ -277,9 +277,9 @@ export default function MaternityNewbornPage() {
                 The smallest moments. The biggest love.
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               {newbornImages.map((img, i) => (
-                <div key={i} className="relative h-80 overflow-hidden">
+                <div key={i} className="relative h-[80vw] sm:h-72 md:h-80 overflow-hidden">
                   <Image
                     src={img.src}
                     alt={img.alt}
