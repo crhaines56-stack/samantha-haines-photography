@@ -65,7 +65,7 @@ const studioSchema = {
           name: "Where is Vue Studio located?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Vue Studio is located at 2302 Jacks Pass, Austin, TX.",
+            text: "Vue Studio is located in Northwest Austin. The exact address and parking details are provided when you book your session.",
           },
         },
       ],

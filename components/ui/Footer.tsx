@@ -35,9 +35,7 @@ export default function Footer() {
               Austin&apos;s premier portrait studio. Boudoir, senior portraits, family,
               newborn, maternity & headshots.
             </p>
-            <p className="font-sans text-[12px] text-[#c9b99a] mt-4">
-              2302 Jacks Pass, Austin, TX
-            </p>
+
           </div>
 
           {/* Services */}

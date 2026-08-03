@@ -81,7 +81,7 @@ const faqSchema = {
       name: "Where is your boudoir studio located for Westlake Hills clients?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Samantha photographs at Vue Studio Austin, located at 2302 Jacks Pass, Austin, TX. just minutes from Westlake Hills and the surrounding communities of Rollingwood, Bee Cave, and Barton Creek. It is one of the closest luxury portrait studios to Westlake Hills.",
+        text: "Samantha photographs at Vue Studio Austin, a private luxury studio in Northwest Austin — just minutes from Westlake Hills and the surrounding communities of Rollingwood, Bee Cave, and Barton Creek. Exact address and parking details are shared when you book.",
       },
     },
     {
@@ -372,8 +372,7 @@ export default function WestlakeHillsBoudoirPage() {
               Minutes from Westlake Hills. A world apart.
             </h2>
             <p className="font-sans text-[15px] text-[#6b6b6b] leading-relaxed mb-6">
-              Vue Studio Austin is Samantha&rsquo;s private, fully equipped studio located at
-              2302 Jacks Pass, Austin, TX. It is intentionally designed to feel like a sanctuary
+              Vue Studio Austin is Samantha&rsquo;s private, fully equipped studio in Northwest Austin — intentionally designed to feel like a sanctuary
               &mdash; comfortable, welcoming, completely private, and stocked with everything
               you need for a flawless session.
             </p>
