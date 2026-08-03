@@ -296,7 +296,7 @@ export default function VueStudioPage() {
                   "Dedicated hair & makeup suite for talent",
                   "2,500 sq ft of usable space. room to move, room to create",
                   "On-site parking for crew and clients",
-                  "Central Austin location. easy access from any direction",
+                  "Northwest Austin location — easy access from Steiner Ranch, Cedar Park, Westlake, and Lakeway",
                 ].map((feature) => (
                   <div key={feature} className="flex gap-3">
                     <span className="text-[#c9b99a] flex-shrink-0 mt-0.5">✦</span>
@@ -331,11 +331,10 @@ export default function VueStudioPage() {
               Find Us
             </p>
             <h2 className="font-serif text-4xl text-[#1a1a1a] mb-4">
-              Centrally located in Austin, TX
+              Northwest Austin
             </h2>
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-10 max-w-xl mx-auto">
-              Centrally located and easy to reach from Steiner Ranch, Cedar Park,
-              Westlake, Lakeway, Round Rock, and beyond. On-site parking always available.
+              Easy to reach from Steiner Ranch, Cedar Park, Westlake, Lakeway, Round Rock, and beyond. On-site parking always available.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <CTAButton size="lg">Book a Session</CTAButton>
@@ -373,7 +372,7 @@ export default function VueStudioPage() {
                 },
                 {
                   q: "Where is Vue Studio located?",
-                  a: "Vue Studio is centrally located in Austin, TX — easy access from Steiner Ranch, Westlake, Cedar Park, and the greater Austin area. Book a session and we'll send you the exact address and parking details.",
+                  a: "Vue Studio is located in Northwest Austin — easy access from Steiner Ranch, Westlake, Cedar Park, Lakeway, and Round Rock. Book a session and we'll send you the exact address and parking details.",
                 },
                 {
                   q: "Can clients book sessions at Vue Studio with Samantha?",
