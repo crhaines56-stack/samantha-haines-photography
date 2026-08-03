@@ -315,8 +315,8 @@ export default function VueStudioPage() {
             </div>
             <div className="relative h-[600px]">
               <Image
-                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506359/shp/vue-studio/shp/vue-studio/set-6.jpg"
-                alt="Vue Studio Austin photography studio rental"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1785774004/shp/vue-studio/for-photographers-interior.jpg"
+                alt="Vue Studio Austin interior — crystal chandeliers and living room set"
                 fill
                 className="object-cover"
               />
