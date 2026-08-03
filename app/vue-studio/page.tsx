@@ -123,7 +123,7 @@ export default function VueStudioPage() {
           <section className="sticky top-0 h-screen flex items-end pb-24 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-[#1a1a1a]">
             <Image
-              src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506289/shp/vue-studio/shp/vue-studio/set-1.jpg"
+              src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506288/shp/vue-studio/shp/vue-studio/hero.jpg"
               alt="Vue Studio Austin — premium portrait photography studio"
               fill
               priority
@@ -315,7 +315,7 @@ export default function VueStudioPage() {
             </div>
             <div className="relative h-[600px]">
               <Image
-                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506294/shp/vue-studio/shp/vue-studio/for-photographers.jpg"
+                src="https://res.cloudinary.com/du67vy39a/image/upload/v1784506359/shp/vue-studio/shp/vue-studio/set-6.jpg"
                 alt="Vue Studio Austin photography studio rental"
                 fill
                 className="object-cover"
