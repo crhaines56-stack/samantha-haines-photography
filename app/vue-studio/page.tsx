@@ -111,7 +111,7 @@ const specs = [
   { label: "Furnished Sets", value: "8 Unique Sets" },
   { label: "Hair & Makeup", value: "Dedicated Suite" },
   { label: "Parking", value: "On-Site" },
-  { label: "Location", value: "2302 Jacks Pass, Austin TX" },
+  { label: "Location", value: "Central Austin" },
 ];
 
 export default function VueStudioPage() {
@@ -332,7 +332,7 @@ export default function VueStudioPage() {
               Find Us
             </p>
             <h2 className="font-serif text-4xl text-[#1a1a1a] mb-4">
-              2302 Jacks Pass, Austin, TX
+              Centrally located in Austin, TX
             </h2>
             <p className="font-sans text-[14px] text-[#6b6b6b] leading-relaxed mb-10 max-w-xl mx-auto">
               Centrally located and easy to reach from Steiner Ranch, Cedar Park,
@@ -374,7 +374,7 @@ export default function VueStudioPage() {
                 },
                 {
                   q: "Where is Vue Studio located?",
-                  a: "2302 Jacks Pass, Austin, TX. centrally located with easy access from Steiner Ranch, Westlake, Cedar Park, and the greater Austin area.",
+                  a: "Vue Studio is centrally located in Austin, TX — easy access from Steiner Ranch, Westlake, Cedar Park, and the greater Austin area. Book a session and we'll send you the exact address and parking details.",
                 },
                 {
                   q: "Can clients book sessions at Vue Studio with Samantha?",
