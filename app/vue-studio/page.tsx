@@ -127,7 +127,7 @@ export default function VueStudioPage() {
               alt="Vue Studio Austin — premium portrait photography studio"
               fill
               priority
-              className="object-cover"
+              className="object-cover object-[30%_center]"
             />
           </div>
           {/* Text readability scrim — separate layer, photo untouched */}
