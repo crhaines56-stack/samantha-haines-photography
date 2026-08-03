@@ -168,7 +168,7 @@ export default function VueStudioPage() {
         {/* Studio Specs */}
         <section className="py-20 px-6 bg-[#1a1a1a]">
           <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-px bg-[#2a2a2a]">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-[#2a2a2a]">
               {specs.map((spec) => (
                 <div key={spec.label} className="bg-[#1a1a1a] p-8 text-center">
                   <p className="font-serif text-2xl text-[#faf9f7] mb-2">{spec.value}</p>
