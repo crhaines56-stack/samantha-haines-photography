@@ -111,7 +111,6 @@ const specs = [
   { label: "Furnished Sets", value: "8 Unique Sets" },
   { label: "Hair & Makeup", value: "Dedicated Suite" },
   { label: "Parking", value: "On-Site" },
-  { label: "Location", value: "Central Austin" },
 ];
 
 export default function VueStudioPage() {
