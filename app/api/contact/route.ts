@@ -25,6 +25,9 @@ async function createHubSpotContact(data: {
     firstname,
     lastname,
     hs_lead_status: "NEW",
+    // Source tracking
+    hs_analytics_source: "ORGANIC_SEARCH",
+    lead_source_detail: "website_form_organic",
     // Store the full inquiry message in the HubSpot "message" property
     message: `[Service: ${data.service || "General"}]\n\n${data.message}`,
   };
