@@ -79,7 +79,7 @@ export default function AdminGalleriesPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
-  const baseUrl = 'https://www.samanthahainesphotography.com';
+  const baseUrl = 'https://samanthahainesphotography.com';
 
   useEffect(() => {
     fetch('/api/admin/galleries')

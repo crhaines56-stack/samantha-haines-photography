@@ -7,18 +7,18 @@ import CTAButton from "@/components/ui/CTAButton";
 import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
 
 export const metadata: Metadata = {
-  title: "Boudoir Photographer Austin TX | Samantha Haines Photography",
+  title: "Boudoir Photographer Austin TX",
   description:
-    "Austin boudoir photography by Samantha Haines. A slow reveal of every facet of you. hair & makeup included, fully private, designed for every woman at every stage.",
+    "Austin boudoir photography by Samantha Haines. A slow reveal of every facet of you. Hair & makeup included, fully private, designed for every woman at every stage.",
   alternates: {
     canonical:
-      "https://www.samanthahainesphotography.com/boudoir-photographer-austin",
+      "https://samanthahainesphotography.com/boudoir-photographer-austin",
   },
   openGraph: {
     title: "Boudoir Photographer Austin TX",
     description:
-      "Austin boudoir photography by Samantha Haines. A slow reveal of every facet of you. hair & makeup included, fully private, designed for every woman at every stage.",
-    url: "https://www.samanthahainesphotography.com/boudoir-photographer-austin",
+      "Austin boudoir photography by Samantha Haines. A slow reveal of every facet of you. Hair & makeup included, fully private, designed for every woman at every stage.",
+    url: "https://samanthahainesphotography.com/boudoir-photographer-austin",
     images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506567/shp/boudoir/shp/boudoir/hero.jpg", width: 1200, height: 630, alt: "Boudoir photographer Austin TX" }],
   },
   twitter: {

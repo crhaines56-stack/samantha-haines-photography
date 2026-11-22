@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Book a Session | Samantha Haines Photography",
+  title: "Book a Session",
   description:
     "Ready to book your Austin portrait session? Contact Samantha Haines Photography to schedule your boudoir, family, senior, newborn, maternity, or headshot session.",
-  alternates: { canonical: "https://www.samanthahainesphotography.com/contact" },
+  alternates: { canonical: "https://samanthahainesphotography.com/contact" },
   openGraph: {
     title: "Book a Session | Samantha Haines Photography",
     description:
       "Book your Austin portrait session today. Hair & makeup always included.",
-    url: "https://www.samanthahainesphotography.com/contact",
+    url: "https://samanthahainesphotography.com/contact",
     images: [
       {
         url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg",

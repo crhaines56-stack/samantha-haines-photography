@@ -80,10 +80,20 @@ export async function POST(req: NextRequest) {
       ? "noreply@samanthahainesphotography.com"
       : "onboarding@resend.dev";
 
+    // Inquiry delivery. CONTACT_EMAIL may override the studio inbox, but the
+    // retired personal address must never receive form submissions.
+    const inquiryRecipient = "samantha@samanthahainesphotography.com";
+    const configuredRecipient = process.env.CONTACT_EMAIL?.trim();
+    const to =
+      configuredRecipient &&
+      configuredRecipient.toLowerCase() !== "crhaines56@gmail.com"
+        ? configuredRecipient
+        : inquiryRecipient;
+
     // Send email notification to Samantha
     const { data, error: resendError } = await resend.emails.send({
       from: `Samantha Haines Photography <${fromDomain}>`,
-      to: process.env.CONTACT_EMAIL || "samantha@samanthahainesphotography.com",
+      to,
       replyTo: email,
       subject: `New inquiry from ${name} — ${service || "General"}`,
       html: `

@@ -27,8 +27,11 @@ const dancing = Dancing_Script({
   display: "swap",
 });
 
+const HOMEPAGE_HERO =
+  "https://res.cloudinary.com/du67vy39a/image/upload/v1775364356/shp/homepage/shp/homepage/hero.jpg";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.samanthahainesphotography.com"),
+  metadataBase: new URL("https://samanthahainesphotography.com"),
   title: {
     default: "Samantha Haines Photography | Austin, TX Portrait Photographer",
     template: "%s | Samantha Haines Photography",
@@ -46,16 +49,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.samanthahainesphotography.com",
+    url: "https://samanthahainesphotography.com",
     siteName: "Samantha Haines Photography",
     title: "Samantha Haines Photography | Austin, TX Portrait Photographer",
     description:
       "Award-winning portrait photographer in Austin, TX specializing in boudoir, senior portraits, family, newborn, maternity, and headshots.",
+    images: [
+      {
+        url: HOMEPAGE_HERO,
+        width: 1200,
+        height: 630,
+        alt: "Samantha Haines Photography. Austin portrait photographer",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Samantha Haines Photography | Austin, TX",
     description: "Award-winning portrait photographer in Austin, TX.",
+    images: [HOMEPAGE_HERO],
   },
   robots: {
     index: true,
@@ -69,6 +81,30 @@ export const metadata: Metadata = {
     },
   },
 };
+
+function GoogleAnalytics() {
+  const measurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim();
+  // GA4 IDs look like G-XXXXXXXX. Anything else, including a missing
+  // value that stringifies to "undefined", must not be rendered.
+  if (!measurementId || !measurementId.startsWith("G-")) return null;
+
+  return (
+    <>
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${measurementId}');
+          `}
+      </Script>
+    </>
+  );
+}
 
 export default function RootLayout({
   children,
@@ -84,18 +120,7 @@ export default function RootLayout({
         <HeroScrollManager />
         <LocalBusinessSchema />
         {children}
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}');
-          `}
-        </Script>
+        <GoogleAnalytics />
       </body>
     </html>
   );

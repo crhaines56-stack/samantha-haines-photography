@@ -6,17 +6,17 @@ import Footer from "@/components/ui/Footer";
 import { getAllPosts } from "@/lib/mdx";
 
 export const metadata: Metadata = {
-  title: "Blog | Samantha Haines Photography",
+  title: "Blog",
   description:
     "Photography tips, behind-the-scenes stories, and everything you need to know about booking a portrait session in Austin, TX. Written by Samantha Haines.",
   alternates: {
-    canonical: "https://www.samanthahainesphotography.com/blog",
+    canonical: "https://samanthahainesphotography.com/blog",
   },
   openGraph: {
     title: "Blog | Samantha Haines Photography",
     description:
       "Photography tips, behind-the-scenes stories, and everything you need to know about booking a portrait session in Austin, TX.",
-    url: "https://www.samanthahainesphotography.com/blog",
+    url: "https://samanthahainesphotography.com/blog",
     siteName: "Samantha Haines Photography",
     type: "website",
     images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364432/shp/blog/shp/blog/boudoir-guide-cover.jpg", width: 1200, height: 630, alt: "Samantha Haines Photography Blog" }],

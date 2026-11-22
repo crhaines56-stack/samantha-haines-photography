@@ -10,9 +10,32 @@ export const metadata: Metadata = {
   description:
     "Vue Studio. Austin's newest premium portrait studio. 2,500 sq ft, 8 fully furnished sets, motorized backdrops, dedicated hair & makeup room. Available for sessions and studio rental.",
   alternates: {
-    canonical: "https://www.samanthahainesphotography.com/vue-studio",
+    canonical: "https://samanthahainesphotography.com/vue-studio",
   },
   robots: { index: true, follow: true },
+  openGraph: {
+    title: "Vue Studio Austin | Premium Portrait Photography Studio",
+    description:
+      "Vue Studio. Austin's newest premium portrait studio. 2,500 sq ft, 8 fully furnished sets, motorized backdrops, dedicated hair & makeup room. Available for sessions and studio rental.",
+    url: "https://samanthahainesphotography.com/vue-studio",
+    images: [
+      {
+        url: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506288/shp/vue-studio/shp/vue-studio/hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Vue Studio Austin. premium portrait photography studio",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vue Studio Austin | Premium Portrait Photography Studio",
+    description:
+      "Vue Studio. Austin's newest premium portrait studio. 2,500 sq ft, 8 fully furnished sets, and a dedicated hair and makeup room.",
+    images: [
+      "https://res.cloudinary.com/du67vy39a/image/upload/v1784506288/shp/vue-studio/shp/vue-studio/hero.jpg",
+    ],
+  },
 };
 
 const studioSchema = {
@@ -23,12 +46,14 @@ const studioSchema = {
       name: "Vue Studio Austin",
       description:
         "Premium 2,500 sq ft portrait photography studio in Austin, TX featuring 8 fully furnished sets, motorized backdrops, and a dedicated hair & makeup suite.",
-      url: "https://www.samanthahainesphotography.com/vue-studio",
+      url: "https://samanthahainesphotography.com/vue-studio",
+      telephone: "+1-818-257-0399",
       address: {
         "@type": "PostalAddress",
         streetAddress: "2302 Jacks Pass",
         addressLocality: "Austin",
         addressRegion: "TX",
+        postalCode: "78732",
         addressCountry: "US",
       },
       priceRange: "$$$",

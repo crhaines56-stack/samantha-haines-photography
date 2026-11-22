@@ -9,16 +9,16 @@ import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
 export const metadata: Metadata = {
   title: "Maternity & Newborn Photographer Austin TX",
   description:
-    "Austin maternity and newborn photographer Samantha Haines captures the full journey. from pregnancy to those first fleeting days. Beautiful portraits in Austin TX & Steiner Ranch.",
+    "Austin maternity and newborn photographer Samantha Haines captures the full journey. From pregnancy to those first fleeting days. Beautiful portraits in Austin TX & Steiner Ranch.",
   alternates: {
     canonical:
-      "https://www.samanthahainesphotography.com/maternity-photographer-austin",
+      "https://samanthahainesphotography.com/maternity-photographer-austin",
   },
   openGraph: {
     title: "Maternity & Newborn Photographer Austin TX",
     description:
-      "Austin maternity and newborn photographer Samantha Haines captures the full journey. from bump to baby. Beautiful portraits in Austin TX & Steiner Ranch.",
-    url: "https://www.samanthahainesphotography.com/maternity-photographer-austin",
+      "Austin maternity and newborn photographer Samantha Haines captures the full journey. From bump to baby. Beautiful portraits in Austin TX & Steiner Ranch.",
+    url: "https://samanthahainesphotography.com/maternity-photographer-austin",
     images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg", width: 1200, height: 630, alt: "Maternity and newborn photographer Austin TX" }],
   },
   twitter: {
@@ -127,7 +127,7 @@ const newbornImages = [
 const relatedServices = [
   { href: "/family-photographer-austin", label: "Family" },
   { href: "/boudoir-photographer-austin", label: "Boudoir" },
-  { href: "/headshots-austin", label: "Branding" },
+  { href: "/headshots-branding-photographer-austin", label: "Branding" },
 ];
 
 export default function MaternityNewbornPage() {

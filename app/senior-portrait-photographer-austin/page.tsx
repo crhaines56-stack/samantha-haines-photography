@@ -7,18 +7,18 @@ import CTAButton from "@/components/ui/CTAButton";
 import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
 
 export const metadata: Metadata = {
-  title: "Senior Portrait Photographer Austin TX | Samantha Haines Photography",
+  title: "Senior Portrait Photographer Austin TX",
   description:
     "Austin senior portrait photographer Samantha Haines captures the chapter worth remembering. Stunning, editorial senior portraits that go far beyond the ordinary. Serving Austin TX & surrounding areas.",
   alternates: {
     canonical:
-      "https://www.samanthahainesphotography.com/senior-portrait-photographer-austin",
+      "https://samanthahainesphotography.com/senior-portrait-photographer-austin",
   },
   openGraph: {
     title: "Senior Portrait Photographer Austin TX",
     description:
       "Austin senior portrait photographer Samantha Haines captures the chapter worth remembering. Stunning, editorial senior portraits that go far beyond the ordinary.",
-    url: "https://www.samanthahainesphotography.com/senior-portrait-photographer-austin",
+    url: "https://samanthahainesphotography.com/senior-portrait-photographer-austin",
     images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364303/shp/senior/shp/senior/hero.jpg", width: 1200, height: 630, alt: "Senior portrait photographer Austin TX" }],
   },
   twitter: {

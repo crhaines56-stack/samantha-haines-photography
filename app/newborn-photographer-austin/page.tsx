@@ -7,17 +7,17 @@ import CTAButton from "@/components/ui/CTAButton";
 import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
 
 export const metadata: Metadata = {
-  title: "Newborn Photographer Austin TX | Samantha Haines Photography",
+  title: "Newborn Photographer Austin TX",
   description:
     "Austin newborn photographer Samantha Haines captures the first fleeting days with gentle, safe, stunning portraits. Studio sessions in Austin TX & Steiner Ranch. Hair & makeup included for parents.",
   alternates: {
-    canonical: "https://www.samanthahainesphotography.com/newborn-photographer-austin",
+    canonical: "https://samanthahainesphotography.com/newborn-photographer-austin",
   },
   openGraph: {
     title: "Newborn Photographer Austin TX | Samantha Haines Photography",
     description:
       "Austin newborn photographer capturing the first fleeting days of life. Safe, gentle, stunning studio sessions in Austin TX.",
-    url: "https://www.samanthahainesphotography.com/newborn-photographer-austin",
+    url: "https://samanthahainesphotography.com/newborn-photographer-austin",
     images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg", width: 1200, height: 630, alt: "Newborn photographer Austin TX. Samantha Haines Photography" }],
   },
   twitter: {
