@@ -50,7 +50,11 @@ export async function POST(req: NextRequest) {
     `;
 
     const galleryId = (inserted[0] as { id: string }).id;
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.samanthahainesphotography.com';
+    const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim().replace(/\/$/, "");
+    const baseUrl = (configuredSiteUrl || "https://samanthahainesphotography.com").replace(
+      "://www.",
+      "://"
+    );
 
     return NextResponse.json({
       id: galleryId,

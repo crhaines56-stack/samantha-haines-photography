@@ -7,18 +7,18 @@ import CTAButton from "@/components/ui/CTAButton";
 import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
 
 export const metadata: Metadata = {
-  title: "Headshots & Branding Photographer Austin TX | Samantha Haines Photography",
+  title: "Headshots & Branding Photographer Austin TX",
   description:
-    "Austin headshots and personal branding photographer Samantha Haines. The image that precedes you in every room. compelling, polished, and completely yours. Serving Austin TX businesses.",
+    "Austin headshots and personal branding photographer Samantha Haines. The image that precedes you in every room. Compelling, polished, and completely yours. Serving Austin TX businesses.",
   alternates: {
     canonical:
-      "https://www.samanthahainesphotography.com/headshots-branding-photographer-austin",
+      "https://samanthahainesphotography.com/headshots-branding-photographer-austin",
   },
   openGraph: {
     title: "Headshots & Branding Photographer Austin TX",
     description:
-      "Austin headshots and personal branding photographer Samantha Haines. The image that precedes you in every room. compelling, polished, and completely yours.",
-    url: "https://www.samanthahainesphotography.com/headshots-branding-photographer-austin",
+      "Austin headshots and personal branding photographer Samantha Haines. The image that precedes you in every room. Compelling, polished, and completely yours.",
+    url: "https://samanthahainesphotography.com/headshots-branding-photographer-austin",
     images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364413/shp/headshots/shp/headshots/hero.jpg", width: 1200, height: 630, alt: "Headshots and branding photographer Austin TX" }],
   },
   twitter: {

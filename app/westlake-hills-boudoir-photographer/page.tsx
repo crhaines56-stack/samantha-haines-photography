@@ -7,18 +7,18 @@ import CTAButton from "@/components/ui/CTAButton";
 import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
 
 export const metadata: Metadata = {
-  title: "Westlake Hills Boudoir Photographer | Samantha Haines Photography",
+  title: "Westlake Hills Boudoir Photographer",
   description:
-    "Boudoir photographer serving Westlake Hills, TX. Luxury, empowering portraits at Vue Studio Austin. hair & makeup included, fully private, designed for every woman.",
+    "Boudoir photographer serving Westlake Hills, TX. Luxury, empowering portraits at Vue Studio Austin. Hair & makeup included, fully private, designed for every woman.",
   alternates: {
     canonical:
-      "https://www.samanthahainesphotography.com/westlake-hills-boudoir-photographer",
+      "https://samanthahainesphotography.com/westlake-hills-boudoir-photographer",
   },
   openGraph: {
     title: "Westlake Hills Boudoir Photographer | Samantha Haines Photography",
     description:
-      "Boudoir photographer serving Westlake Hills, TX. Luxury, empowering portraits at Vue Studio Austin. hair & makeup included, fully private, designed for every woman.",
-    url: "https://www.samanthahainesphotography.com/westlake-hills-boudoir-photographer",
+      "Boudoir photographer serving Westlake Hills, TX. Luxury, empowering portraits at Vue Studio Austin. Hair & makeup included, fully private, designed for every woman.",
+    url: "https://samanthahainesphotography.com/westlake-hills-boudoir-photographer",
     images: [
       {
         url: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506567/shp/boudoir/shp/boudoir/hero.jpg",
@@ -45,7 +45,7 @@ const localBusinessSchema = {
   name: "Samantha Haines Photography",
   image:
     "https://res.cloudinary.com/du67vy39a/image/upload/v1784506567/shp/boudoir/shp/boudoir/hero.jpg",
-  url: "https://www.samanthahainesphotography.com/westlake-hills-boudoir-photographer",
+  url: "https://samanthahainesphotography.com/westlake-hills-boudoir-photographer",
   description:
     "Luxury boudoir photographer serving Westlake Hills TX and surrounding Austin communities including Rollingwood, Bee Cave, and Barton Creek.",
   address: {

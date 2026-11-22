@@ -24,6 +24,16 @@ const categoryServiceLinks: Record<string, string> = {
   branding: '/headshots-branding-photographer-austin',
 };
 
+const categoryHeroes: Record<string, string> = {
+  boudoir: 'https://res.cloudinary.com/du67vy39a/image/upload/v1784506567/shp/boudoir/shp/boudoir/hero.jpg',
+  senior: 'https://res.cloudinary.com/du67vy39a/image/upload/v1775364303/shp/senior/shp/senior/hero.jpg',
+  family: 'https://res.cloudinary.com/du67vy39a/image/upload/v1775364397/shp/family/shp/family/hero.jpg',
+  maternity: 'https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg',
+  branding: 'https://res.cloudinary.com/du67vy39a/image/upload/v1775364413/shp/headshots/shp/headshots/hero.jpg',
+};
+
+const siteOrigin = 'https://samanthahainesphotography.com';
+
 interface Props {
   params: Promise<{ slug: string }>;
 }
@@ -31,21 +41,53 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
 
-  // Portfolio category
+  // Portfolio category pages are public image grids. robots.txt disallows
+  // /gallery/, so the HTML must not ask to be indexed.
   if (categoryLabels[slug]) {
     const label = categoryLabels[slug];
+    const canonical = `${siteOrigin}/gallery/${slug}`;
+    const image = categoryHeroes[slug];
     return {
-      title: `${label} Portfolio | Samantha Haines Photography`,
+      title: `${label} Portfolio`,
       description: `Full ${label.toLowerCase()} portfolio — Samantha Haines Photography, Austin TX.`,
+      alternates: { canonical },
+      robots: { index: false, follow: false },
+      openGraph: {
+        title: `${label} Portfolio`,
+        description: `Full ${label.toLowerCase()} portfolio — Samantha Haines Photography, Austin TX.`,
+        url: canonical,
+        images: [{ url: image, width: 1200, height: 630, alt: `${label} portfolio` }],
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: `${label} Portfolio`,
+        description: `Full ${label.toLowerCase()} portfolio — Samantha Haines Photography, Austin TX.`,
+        images: [image],
+      },
     };
   }
 
   // Client gallery
   const gallery = await getGallery(slug);
-  if (!gallery) return {};
+  if (!gallery) {
+    return { robots: { index: false, follow: false } };
+  }
+  const canonical = `${siteOrigin}/gallery/${slug}`;
+  const image = gallery.cover_image_url || categoryHeroes.family;
   return {
-    title: `${gallery.client_name}'s Gallery | Samantha Haines Photography`,
+    title: `${gallery.client_name}'s Gallery`,
+    alternates: { canonical },
     robots: { index: false, follow: false },
+    openGraph: {
+      title: `${gallery.client_name}'s Gallery`,
+      url: canonical,
+      images: [{ url: image, alt: `${gallery.client_name}'s gallery` }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${gallery.client_name}'s Gallery`,
+      images: [image],
+    },
   };
 }
 

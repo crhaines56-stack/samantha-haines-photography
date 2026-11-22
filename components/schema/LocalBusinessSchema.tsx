@@ -4,8 +4,8 @@ export default function LocalBusinessSchema() {
     "@type": "LocalBusiness",
     "name": "Samantha Haines Photography",
     "description": "Premium boutique portrait studio in Austin, TX specializing in boudoir, family, senior, newborn, maternity, and headshot photography.",
-    "url": "https://www.samanthahainesphotography.com",
-    "telephone": "",
+    "url": "https://samanthahainesphotography.com",
+    "telephone": "+1-818-257-0399",
     "email": "samantha@samanthahainesphotography.com",
     "address": {
       "@type": "PostalAddress",

@@ -21,19 +21,25 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   try {
     const { frontmatter } = getPostBySlug(params.slug);
     return {
-      title: `${frontmatter.title} | Samantha Haines Photography`,
+      title: frontmatter.title,
       description: frontmatter.description,
       alternates: {
-        canonical: `https://www.samanthahainesphotography.com/blog/${params.slug}`,
+        canonical: `https://samanthahainesphotography.com/blog/${params.slug}`,
       },
       openGraph: {
         title: frontmatter.title,
         description: frontmatter.description,
-        url: `https://www.samanthahainesphotography.com/blog/${params.slug}`,
+        url: `https://samanthahainesphotography.com/blog/${params.slug}`,
         siteName: "Samantha Haines Photography",
         images: frontmatter.image ? [{ url: frontmatter.image }] : [],
         type: "article",
         publishedTime: frontmatter.date,
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: frontmatter.title,
+        description: frontmatter.description,
+        images: frontmatter.image ? [frontmatter.image] : [],
       },
     };
   } catch {
@@ -89,11 +95,11 @@ export default function BlogPostPage({ params }: PageProps) {
     "publisher": {
       "@type": "Organization",
       "name": "Samantha Haines Photography",
-      "url": "https://www.samanthahainesphotography.com"
+      "url": "https://samanthahainesphotography.com"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://www.samanthahainesphotography.com/blog/${params.slug}`
+      "@id": `https://samanthahainesphotography.com/blog/${params.slug}`
     }
   };
 

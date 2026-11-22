@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Meet Samantha Haines. Austin portrait photographer, mother of four, and storyteller. Based in Steiner Ranch, serving families, couples & businesses across Austin, TX.",
   alternates: {
-    canonical: "https://www.samanthahainesphotography.com/about",
+    canonical: "https://samanthahainesphotography.com/about",
   },
   openGraph: {
     title: "About Samantha Haines | Austin TX Portrait Photographer",
     description:
       "Meet Samantha Haines. Austin portrait photographer, mother of four, and storyteller. Based in Steiner Ranch, serving families, couples & businesses across Austin, TX.",
-    url: "https://www.samanthahainesphotography.com/about",
+    url: "https://samanthahainesphotography.com/about",
     images: [{ url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg", width: 1200, height: 630, alt: "Samantha Haines Photography Austin" }],
   },
   twitter: {
@@ -32,7 +32,7 @@ const personSchema = {
   "@type": "Person",
   "name": "Samantha Haines",
   "jobTitle": "Portrait Photographer",
-  "url": "https://www.samanthahainesphotography.com/about",
+  "url": "https://samanthahainesphotography.com/about",
   "image": "https://res.cloudinary.com/du67vy39a/image/upload/v1775364428/shp/about/shp/about/samantha.jpg",
   "worksFor": { "@type": "LocalBusiness", "name": "Samantha Haines Photography" },
   "knowsAbout": [

@@ -7,11 +7,34 @@ import CTAButton from "@/components/ui/CTAButton";
 import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
 
 export const metadata: Metadata = {
-  title: "Westlake Photographer | Samantha Haines Photography | Austin, TX",
+  title: "Westlake Photographer | Austin, TX",
   description:
     "Portrait photographer serving Westlake, TX. Specializing in boudoir, family, senior, newborn, maternity & headshots. Hair & makeup always included. Book today.",
   alternates: {
-    canonical: "https://www.samanthahainesphotography.com/westlake-photographer",
+    canonical: "https://samanthahainesphotography.com/westlake-photographer",
+  },
+  openGraph: {
+    title: "Westlake Photographer | Austin, TX",
+    description:
+      "Portrait photographer serving Westlake, TX. Specializing in boudoir, family, senior, newborn, maternity & headshots. Hair & makeup always included. Book today.",
+    url: "https://samanthahainesphotography.com/westlake-photographer",
+    images: [
+      {
+        url: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364356/shp/homepage/shp/homepage/hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Westlake photographer. Samantha Haines Photography",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Westlake Photographer | Austin, TX",
+    description:
+      "Portrait photographer serving Westlake, TX. Hair & makeup always included.",
+    images: [
+      "https://res.cloudinary.com/du67vy39a/image/upload/v1775364356/shp/homepage/shp/homepage/hero.jpg",
+    ],
   },
 };
 
@@ -96,7 +119,7 @@ const services = [
     img: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364370/shp/homepage/shp/homepage/service-family.jpg",
   },
   {
-    href: "/maternity-newborn-photographer-austin",
+    href: "/maternity-photographer-austin",
     title: "Maternity + Newborn",
     desc: "Every chapter of new life, beautifully documented.",
     img: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg",

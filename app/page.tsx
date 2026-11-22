@@ -6,11 +6,37 @@ import Footer from "@/components/ui/Footer";
 import CTAButton from "@/components/ui/CTAButton";
 import HappinessGuarantee from "@/components/sections/HappinessGuarantee";
 
+const HOMEPAGE_HERO =
+  "https://res.cloudinary.com/du67vy39a/image/upload/v1775364356/shp/homepage/shp/homepage/hero.jpg";
+
 export const metadata: Metadata = {
-  title: "Samantha Haines Photography | Austin, TX Portrait Photographer",
+  title: {
+    absolute: "Samantha Haines Photography | Austin, TX Portrait Photographer",
+  },
   description:
     "Austin's premier portrait photographer. Boudoir, senior portraits, family, maternity, newborn & headshots in Austin, TX. Serving Steiner Ranch, Westlake, Cedar Park & surrounding areas.",
-  alternates: { canonical: "https://www.samanthahainesphotography.com" },
+  alternates: { canonical: "https://samanthahainesphotography.com" },
+  openGraph: {
+    title: "Samantha Haines Photography | Austin, TX Portrait Photographer",
+    description:
+      "Austin's premier portrait photographer. Boudoir, senior portraits, family, maternity, newborn & headshots in Austin, TX. Serving Steiner Ranch, Westlake, Cedar Park & surrounding areas.",
+    url: "https://samanthahainesphotography.com",
+    images: [
+      {
+        url: HOMEPAGE_HERO,
+        width: 1200,
+        height: 630,
+        alt: "Samantha Haines Photography. Austin portrait photographer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Samantha Haines Photography | Austin, TX Portrait Photographer",
+    description:
+      "Austin's premier portrait photographer. Boudoir, senior portraits, family, maternity, newborn & headshots in Austin, TX.",
+    images: [HOMEPAGE_HERO],
+  },
 };
 
 const services = [
@@ -39,7 +65,7 @@ const services = [
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1775364370/shp/homepage/shp/homepage/service-family.jpg",
   },
   {
-    href: "/maternity-newborn-photographer-austin",
+    href: "/maternity-photographer-austin",
     title: "Maternity + Newborn",
     description: "Every chapter of new life, beautifully documented.",
     image: "https://res.cloudinary.com/du67vy39a/image/upload/v1784506229/shp/newborn/shp/newborn/hero.jpg",

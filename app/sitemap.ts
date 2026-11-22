@@ -2,15 +2,15 @@ import { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/mdx";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.samanthahainesphotography.com";
+  const baseUrl = "https://samanthahainesphotography.com";
 
   const staticRoutes = [
     { url: baseUrl, priority: 1.0, changeFrequency: "weekly" as const },
     { url: `${baseUrl}/boudoir-photographer-austin`, priority: 0.9, changeFrequency: "monthly" as const },
     { url: `${baseUrl}/family-photographer-austin`, priority: 0.9, changeFrequency: "monthly" as const },
     { url: `${baseUrl}/senior-portrait-photographer-austin`, priority: 0.9, changeFrequency: "monthly" as const },
-    { url: `${baseUrl}/maternity-newborn-photographer-austin`, priority: 0.9, changeFrequency: "monthly" as const },
-    { url: `${baseUrl}/corporate-events-photographer-austin`, priority: 0.8, changeFrequency: "monthly" as const },
+    { url: `${baseUrl}/maternity-photographer-austin`, priority: 0.9, changeFrequency: "monthly" as const },
+    { url: `${baseUrl}/newborn-photographer-austin`, priority: 0.9, changeFrequency: "monthly" as const },
     { url: `${baseUrl}/headshots-branding-photographer-austin`, priority: 0.9, changeFrequency: "monthly" as const },
     { url: `${baseUrl}/vue-studio`, priority: 0.8, changeFrequency: "monthly" as const },
     { url: `${baseUrl}/about`, priority: 0.7, changeFrequency: "monthly" as const },
